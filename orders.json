@@ -1,0 +1,5483 @@
+[
+    {
+        "type": "buy",
+        "id": "2306f1a3-0c3b-48a7-bee1-27fcf7e259a2",
+        "amount": 425.0,
+        "quantity": 37.0,
+        "average": 11.486486486486486
+    },
+    {
+        "type": "sell",
+        "id": "4c82f61c-8925-45a1-9de5-e33847a74511",
+        "amount": 401.0,
+        "quantity": 7.0,
+        "average": 57.285714285714285
+    },
+    {
+        "type": "buy",
+        "id": "3d9f3065-3fef-4ef0-ad75-55a57dc0121a",
+        "amount": 416.0,
+        "quantity": 36.0,
+        "average": 11.555555555555555
+    },
+    {
+        "type": "sell",
+        "id": "22954e1a-8fed-45e8-98c2-d9f1e3c79f33",
+        "amount": 406.0,
+        "quantity": 18.0,
+        "average": 22.555555555555557
+    },
+    {
+        "type": "sell",
+        "id": "63e30b92-dcef-4f1c-9a1e-cc91b1be3ac0",
+        "amount": 832.0,
+        "quantity": 47.0,
+        "average": 17.70212765957447
+    },
+    {
+        "type": "sell",
+        "id": "d026c78d-be50-45b4-9567-0aa8494c1031",
+        "amount": 850.0,
+        "quantity": 44.0,
+        "average": 19.318181818181817
+    },
+    {
+        "type": "sell",
+        "id": "cd0cfbe2-fba6-4e4c-8f93-f64084211878",
+        "amount": 425.0,
+        "quantity": 14.0,
+        "average": 30.357142857142858
+    },
+    {
+        "type": "buy",
+        "id": "901c91d2-8bd3-479f-9c48-d91ae5cdeee2",
+        "amount": 1708.0,
+        "quantity": 38.0,
+        "average": 44.94736842105263
+    },
+    {
+        "type": "buy",
+        "id": "d460f46c-9fc6-4a89-84b8-0603284dc3d9",
+        "amount": 411.0,
+        "quantity": 42.0,
+        "average": 9.785714285714286
+    },
+    {
+        "type": "sell",
+        "id": "43c786a6-bc1b-4d49-96a0-0ecd6ebf48a6",
+        "amount": 822.0,
+        "quantity": 50.0,
+        "average": 16.44
+    },
+    {
+        "type": "buy",
+        "id": "557b9ab2-250a-4f3a-ad10-2d84a50ad87b",
+        "amount": 853.0,
+        "quantity": 35.0,
+        "average": 24.37142857142857
+    },
+    {
+        "type": "sell",
+        "id": "ee5fdb1d-966a-4a95-a22d-e9056249d9a0",
+        "amount": 1326.0,
+        "quantity": 42.0,
+        "average": 31.571428571428573
+    },
+    {
+        "type": "buy",
+        "id": "9dc427f8-d798-4c8b-98d7-6b2b6f5e993c",
+        "amount": 891.0,
+        "quantity": 27.0,
+        "average": 33.0
+    },
+    {
+        "type": "sell",
+        "id": "106ddf27-319b-4043-9d29-029b14ae3a27",
+        "amount": 898.0,
+        "quantity": 23.0,
+        "average": 39.04347826086956
+    },
+    {
+        "type": "sell",
+        "id": "2583d18f-c52b-4968-872e-2458f60a6560",
+        "amount": 445.0,
+        "quantity": 24.0,
+        "average": 18.541666666666668
+    },
+    {
+        "type": "sell",
+        "id": "61089bd5-83ca-4c5f-887f-d46ae53ca6a7",
+        "amount": 439.0,
+        "quantity": 8.0,
+        "average": 54.875
+    },
+    {
+        "type": "buy",
+        "id": "e36c2294-f953-47ff-a242-24997e1d7678",
+        "amount": 1748.0,
+        "quantity": 44.0,
+        "average": 39.72727272727273
+    },
+    {
+        "type": "buy",
+        "id": "cf8fa508-991b-47a3-99ca-5a90e70356bb",
+        "amount": 415.0,
+        "quantity": 22.0,
+        "average": 18.863636363636363
+    },
+    {
+        "type": "sell",
+        "id": "39672cea-c52e-450b-8fe9-db856f620820",
+        "amount": 1245.0,
+        "quantity": 35.0,
+        "average": 35.57142857142857
+    },
+    {
+        "type": "sell",
+        "id": "94a5bf91-7047-4792-b8da-67a61c4ccdd3",
+        "amount": 465.0,
+        "quantity": 19.0,
+        "average": 24.473684210526315
+    },
+    {
+        "type": "buy",
+        "id": "23193fe9-3cf5-4371-a19c-e6012be0f0f9",
+        "amount": 931.0,
+        "quantity": 20.0,
+        "average": 46.55
+    },
+    {
+        "type": "sell",
+        "id": "16fa0e9a-59b8-44b0-83e7-8acb79afad06",
+        "amount": 425.0,
+        "quantity": 28.0,
+        "average": 15.178571428571429
+    },
+    {
+        "type": "buy",
+        "id": "32f87a5e-c093-486b-843d-dc11db566322",
+        "amount": 855.0,
+        "quantity": 42.0,
+        "average": 20.357142857142858
+    },
+    {
+        "type": "sell",
+        "id": "7b076978-d404-4b4c-bd94-7a96c16ac8b3",
+        "amount": 860.0,
+        "quantity": 15.0,
+        "average": 57.333333333333336
+    },
+    {
+        "type": "sell",
+        "id": "ce4f5d6a-5739-4ced-9901-0e5eef174596",
+        "amount": 932.0,
+        "quantity": 27.0,
+        "average": 34.51851851851852
+    },
+    {
+        "type": "buy",
+        "id": "0753a1be-9f49-4e65-92ad-b754103556b4",
+        "amount": 1369.0,
+        "quantity": 28.0,
+        "average": 48.892857142857146
+    },
+    {
+        "type": "sell",
+        "id": "ea45d2b4-968c-4825-90e9-bf3fc20a4dfd",
+        "amount": 411.0,
+        "quantity": 8.0,
+        "average": 51.375
+    },
+    {
+        "type": "sell",
+        "id": "5125e38a-8ca1-4941-99df-5feeb26f3b75",
+        "amount": 445.0,
+        "quantity": 10.0,
+        "average": 44.5
+    },
+    {
+        "type": "buy",
+        "id": "5a024fe1-06b1-493b-9848-73833bf6627e",
+        "amount": 471.0,
+        "quantity": 20.0,
+        "average": 23.55
+    },
+    {
+        "type": "sell",
+        "id": "d3548fc9-4504-4cc9-a59d-aed7d3fb2502",
+        "amount": 942.0,
+        "quantity": 49.0,
+        "average": 19.224489795918366
+    },
+    {
+        "type": "buy",
+        "id": "9d612c13-2441-4416-a3a3-0a7cc61eb133",
+        "amount": 471.0,
+        "quantity": 29.0,
+        "average": 16.24137931034483
+    },
+    {
+        "type": "sell",
+        "id": "7fb5526b-238c-470f-a727-e03ba73a9578",
+        "amount": 416.0,
+        "quantity": 27.0,
+        "average": 15.407407407407407
+    },
+    {
+        "type": "buy",
+        "id": "9732f108-93ab-443b-8083-35dccc0cba84",
+        "amount": 1273.0,
+        "quantity": 43.0,
+        "average": 29.6046511627907
+    },
+    {
+        "type": "buy",
+        "id": "8d2ab02d-5118-4f77-b361-b3376cec3906",
+        "amount": 823.0,
+        "quantity": 34.0,
+        "average": 24.205882352941178
+    },
+    {
+        "type": "sell",
+        "id": "ea9dada7-1924-4361-9d3f-1cfea8a30bda",
+        "amount": 1236.0,
+        "quantity": 44.0,
+        "average": 28.09090909090909
+    },
+    {
+        "type": "buy",
+        "id": "2847713c-42f5-4d1f-86e2-6968a896b557",
+        "amount": 446.0,
+        "quantity": 15.0,
+        "average": 29.733333333333334
+    },
+    {
+        "type": "buy",
+        "id": "465d366e-6d95-4551-a3db-5457e3860652",
+        "amount": 421.0,
+        "quantity": 23.0,
+        "average": 18.304347826086957
+    },
+    {
+        "type": "sell",
+        "id": "962814d7-0f94-4316-a3d8-98411dbdb3e0",
+        "amount": 842.0,
+        "quantity": 36.0,
+        "average": 23.38888888888889
+    },
+    {
+        "type": "sell",
+        "id": "e185ddbc-3ab0-423c-8c03-0a5f60ec8387",
+        "amount": 892.0,
+        "quantity": 29.0,
+        "average": 30.75862068965517
+    },
+    {
+        "type": "buy",
+        "id": "a58880ae-5da9-4e02-b851-65a687fe641e",
+        "amount": 909.0,
+        "quantity": 38.0,
+        "average": 23.92105263157895
+    },
+    {
+        "type": "buy",
+        "id": "d60c8026-b008-4bef-bcc6-9c5a0478c354",
+        "amount": 463.0,
+        "quantity": 8.0,
+        "average": 57.875
+    },
+    {
+        "type": "sell",
+        "id": "032bbdf7-2ff7-4b97-9a0b-1f5b6cb6a9ca",
+        "amount": 1389.0,
+        "quantity": 40.0,
+        "average": 34.725
+    },
+    {
+        "type": "buy",
+        "id": "76e34706-9a36-4541-8cd2-1b8e1a92028e",
+        "amount": 933.0,
+        "quantity": 41.0,
+        "average": 22.75609756097561
+    },
+    {
+        "type": "buy",
+        "id": "a141f074-9e18-4fac-9109-2d730146b88f",
+        "amount": 456.0,
+        "quantity": 31.0,
+        "average": 14.709677419354838
+    },
+    {
+        "type": "sell",
+        "id": "d63d501c-8c05-42dc-ae0f-66be8fa7f024",
+        "amount": 912.0,
+        "quantity": 32.0,
+        "average": 28.5
+    },
+    {
+        "type": "sell",
+        "id": "f90baae3-5e75-4b1a-b53b-3837558b1169",
+        "amount": 940.0,
+        "quantity": 40.0,
+        "average": 23.5
+    },
+    {
+        "type": "buy",
+        "id": "ca8e9f49-0981-4cba-ab23-9e2f11f5b501",
+        "amount": 1399.0,
+        "quantity": 38.0,
+        "average": 36.81578947368421
+    },
+    {
+        "type": "buy",
+        "id": "d836714a-246b-4423-ba30-27166027e43b",
+        "amount": 850.0,
+        "quantity": 27.0,
+        "average": 31.48148148148148
+    },
+    {
+        "type": "sell",
+        "id": "a4518283-edbd-4449-9ccd-331e4c3ef94a",
+        "amount": 858.0,
+        "quantity": 49.0,
+        "average": 17.510204081632654
+    },
+    {
+        "type": "sell",
+        "id": "43644f1a-2d67-4f4e-a861-dcc36cd7a7b6",
+        "amount": 456.0,
+        "quantity": 38.0,
+        "average": 12.0
+    },
+    {
+        "type": "sell",
+        "id": "f9530d9f-61ab-44ec-adf0-8843cf06870d",
+        "amount": 1419.0,
+        "quantity": 37.0,
+        "average": 38.351351351351354
+    },
+    {
+        "type": "buy",
+        "id": "5823cf2c-b9a3-476e-916a-fad373acf3ac",
+        "amount": 952.0,
+        "quantity": 44.0,
+        "average": 21.636363636363637
+    },
+    {
+        "type": "buy",
+        "id": "a43f842e-f406-4b61-b698-8a8693d69f75",
+        "amount": 886.0,
+        "quantity": 41.0,
+        "average": 21.609756097560975
+    },
+    {
+        "type": "sell",
+        "id": "6c0db90d-2a9e-43da-b3c2-a181754473a8",
+        "amount": 860.0,
+        "quantity": 11.0,
+        "average": 78.18181818181819
+    },
+    {
+        "type": "buy",
+        "id": "77797c23-3e10-4c52-9bae-2335a7991988",
+        "amount": 1288.0,
+        "quantity": 48.0,
+        "average": 26.833333333333332
+    },
+    {
+        "type": "sell",
+        "id": "14dd8347-5487-4dd5-9d9f-eb42186b011a",
+        "amount": 858.0,
+        "quantity": 41.0,
+        "average": 20.926829268292682
+    },
+    {
+        "type": "buy",
+        "id": "e547236d-2093-4dba-8a74-47a90ab6ec48",
+        "amount": 446.0,
+        "quantity": 31.0,
+        "average": 14.387096774193548
+    },
+    {
+        "type": "buy",
+        "id": "114b620c-3f76-43f3-b1c2-db6dde54c07b",
+        "amount": 854.0,
+        "quantity": 42.0,
+        "average": 20.333333333333332
+    },
+    {
+        "type": "sell",
+        "id": "8743daa8-0264-48af-b848-6634c45369f6",
+        "amount": 421.0,
+        "quantity": 17.0,
+        "average": 24.764705882352942
+    },
+    {
+        "type": "buy",
+        "id": "016f987a-2a68-40d2-b105-f6887417c93c",
+        "amount": 843.0,
+        "quantity": 30.0,
+        "average": 28.1
+    },
+    {
+        "type": "buy",
+        "id": "af4b2ffb-7a79-45d7-83d4-32431e038dbb",
+        "amount": 422.0,
+        "quantity": 8.0,
+        "average": 52.75
+    },
+    {
+        "type": "buy",
+        "id": "66987050-3f71-42a5-bee6-4f700c30951a",
+        "amount": 1238.0,
+        "quantity": 33.0,
+        "average": 37.515151515151516
+    },
+    {
+        "type": "buy",
+        "id": "dcfd7a08-aa92-46c4-8a84-80e7cb969976",
+        "amount": 411.0,
+        "quantity": 1.0,
+        "average": 411.0
+    },
+    {
+        "type": "sell",
+        "id": "3cf06152-c08f-4f64-bcde-09a6f37078c8",
+        "amount": 1233.0,
+        "quantity": 27.0,
+        "average": 45.666666666666664
+    },
+    {
+        "type": "sell",
+        "id": "11c45bca-49bc-45aa-86b7-a1efc38a5ecf",
+        "amount": 1266.0,
+        "quantity": 35.0,
+        "average": 36.17142857142857
+    },
+    {
+        "type": "sell",
+        "id": "e572e600-4e26-46df-ad21-8dfd9f98986a",
+        "amount": 422.0,
+        "quantity": 18.0,
+        "average": 23.444444444444443
+    },
+    {
+        "type": "buy",
+        "id": "f1456f4b-5a38-47e1-8474-2c30fcd83541",
+        "amount": 1680.0,
+        "quantity": 47.0,
+        "average": 35.744680851063826
+    },
+    {
+        "type": "buy",
+        "id": "a0dfd7fa-51b0-434b-a393-7379c4ed371d",
+        "amount": 425.0,
+        "quantity": 19.0,
+        "average": 22.36842105263158
+    },
+    {
+        "type": "sell",
+        "id": "230775bf-a266-4221-ab69-02d147b47809",
+        "amount": 419.0,
+        "quantity": 6.0,
+        "average": 69.83333333333333
+    },
+    {
+        "type": "sell",
+        "id": "ec948104-542f-4a49-944c-1fad46818691",
+        "amount": 1700.0,
+        "quantity": 39.0,
+        "average": 43.58974358974359
+    },
+    {
+        "type": "sell",
+        "id": "0ec81980-d5ad-4cd8-a909-9d85859b69d1",
+        "amount": 428.0,
+        "quantity": 7.0,
+        "average": 61.142857142857146
+    },
+    {
+        "type": "buy",
+        "id": "6c58ed90-faf4-471f-8980-1158f7bf1b3b",
+        "amount": 1299.0,
+        "quantity": 19.0,
+        "average": 68.36842105263158
+    },
+    {
+        "type": "sell",
+        "id": "bbbaa3bc-a8ca-49fa-b668-ffa697f38d33",
+        "amount": 1338.0,
+        "quantity": 42.0,
+        "average": 31.857142857142858
+    },
+    {
+        "type": "sell",
+        "id": "55d3d9f5-dde3-45f1-b737-9b292723e0b6",
+        "amount": 450.0,
+        "quantity": 11.0,
+        "average": 40.90909090909091
+    },
+    {
+        "type": "sell",
+        "id": "7b977ba6-5938-42f8-aff8-6d6832ff5ef4",
+        "amount": 452.0,
+        "quantity": 2.0,
+        "average": 226.0
+    },
+    {
+        "type": "buy",
+        "id": "47c8c1e0-4731-4341-902f-17c5eccee830",
+        "amount": 1803.0,
+        "quantity": 28.0,
+        "average": 64.39285714285714
+    },
+    {
+        "type": "buy",
+        "id": "560f2de1-b68e-43db-b822-0b1d4cfd96a6",
+        "amount": 452.0,
+        "quantity": 7.0,
+        "average": 64.57142857142857
+    },
+    {
+        "type": "sell",
+        "id": "f1024a35-de6c-4431-afb0-4f05dd33b4e4",
+        "amount": 433.0,
+        "quantity": 25.0,
+        "average": 17.32
+    },
+    {
+        "type": "buy",
+        "id": "1f4b3c44-a8f9-418c-836c-6aec4f69e825",
+        "amount": 452.0,
+        "quantity": 37.0,
+        "average": 12.216216216216216
+    },
+    {
+        "type": "buy",
+        "id": "bfc5afea-6946-4faa-88f3-b286d54371da",
+        "amount": 875.0,
+        "quantity": 32.0,
+        "average": 27.34375
+    },
+    {
+        "type": "buy",
+        "id": "9dd84147-e40e-4896-bdfa-e74ab05027a6",
+        "amount": 442.0,
+        "quantity": 16.0,
+        "average": 27.625
+    },
+    {
+        "type": "sell",
+        "id": "b371777e-171f-4a04-9346-988fcce13185",
+        "amount": 1326.0,
+        "quantity": 40.0,
+        "average": 33.15
+    },
+    {
+        "type": "sell",
+        "id": "97c9bda4-6204-411c-a3e9-1ee5c5e3022b",
+        "amount": 1356.0,
+        "quantity": 48.0,
+        "average": 28.25
+    },
+    {
+        "type": "buy",
+        "id": "85014ba4-3aa1-4a02-b7b5-92e03d98a3b9",
+        "amount": 1347.0,
+        "quantity": 40.0,
+        "average": 33.675
+    },
+    {
+        "type": "buy",
+        "id": "57b46eac-ca64-4ca6-b12a-f38d954febbd",
+        "amount": 453.0,
+        "quantity": 20.0,
+        "average": 22.65
+    },
+    {
+        "type": "sell",
+        "id": "c3711dd6-d3b7-4c95-af2b-51ed459bb3c4",
+        "amount": 435.0,
+        "quantity": 6.0,
+        "average": 72.5
+    },
+    {
+        "type": "sell",
+        "id": "1742b317-34b9-4ab5-8321-7af82aca112c",
+        "amount": 1359.0,
+        "quantity": 43.0,
+        "average": 31.6046511627907
+    },
+    {
+        "type": "buy",
+        "id": "8d440d0f-0fe7-456b-bcc9-20020455a4de",
+        "amount": 1342.0,
+        "quantity": 26.0,
+        "average": 51.61538461538461
+    },
+    {
+        "type": "buy",
+        "id": "f628a8ef-63cf-43af-a153-e1c9219f9569",
+        "amount": 433.0,
+        "quantity": 4.0,
+        "average": 108.25
+    },
+    {
+        "type": "sell",
+        "id": "8e82c79b-8311-4c81-b237-386b82246c62",
+        "amount": 402.0,
+        "quantity": 17.0,
+        "average": 23.647058823529413
+    },
+    {
+        "type": "buy",
+        "id": "31b17b9f-2c37-46e1-a015-0e30e2a8b05b",
+        "amount": 822.0,
+        "quantity": 23.0,
+        "average": 35.73913043478261
+    },
+    {
+        "type": "buy",
+        "id": "97ca6410-3b76-49d2-babf-7a9a7c77aabb",
+        "amount": 420.0,
+        "quantity": 7.0,
+        "average": 60.0
+    },
+    {
+        "type": "sell",
+        "id": "b2e00d5f-efbe-4708-a225-01f969263387",
+        "amount": 1260.0,
+        "quantity": 36.0,
+        "average": 35.0
+    },
+    {
+        "type": "sell",
+        "id": "f2e1693f-1431-4596-9cfb-539859050169",
+        "amount": 866.0,
+        "quantity": 26.0,
+        "average": 33.30769230769231
+    },
+    {
+        "type": "buy",
+        "id": "9297b72f-5712-49b2-8fe4-cb8739059d40",
+        "amount": 838.0,
+        "quantity": 27.0,
+        "average": 31.037037037037038
+    },
+    {
+        "type": "buy",
+        "id": "430f33ba-c4f0-4053-9240-caee6349dac6",
+        "amount": 1244.0,
+        "quantity": 33.0,
+        "average": 37.696969696969695
+    },
+    {
+        "type": "sell",
+        "id": "eef4d7a0-29b0-4faf-ae0e-e32a8ab584ed",
+        "amount": 1215.0,
+        "quantity": 27.0,
+        "average": 45.0
+    },
+    {
+        "type": "buy",
+        "id": "9e4091cc-b205-403a-98a5-20d42ac9f20b",
+        "amount": 448.0,
+        "quantity": 2.0,
+        "average": 224.0
+    },
+    {
+        "type": "sell",
+        "id": "70000753-2980-4a68-b57c-2d4cdf19ee6c",
+        "amount": 896.0,
+        "quantity": 9.0,
+        "average": 99.55555555555556
+    },
+    {
+        "type": "sell",
+        "id": "aedd351f-a404-41d5-b846-0f5eb9950271",
+        "amount": 908.0,
+        "quantity": 18.0,
+        "average": 50.44444444444444
+    },
+    {
+        "type": "buy",
+        "id": "ece3bc99-7597-4939-a63f-d6e5e3a96dd8",
+        "amount": 1357.0,
+        "quantity": 22.0,
+        "average": 61.68181818181818
+    },
+    {
+        "type": "sell",
+        "id": "aacf3671-821d-40bc-a6d7-ccd63f4d2f3f",
+        "amount": 452.0,
+        "quantity": 4.0,
+        "average": 113.0
+    },
+    {
+        "type": "buy",
+        "id": "0ccffdc0-9554-448b-be04-3021519942ee",
+        "amount": 907.0,
+        "quantity": 21.0,
+        "average": 43.19047619047619
+    },
+    {
+        "type": "buy",
+        "id": "8b96dbea-71bb-42c5-8166-2beb10eab942",
+        "amount": 442.0,
+        "quantity": 44.0,
+        "average": 10.045454545454545
+    },
+    {
+        "type": "buy",
+        "id": "91728d68-98e5-4a49-96cc-9030e1cc94df",
+        "amount": 402.0,
+        "quantity": 23.0,
+        "average": 17.47826086956522
+    },
+    {
+        "type": "sell",
+        "id": "2012447e-2138-40c2-b4a7-77d1c863c56b",
+        "amount": 804.0,
+        "quantity": 24.0,
+        "average": 33.5
+    },
+    {
+        "type": "sell",
+        "id": "83c80cad-8c67-4e8d-8531-541d936f3bb0",
+        "amount": 884.0,
+        "quantity": 45.0,
+        "average": 19.644444444444446
+    },
+    {
+        "type": "sell",
+        "id": "c61e7ae2-7765-43fe-bb50-9c55b6515424",
+        "amount": 443.0,
+        "quantity": 5.0,
+        "average": 88.6
+    },
+    {
+        "type": "sell",
+        "id": "1fc968eb-2eac-4e88-be51-8c62bd918f11",
+        "amount": 447.0,
+        "quantity": 1.0,
+        "average": 447.0
+    },
+    {
+        "type": "sell",
+        "id": "26838f79-774c-485d-b57c-648f5f044b9d",
+        "amount": 1820.0,
+        "quantity": 40.0,
+        "average": 45.5
+    },
+    {
+        "type": "sell",
+        "id": "83363e69-6f4a-4dcc-8e2b-3e69becba936",
+        "amount": 459.0,
+        "quantity": 10.0,
+        "average": 45.9
+    },
+    {
+        "type": "sell",
+        "id": "cd31bf0f-973f-471d-8afa-f7e98c9522a0",
+        "amount": 467.0,
+        "quantity": 8.0,
+        "average": 58.375
+    },
+    {
+        "type": "sell",
+        "id": "ae1e3480-7bd9-4943-b83b-c9b971ed22a2",
+        "amount": 469.0,
+        "quantity": 3.0,
+        "average": 156.33333333333334
+    },
+    {
+        "type": "buy",
+        "id": "1b90eaec-6245-4e67-9ea1-8f6fd216ea54",
+        "amount": 1409.0,
+        "quantity": 26.0,
+        "average": 54.19230769230769
+    },
+    {
+        "type": "buy",
+        "id": "57a641c8-37e9-4bc2-98db-d7a6c98788dd",
+        "amount": 2696.0,
+        "quantity": 37.0,
+        "average": 72.86486486486487
+    },
+    {
+        "type": "sell",
+        "id": "b3bc867f-5827-4076-8c36-88a8a2c01e3f",
+        "amount": 900.0,
+        "quantity": 35.0,
+        "average": 25.714285714285715
+    },
+    {
+        "type": "sell",
+        "id": "2c3de763-6ec3-4d25-96a1-8136b65e0b78",
+        "amount": 441.0,
+        "quantity": 1.0,
+        "average": 441.0
+    },
+    {
+        "type": "buy",
+        "id": "bc392b69-04dd-4302-a50c-1a2a7a52dd30",
+        "amount": 1297.0,
+        "quantity": 31.0,
+        "average": 41.83870967741935
+    },
+    {
+        "type": "buy",
+        "id": "d57c5b95-0d2d-4070-b958-18e78bfda0a3",
+        "amount": 406.0,
+        "quantity": 3.0,
+        "average": 135.33333333333334
+    },
+    {
+        "type": "sell",
+        "id": "3fbe94fc-8757-4a54-8d5f-a8586bcd7964",
+        "amount": 1218.0,
+        "quantity": 40.0,
+        "average": 30.45
+    },
+    {
+        "type": "sell",
+        "id": "a4fff282-0ae0-4d35-83c9-50672fca437e",
+        "amount": 433.0,
+        "quantity": 5.0,
+        "average": 86.6
+    },
+    {
+        "type": "buy",
+        "id": "0921cae4-19ba-4866-a637-fa34a38d2b72",
+        "amount": 465.0,
+        "quantity": 30.0,
+        "average": 15.5
+    },
+    {
+        "type": "buy",
+        "id": "e9a6aa10-e217-41ec-97af-a5716b938a5d",
+        "amount": 872.0,
+        "quantity": 9.0,
+        "average": 96.88888888888889
+    },
+    {
+        "type": "sell",
+        "id": "711995d8-43de-4eab-b68b-2eb34b48c8e9",
+        "amount": 878.0,
+        "quantity": 21.0,
+        "average": 41.80952380952381
+    },
+    {
+        "type": "sell",
+        "id": "4ba7bf87-210c-40b2-8825-a14ad5342b2f",
+        "amount": 930.0,
+        "quantity": 49.0,
+        "average": 18.979591836734695
+    },
+    {
+        "type": "buy",
+        "id": "5468c9c5-04c8-4d0a-808e-78deb815cbf2",
+        "amount": 1358.0,
+        "quantity": 49.0,
+        "average": 27.714285714285715
+    },
+    {
+        "type": "sell",
+        "id": "18744487-c751-4930-9642-12b3ed8d9f10",
+        "amount": 439.0,
+        "quantity": 9.0,
+        "average": 48.77777777777778
+    },
+    {
+        "type": "buy",
+        "id": "47a23541-c613-4475-95fa-3992374fa5f2",
+        "amount": 454.0,
+        "quantity": 21.0,
+        "average": 21.61904761904762
+    },
+    {
+        "type": "sell",
+        "id": "f6fc3df1-7643-4abd-9d72-a32159adb1e3",
+        "amount": 417.0,
+        "quantity": 12.0,
+        "average": 34.75
+    },
+    {
+        "type": "buy",
+        "id": "ef797250-eb1f-42c9-91cd-7fe6e967e2c4",
+        "amount": 454.0,
+        "quantity": 12.0,
+        "average": 37.833333333333336
+    },
+    {
+        "type": "sell",
+        "id": "f92f599e-65e3-451c-b356-4eca55c274b6",
+        "amount": 1816.0,
+        "quantity": 49.0,
+        "average": 37.06122448979592
+    },
+    {
+        "type": "buy",
+        "id": "91c6448a-6015-4d6f-a241-40839fb03936",
+        "amount": 454.0,
+        "quantity": 3.0,
+        "average": 151.33333333333334
+    },
+    {
+        "type": "buy",
+        "id": "6cd768d3-3dde-491a-915d-2340cadf15e2",
+        "amount": 819.0,
+        "quantity": 18.0,
+        "average": 45.5
+    },
+    {
+        "type": "sell",
+        "id": "cd5c0775-3eaf-4a94-882c-f90c25cf90db",
+        "amount": 804.0,
+        "quantity": 26.0,
+        "average": 30.923076923076923
+    },
+    {
+        "type": "buy",
+        "id": "cfe662b2-e77f-45b9-9b2d-fde196c6b2c3",
+        "amount": 455.0,
+        "quantity": 6.0,
+        "average": 75.83333333333333
+    },
+    {
+        "type": "buy",
+        "id": "aa77cfc3-235b-46c6-b096-beb37e73484c",
+        "amount": 1241.0,
+        "quantity": 40.0,
+        "average": 31.025
+    },
+    {
+        "type": "buy",
+        "id": "4c3778f9-1058-40bf-893c-91ac54a75a5d",
+        "amount": 400.0,
+        "quantity": 8.0,
+        "average": 50.0
+    },
+    {
+        "type": "sell",
+        "id": "34043d99-3fbc-4144-9980-d32df813210b",
+        "amount": 1200.0,
+        "quantity": 27.0,
+        "average": 44.44444444444444
+    },
+    {
+        "type": "buy",
+        "id": "84a588ce-ba88-4bcf-a362-a46879aa2506",
+        "amount": 455.0,
+        "quantity": 11.0,
+        "average": 41.36363636363637
+    },
+    {
+        "type": "buy",
+        "id": "57534dab-60a2-4bc1-92b9-b9a0e8a0b61f",
+        "amount": 826.0,
+        "quantity": 26.0,
+        "average": 31.76923076923077
+    },
+    {
+        "type": "sell",
+        "id": "74e0931d-0248-483d-9d96-62280073c96e",
+        "amount": 852.0,
+        "quantity": 27.0,
+        "average": 31.555555555555557
+    },
+    {
+        "type": "buy",
+        "id": "c2810e2c-a63e-4057-9d7b-ad5494c4ad64",
+        "amount": 1658.0,
+        "quantity": 45.0,
+        "average": 36.84444444444444
+    },
+    {
+        "type": "sell",
+        "id": "30e5b7a4-e22d-4b60-b386-d77e0d66559c",
+        "amount": 848.0,
+        "quantity": 37.0,
+        "average": 22.91891891891892
+    },
+    {
+        "type": "sell",
+        "id": "98139c12-3a4a-4008-8f5e-3a4ee899a788",
+        "amount": 445.0,
+        "quantity": 15.0,
+        "average": 29.666666666666668
+    },
+    {
+        "type": "buy",
+        "id": "8909efc1-c741-4e3d-bf40-90e6c1668b7b",
+        "amount": 900.0,
+        "quantity": 16.0,
+        "average": 56.25
+    },
+    {
+        "type": "buy",
+        "id": "c4ec5a6d-8ae9-4369-92ac-b1ced1673d28",
+        "amount": 455.0,
+        "quantity": 6.0,
+        "average": 75.83333333333333
+    },
+    {
+        "type": "sell",
+        "id": "6f7c0dfb-80f1-46d6-9738-5f7ed83a30ff",
+        "amount": 430.0,
+        "quantity": 11.0,
+        "average": 39.09090909090909
+    },
+    {
+        "type": "sell",
+        "id": "289acddd-a177-46c5-84fa-9e4668967442",
+        "amount": 2275.0,
+        "quantity": 46.0,
+        "average": 49.45652173913044
+    },
+    {
+        "type": "buy",
+        "id": "e9f430d7-5cdd-4639-8653-9180a30fad3f",
+        "amount": 912.0,
+        "quantity": 45.0,
+        "average": 20.266666666666666
+    },
+    {
+        "type": "buy",
+        "id": "f31b252b-8d1d-4298-9b2c-52c7c944e66d",
+        "amount": 846.0,
+        "quantity": 25.0,
+        "average": 33.84
+    },
+    {
+        "type": "buy",
+        "id": "603375cf-6835-4945-986f-304163926d1f",
+        "amount": 840.0,
+        "quantity": 29.0,
+        "average": 28.96551724137931
+    },
+    {
+        "type": "sell",
+        "id": "db3eeada-94f7-48c0-a502-d840206d6aaf",
+        "amount": 1248.0,
+        "quantity": 17.0,
+        "average": 73.41176470588235
+    },
+    {
+        "type": "sell",
+        "id": "23a976e3-798d-426d-97a2-82a18d0d9c87",
+        "amount": 914.0,
+        "quantity": 48.0,
+        "average": 19.041666666666668
+    },
+    {
+        "type": "buy",
+        "id": "7b2c0312-bef1-4254-ad6e-62c9092d820e",
+        "amount": 457.0,
+        "quantity": 25.0,
+        "average": 18.28
+    },
+    {
+        "type": "sell",
+        "id": "03d8d84b-9ee8-4d82-84ef-2fc7a9efc401",
+        "amount": 459.0,
+        "quantity": 12.0,
+        "average": 38.25
+    },
+    {
+        "type": "sell",
+        "id": "5d5a7618-c55b-43ff-bf3d-d2d2051710f5",
+        "amount": 463.0,
+        "quantity": 1.0,
+        "average": 463.0
+    },
+    {
+        "type": "buy",
+        "id": "c48ab63e-d5b4-42e9-bc2b-499b8c99ff61",
+        "amount": 1387.0,
+        "quantity": 20.0,
+        "average": 69.35
+    },
+    {
+        "type": "sell",
+        "id": "4bbe3960-c21f-465a-83a7-4f29f8e29aae",
+        "amount": 930.0,
+        "quantity": 14.0,
+        "average": 66.42857142857143
+    },
+    {
+        "type": "sell",
+        "id": "3aa1dc41-f91d-4d29-b9c3-9838df317358",
+        "amount": 466.0,
+        "quantity": 7.0,
+        "average": 66.57142857142857
+    },
+    {
+        "type": "sell",
+        "id": "cef26690-8cb7-4c48-85c8-5317f1ef1c7f",
+        "amount": 946.0,
+        "quantity": 42.0,
+        "average": 22.523809523809526
+    },
+    {
+        "type": "buy",
+        "id": "e90adc3c-b07d-418e-bc38-9ae246375f9c",
+        "amount": 1881.0,
+        "quantity": 42.0,
+        "average": 44.785714285714285
+    },
+    {
+        "type": "sell",
+        "id": "9a1dcccb-f479-4937-a4a4-34a1c4e3214c",
+        "amount": 438.0,
+        "quantity": 28.0,
+        "average": 15.642857142857142
+    },
+    {
+        "type": "buy",
+        "id": "c0cc9956-5edd-41a2-8d41-858ca73dccaa",
+        "amount": 887.0,
+        "quantity": 39.0,
+        "average": 22.743589743589745
+    },
+    {
+        "type": "sell",
+        "id": "133096b6-fe28-41bd-bef2-cc8f96266fd6",
+        "amount": 898.0,
+        "quantity": 12.0,
+        "average": 74.83333333333333
+    },
+    {
+        "type": "sell",
+        "id": "a9b14352-0751-4ab1-9050-9a7a893f7f8d",
+        "amount": 400.0,
+        "quantity": 6.0,
+        "average": 66.66666666666667
+    },
+    {
+        "type": "sell",
+        "id": "4dbe2def-d01e-40c1-9b15-3dbec0614b22",
+        "amount": 409.0,
+        "quantity": 19.0,
+        "average": 21.526315789473685
+    },
+    {
+        "type": "buy",
+        "id": "b1d1f379-c65b-4dd0-90d9-8feb58ce42f8",
+        "amount": 459.0,
+        "quantity": 21.0,
+        "average": 21.857142857142858
+    },
+    {
+        "type": "buy",
+        "id": "7feedaff-d649-42d7-a101-299263f9d157",
+        "amount": 1717.0,
+        "quantity": 37.0,
+        "average": 46.4054054054054
+    },
+    {
+        "type": "sell",
+        "id": "d143569d-4649-460a-821a-438f2efcade9",
+        "amount": 1377.0,
+        "quantity": 40.0,
+        "average": 34.425
+    },
+    {
+        "type": "sell",
+        "id": "bcd93019-9553-4820-ace7-59f4cc525092",
+        "amount": 954.0,
+        "quantity": 23.0,
+        "average": 41.47826086956522
+    },
+    {
+        "type": "buy",
+        "id": "f788c67e-0af7-4974-92e1-fd79389d5004",
+        "amount": 955.0,
+        "quantity": 25.0,
+        "average": 38.2
+    },
+    {
+        "type": "sell",
+        "id": "5c76736d-181f-4c60-a080-b668241a1b5b",
+        "amount": 457.0,
+        "quantity": 3.0,
+        "average": 152.33333333333334
+    },
+    {
+        "type": "sell",
+        "id": "dd3fde07-09c6-486f-8473-405b28753405",
+        "amount": 437.0,
+        "quantity": 1.0,
+        "average": 437.0
+    },
+    {
+        "type": "buy",
+        "id": "735f5fad-50b1-4de3-916e-d38077f1961a",
+        "amount": 1779.0,
+        "quantity": 19.0,
+        "average": 93.63157894736842
+    },
+    {
+        "type": "sell",
+        "id": "5abb4610-9156-41fb-9b28-495d78e4ccb6",
+        "amount": 852.0,
+        "quantity": 16.0,
+        "average": 53.25
+    },
+    {
+        "type": "buy",
+        "id": "c78f9ecc-0cf3-40c0-a334-41d660ac5024",
+        "amount": 463.0,
+        "quantity": 11.0,
+        "average": 42.09090909090909
+    },
+    {
+        "type": "buy",
+        "id": "cd6c5b88-a37b-496c-966d-38d8a394281b",
+        "amount": 869.0,
+        "quantity": 32.0,
+        "average": 27.15625
+    },
+    {
+        "type": "buy",
+        "id": "9176ae2b-69ad-4963-bc24-081fd45b0d7e",
+        "amount": 443.0,
+        "quantity": 12.0,
+        "average": 36.916666666666664
+    },
+    {
+        "type": "buy",
+        "id": "5e782ec2-f0ee-410e-8276-75ddab3dfdea",
+        "amount": 443.0,
+        "quantity": 8.0,
+        "average": 55.375
+    },
+    {
+        "type": "sell",
+        "id": "c15a7543-f4ec-4c19-811c-b74ee5f12894",
+        "amount": 1329.0,
+        "quantity": 43.0,
+        "average": 30.906976744186046
+    },
+    {
+        "type": "sell",
+        "id": "f4f7a817-2580-48a8-9fcf-857734d19d86",
+        "amount": 426.0,
+        "quantity": 1.0,
+        "average": 426.0
+    },
+    {
+        "type": "sell",
+        "id": "d600c63a-ad1f-44d2-bb98-4afaa506706e",
+        "amount": 434.0,
+        "quantity": 12.0,
+        "average": 36.166666666666664
+    },
+    {
+        "type": "sell",
+        "id": "fc0db581-978e-44d3-9e73-5208369ba0fa",
+        "amount": 442.0,
+        "quantity": 13.0,
+        "average": 34.0
+    },
+    {
+        "type": "buy",
+        "id": "ff63a9c2-3351-47be-a55a-22d06ddbab19",
+        "amount": 847.0,
+        "quantity": 38.0,
+        "average": 22.289473684210527
+    },
+    {
+        "type": "buy",
+        "id": "323680c0-bd21-41ff-8524-16761cd8b98c",
+        "amount": 1265.0,
+        "quantity": 19.0,
+        "average": 66.57894736842105
+    },
+    {
+        "type": "sell",
+        "id": "dca2d730-8389-4965-81cb-72a42aa490a6",
+        "amount": 1215.0,
+        "quantity": 35.0,
+        "average": 34.714285714285715
+    },
+    {
+        "type": "buy",
+        "id": "a52170a4-e61f-4f09-90f8-7dee733c2390",
+        "amount": 459.0,
+        "quantity": 8.0,
+        "average": 57.375
+    },
+    {
+        "type": "buy",
+        "id": "c11876e5-c433-4cb8-ae8f-26328f5a79f1",
+        "amount": 459.0,
+        "quantity": 5.0,
+        "average": 91.8
+    },
+    {
+        "type": "buy",
+        "id": "190c2253-37a7-490c-931e-c8e7a1125b6f",
+        "amount": 459.0,
+        "quantity": 2.0,
+        "average": 229.5
+    },
+    {
+        "type": "sell",
+        "id": "79538ee9-2804-4a57-8024-c814f38d2f26",
+        "amount": 437.0,
+        "quantity": 1.0,
+        "average": 437.0
+    },
+    {
+        "type": "buy",
+        "id": "c72cc3a3-8e8d-4984-b29e-e770d52684e6",
+        "amount": 452.0,
+        "quantity": 2.0,
+        "average": 226.0
+    },
+    {
+        "type": "sell",
+        "id": "e15e9fd3-b4b1-45e5-ac5b-ee768528b8ca",
+        "amount": 447.0,
+        "quantity": 17.0,
+        "average": 26.294117647058822
+    },
+    {
+        "type": "buy",
+        "id": "d9a32895-8b0d-4325-9e99-89f64e40cf86",
+        "amount": 897.0,
+        "quantity": 20.0,
+        "average": 44.85
+    },
+    {
+        "type": "sell",
+        "id": "f0a9a746-dbe0-4dd8-b4e9-efc846e6554f",
+        "amount": 900.0,
+        "quantity": 5.0,
+        "average": 180.0
+    },
+    {
+        "type": "sell",
+        "id": "8f255f47-fa44-426d-aab4-df387166b990",
+        "amount": 904.0,
+        "quantity": 32.0,
+        "average": 28.25
+    },
+    {
+        "type": "sell",
+        "id": "d0372df9-fd5c-4085-853b-6fdf2020997e",
+        "amount": 1836.0,
+        "quantity": 16.0,
+        "average": 114.75
+    },
+    {
+        "type": "buy",
+        "id": "aa613632-0be5-4af4-8481-c2da4cd0f397",
+        "amount": 1821.0,
+        "quantity": 43.0,
+        "average": 42.348837209302324
+    },
+    {
+        "type": "sell",
+        "id": "d96a491f-9873-4b24-8ee7-7d9344b2f3b1",
+        "amount": 436.0,
+        "quantity": 45.0,
+        "average": 9.688888888888888
+    },
+    {
+        "type": "buy",
+        "id": "c1fa9d70-26f5-49a4-89be-e4548cf5ea6e",
+        "amount": 885.0,
+        "quantity": 50.0,
+        "average": 17.7
+    },
+    {
+        "type": "buy",
+        "id": "6dc18534-9db6-4dc4-9cc0-7d0a142972d7",
+        "amount": 839.0,
+        "quantity": 8.0,
+        "average": 104.875
+    },
+    {
+        "type": "buy",
+        "id": "e8338cec-7204-4fb7-90b6-2f98532b1a88",
+        "amount": 807.0,
+        "quantity": 9.0,
+        "average": 89.66666666666667
+    },
+    {
+        "type": "sell",
+        "id": "b47621b3-7717-4146-a7fc-f3fffafb627f",
+        "amount": 1206.0,
+        "quantity": 31.0,
+        "average": 38.903225806451616
+    },
+    {
+        "type": "sell",
+        "id": "ddb0337c-f4fd-4aa1-bfb1-d25534285183",
+        "amount": 898.0,
+        "quantity": 26.0,
+        "average": 34.53846153846154
+    },
+    {
+        "type": "buy",
+        "id": "30b36c03-df08-46de-82bd-abc477531486",
+        "amount": 909.0,
+        "quantity": 30.0,
+        "average": 30.3
+    },
+    {
+        "type": "sell",
+        "id": "96fe2a0c-1f6f-4259-9ba9-e38b3dcd8ee5",
+        "amount": 449.0,
+        "quantity": 31.0,
+        "average": 14.483870967741936
+    },
+    {
+        "type": "sell",
+        "id": "49d562aa-c928-421a-9850-cadfd8f5790a",
+        "amount": 1380.0,
+        "quantity": 23.0,
+        "average": 60.0
+    },
+    {
+        "type": "buy",
+        "id": "d4db039a-af21-4a7f-a308-7f479c1e3a92",
+        "amount": 1371.0,
+        "quantity": 47.0,
+        "average": 29.170212765957448
+    },
+    {
+        "type": "sell",
+        "id": "297d7640-10c3-4209-95e5-b4af712e796f",
+        "amount": 445.0,
+        "quantity": 19.0,
+        "average": 23.42105263157895
+    },
+    {
+        "type": "buy",
+        "id": "c67a5a1c-2fe8-4b32-a4f3-b54ce0ef9f68",
+        "amount": 902.0,
+        "quantity": 39.0,
+        "average": 23.128205128205128
+    },
+    {
+        "type": "buy",
+        "id": "9a67aca6-9c9a-41bd-b086-16a9bb7d19c2",
+        "amount": 404.0,
+        "quantity": 3.0,
+        "average": 134.66666666666666
+    },
+    {
+        "type": "buy",
+        "id": "d7051d5b-d3b1-43e0-b85f-add8afe1fc0e",
+        "amount": 806.0,
+        "quantity": 32.0,
+        "average": 25.1875
+    },
+    {
+        "type": "sell",
+        "id": "49edff57-3c2e-4c22-8bf3-49a6ab7292f6",
+        "amount": 1212.0,
+        "quantity": 17.0,
+        "average": 71.29411764705883
+    },
+    {
+        "type": "sell",
+        "id": "7ebc6a1e-816d-4e95-981c-7b4c715de44b",
+        "amount": 914.0,
+        "quantity": 43.0,
+        "average": 21.25581395348837
+    },
+    {
+        "type": "sell",
+        "id": "f63955ec-a113-4593-af63-b6a8c3708a6b",
+        "amount": 460.0,
+        "quantity": 5.0,
+        "average": 92.0
+    },
+    {
+        "type": "buy",
+        "id": "a192dcb7-1d10-4407-9644-ce2726b06267",
+        "amount": 1379.0,
+        "quantity": 33.0,
+        "average": 41.78787878787879
+    },
+    {
+        "type": "buy",
+        "id": "38534d3b-7d3e-4f74-8a64-fb369f66f7c2",
+        "amount": 831.0,
+        "quantity": 20.0,
+        "average": 41.55
+    },
+    {
+        "type": "sell",
+        "id": "a5abcc42-76e7-49fd-934c-0ad6267a489c",
+        "amount": 854.0,
+        "quantity": 30.0,
+        "average": 28.466666666666665
+    },
+    {
+        "type": "sell",
+        "id": "b2532376-2f90-489c-9e36-d61f4e6dae8d",
+        "amount": 1386.0,
+        "quantity": 37.0,
+        "average": 37.45945945945946
+    },
+    {
+        "type": "buy",
+        "id": "2c512517-39dd-4afc-bdba-94cce1414943",
+        "amount": 925.0,
+        "quantity": 46.0,
+        "average": 20.108695652173914
+    },
+    {
+        "type": "buy",
+        "id": "427d51ad-ec98-4274-8384-26996f4b212d",
+        "amount": 849.0,
+        "quantity": 30.0,
+        "average": 28.3
+    },
+    {
+        "type": "buy",
+        "id": "6de82312-64b3-465e-9bb7-566caf71709b",
+        "amount": 422.0,
+        "quantity": 1.0,
+        "average": 422.0
+    },
+    {
+        "type": "sell",
+        "id": "2e3a3d04-3a7f-4551-b538-e364ce201bab",
+        "amount": 844.0,
+        "quantity": 20.0,
+        "average": 42.2
+    },
+    {
+        "type": "buy",
+        "id": "41d32a80-b71f-4a8f-9e51-189622eb000a",
+        "amount": 418.0,
+        "quantity": 7.0,
+        "average": 59.714285714285715
+    },
+    {
+        "type": "buy",
+        "id": "2d4253f7-f698-44c0-8d99-fd21254bf4f6",
+        "amount": 418.0,
+        "quantity": 41.0,
+        "average": 10.195121951219512
+    },
+    {
+        "type": "sell",
+        "id": "2fbd7775-ac4d-4528-8bea-28fc8fec12d3",
+        "amount": 1254.0,
+        "quantity": 50.0,
+        "average": 25.08
+    },
+    {
+        "type": "sell",
+        "id": "b53b057a-3c11-4e49-a1cb-69902f1e9153",
+        "amount": 1389.0,
+        "quantity": 46.0,
+        "average": 30.195652173913043
+    },
+    {
+        "type": "buy",
+        "id": "5e0f31ee-59f6-4237-9de1-b63faa88880c",
+        "amount": 927.0,
+        "quantity": 24.0,
+        "average": 38.625
+    },
+    {
+        "type": "buy",
+        "id": "188e42f9-b1c8-4010-9a0b-9c0f6f95cdbb",
+        "amount": 445.0,
+        "quantity": 31.0,
+        "average": 14.35483870967742
+    },
+    {
+        "type": "sell",
+        "id": "f518c823-6ead-4b12-a78a-0e366d4ba598",
+        "amount": 441.0,
+        "quantity": 18.0,
+        "average": 24.5
+    },
+    {
+        "type": "buy",
+        "id": "6aa1560b-78eb-4723-8d65-16b50c5a51d1",
+        "amount": 886.0,
+        "quantity": 33.0,
+        "average": 26.848484848484848
+    },
+    {
+        "type": "buy",
+        "id": "68b3b975-eb84-4720-811e-1fedf3d511ed",
+        "amount": 405.0,
+        "quantity": 28.0,
+        "average": 14.464285714285714
+    },
+    {
+        "type": "sell",
+        "id": "04b0709c-9dfa-4891-8a54-81af071a04ff",
+        "amount": 810.0,
+        "quantity": 35.0,
+        "average": 23.142857142857142
+    },
+    {
+        "type": "buy",
+        "id": "0df5e6f9-1e4e-4b96-839d-e40fb5b1d214",
+        "amount": 816.0,
+        "quantity": 21.0,
+        "average": 38.857142857142854
+    },
+    {
+        "type": "sell",
+        "id": "f42b8f6b-425a-4aa7-93b2-55416aa1a2aa",
+        "amount": 822.0,
+        "quantity": 30.0,
+        "average": 27.4
+    },
+    {
+        "type": "buy",
+        "id": "0795b63c-8d91-4cbf-bfbe-31dbf6e63ae5",
+        "amount": 427.0,
+        "quantity": 15.0,
+        "average": 28.466666666666665
+    },
+    {
+        "type": "sell",
+        "id": "e07e21a3-3129-4a5c-9096-ce1926718610",
+        "amount": 422.0,
+        "quantity": 14.0,
+        "average": 30.142857142857142
+    },
+    {
+        "type": "sell",
+        "id": "d590d61e-f9cd-4452-b95b-f31d14b2fe1b",
+        "amount": 854.0,
+        "quantity": 17.0,
+        "average": 50.23529411764706
+    },
+    {
+        "type": "sell",
+        "id": "d9e30fa8-c97c-4da0-9bab-045992240093",
+        "amount": 431.0,
+        "quantity": 38.0,
+        "average": 11.342105263157896
+    },
+    {
+        "type": "buy",
+        "id": "6a347361-ca25-4a6f-b3ec-5e8725a26076",
+        "amount": 1295.0,
+        "quantity": 50.0,
+        "average": 25.9
+    },
+    {
+        "type": "sell",
+        "id": "e824b875-04d5-4b4f-92c6-a8b73c15a55c",
+        "amount": 874.0,
+        "quantity": 14.0,
+        "average": 62.42857142857143
+    },
+    {
+        "type": "sell",
+        "id": "7d003082-f560-4827-a94b-9c13110b7dc9",
+        "amount": 1335.0,
+        "quantity": 50.0,
+        "average": 26.7
+    },
+    {
+        "type": "buy",
+        "id": "b286d684-8f4a-4a74-92ff-a7fa1296a128",
+        "amount": 891.0,
+        "quantity": 6.0,
+        "average": 148.5
+    },
+    {
+        "type": "buy",
+        "id": "bc63ad84-dcd3-4f83-af3f-5702a08b3f1d",
+        "amount": 446.0,
+        "quantity": 2.0,
+        "average": 223.0
+    },
+    {
+        "type": "buy",
+        "id": "0509e56e-04f9-42ed-a6d0-1fa1cbe6d5be",
+        "amount": 853.0,
+        "quantity": 32.0,
+        "average": 26.65625
+    },
+    {
+        "type": "sell",
+        "id": "3421f53c-efcd-4f88-a174-10e195b90448",
+        "amount": 832.0,
+        "quantity": 31.0,
+        "average": 26.838709677419356
+    },
+    {
+        "type": "buy",
+        "id": "ed80c007-e03a-4845-87f0-2ecdb252d87c",
+        "amount": 820.0,
+        "quantity": 10.0,
+        "average": 82.0
+    },
+    {
+        "type": "buy",
+        "id": "319e9e63-4085-4b14-a374-6361d180baa7",
+        "amount": 2071.0,
+        "quantity": 36.0,
+        "average": 57.52777777777778
+    },
+    {
+        "type": "sell",
+        "id": "ceab2357-ad3a-4c08-84bd-b1d46d3d5d29",
+        "amount": 1212.0,
+        "quantity": 22.0,
+        "average": 55.09090909090909
+    },
+    {
+        "type": "sell",
+        "id": "e29aeadc-5d3f-4d11-beec-bfd802a02eed",
+        "amount": 411.0,
+        "quantity": 45.0,
+        "average": 9.133333333333333
+    },
+    {
+        "type": "buy",
+        "id": "e6e23cb3-8726-4d62-97af-a5faf37e9a29",
+        "amount": 446.0,
+        "quantity": 17.0,
+        "average": 26.235294117647058
+    },
+    {
+        "type": "sell",
+        "id": "ad531d19-0725-43b5-9424-8c276b327e4a",
+        "amount": 418.0,
+        "quantity": 2.0,
+        "average": 209.0
+    },
+    {
+        "type": "sell",
+        "id": "42b184e1-bf93-45bc-8545-17613a1ce8df",
+        "amount": 417.0,
+        "quantity": 27.0,
+        "average": 15.444444444444445
+    },
+    {
+        "type": "buy",
+        "id": "b72605be-6094-4dec-ae18-dc3e0f61ac87",
+        "amount": 422.0,
+        "quantity": 9.0,
+        "average": 46.888888888888886
+    },
+    {
+        "type": "buy",
+        "id": "890c5229-8775-4f44-8e9b-6648292cf86b",
+        "amount": 1257.0,
+        "quantity": 32.0,
+        "average": 39.28125
+    },
+    {
+        "type": "buy",
+        "id": "d0dd8954-9ad8-4614-a04a-6c7b7ffd7c68",
+        "amount": 833.0,
+        "quantity": 46.0,
+        "average": 18.108695652173914
+    },
+    {
+        "type": "buy",
+        "id": "69d4b389-9a61-44e1-9695-2a6a9f1d0498",
+        "amount": 826.0,
+        "quantity": 14.0,
+        "average": 59.0
+    },
+    {
+        "type": "sell",
+        "id": "e8d0caa9-7599-41d4-8930-d1a54ab6a881",
+        "amount": 2110.0,
+        "quantity": 50.0,
+        "average": 42.2
+    },
+    {
+        "type": "sell",
+        "id": "f480a17c-2fe6-45a4-b145-f797c6f2d1bb",
+        "amount": 1784.0,
+        "quantity": 27.0,
+        "average": 66.07407407407408
+    },
+    {
+        "type": "buy",
+        "id": "eb2589e6-309a-430e-8491-3886a5dd1f2b",
+        "amount": 1314.0,
+        "quantity": 48.0,
+        "average": 27.375
+    },
+    {
+        "type": "buy",
+        "id": "e077c298-f7f3-4d86-a5a2-f91eb85b1374",
+        "amount": 446.0,
+        "quantity": 32.0,
+        "average": 13.9375
+    },
+    {
+        "type": "buy",
+        "id": "4a8ba789-2cf7-482d-8d36-84415e7f804e",
+        "amount": 434.0,
+        "quantity": 14.0,
+        "average": 31.0
+    },
+    {
+        "type": "sell",
+        "id": "cd1037a8-7577-4055-b5a8-7250a61dce8d",
+        "amount": 868.0,
+        "quantity": 32.0,
+        "average": 27.125
+    },
+    {
+        "type": "buy",
+        "id": "947b395f-530a-40b7-97e7-9b4e38ab8edc",
+        "amount": 870.0,
+        "quantity": 21.0,
+        "average": 41.42857142857143
+    },
+    {
+        "type": "buy",
+        "id": "813b6456-8459-4368-ab4b-21ea2898b022",
+        "amount": 436.0,
+        "quantity": 4.0,
+        "average": 109.0
+    },
+    {
+        "type": "sell",
+        "id": "feb1de5f-b98e-4ba8-a824-272c119d58e1",
+        "amount": 416.0,
+        "quantity": 28.0,
+        "average": 14.857142857142858
+    },
+    {
+        "type": "buy",
+        "id": "86afc1b4-df4f-4c0a-a7d5-0ae77ccd4630",
+        "amount": 436.0,
+        "quantity": 1.0,
+        "average": 436.0
+    },
+    {
+        "type": "sell",
+        "id": "89008317-7498-48d1-bb57-a00ac97b6a48",
+        "amount": 1744.0,
+        "quantity": 12.0,
+        "average": 145.33333333333334
+    },
+    {
+        "type": "sell",
+        "id": "7b0c9f22-6b29-4434-828b-43a2691ef428",
+        "amount": 1338.0,
+        "quantity": 48.0,
+        "average": 27.875
+    },
+    {
+        "type": "buy",
+        "id": "940793cb-dca4-497d-9891-fd6b752e0e76",
+        "amount": 1328.0,
+        "quantity": 35.0,
+        "average": 37.94285714285714
+    },
+    {
+        "type": "buy",
+        "id": "092b5a14-b2e8-4e15-a356-e1b59c502418",
+        "amount": 817.0,
+        "quantity": 35.0,
+        "average": 23.34285714285714
+    },
+    {
+        "type": "buy",
+        "id": "15a21dcb-7646-464e-838e-ecb373e5b9c2",
+        "amount": 401.0,
+        "quantity": 14.0,
+        "average": 28.642857142857142
+    },
+    {
+        "type": "buy",
+        "id": "33cae02c-fa57-4d03-a868-4df63c2bb6cf",
+        "amount": 401.0,
+        "quantity": 14.0,
+        "average": 28.642857142857142
+    },
+    {
+        "type": "sell",
+        "id": "d883c1d7-bfa5-41ff-9032-3b195322bfd1",
+        "amount": 1604.0,
+        "quantity": 48.0,
+        "average": 33.416666666666664
+    },
+    {
+        "type": "sell",
+        "id": "f0069513-80e5-4f6a-8c5d-981a39dd2232",
+        "amount": 892.0,
+        "quantity": 44.0,
+        "average": 20.272727272727273
+    },
+    {
+        "type": "sell",
+        "id": "83dd0aaa-8979-4ceb-bf6b-7bd378339d0d",
+        "amount": 448.0,
+        "quantity": 21.0,
+        "average": 21.333333333333332
+    },
+    {
+        "type": "buy",
+        "id": "32c9c1e3-fcb8-470a-831c-4396981c6a60",
+        "amount": 1346.0,
+        "quantity": 45.0,
+        "average": 29.91111111111111
+    },
+    {
+        "type": "buy",
+        "id": "68163bcc-dfd8-43a4-8599-c3fa128caec7",
+        "amount": 452.0,
+        "quantity": 24.0,
+        "average": 18.833333333333332
+    },
+    {
+        "type": "buy",
+        "id": "44c41e96-6867-47c1-a215-250fdb48f626",
+        "amount": 808.0,
+        "quantity": 15.0,
+        "average": 53.86666666666667
+    },
+    {
+        "type": "buy",
+        "id": "38a63f77-aa55-432d-8db4-52172621af61",
+        "amount": 407.0,
+        "quantity": 16.0,
+        "average": 25.4375
+    },
+    {
+        "type": "sell",
+        "id": "2a98edbd-4e98-4967-8181-78963ea3b07e",
+        "amount": 1221.0,
+        "quantity": 37.0,
+        "average": 33.0
+    },
+    {
+        "type": "buy",
+        "id": "582b0a2a-7560-4cea-bd34-1a65b7876c34",
+        "amount": 810.0,
+        "quantity": 50.0,
+        "average": 16.2
+    },
+    {
+        "type": "sell",
+        "id": "0266df10-fd71-4269-8de4-d449a41ae761",
+        "amount": 806.0,
+        "quantity": 33.0,
+        "average": 24.424242424242426
+    },
+    {
+        "type": "buy",
+        "id": "13b543b6-b78d-44d4-838d-bef94bfc875c",
+        "amount": 809.0,
+        "quantity": 32.0,
+        "average": 25.28125
+    },
+    {
+        "type": "sell",
+        "id": "3c22174f-b458-4808-a4e2-3b56702d7ae6",
+        "amount": 812.0,
+        "quantity": 34.0,
+        "average": 23.88235294117647
+    },
+    {
+        "type": "sell",
+        "id": "8cd2b8b1-4b45-4166-a754-2ce6a84750b4",
+        "amount": 1356.0,
+        "quantity": 30.0,
+        "average": 45.2
+    },
+    {
+        "type": "sell",
+        "id": "07ea529d-1787-4c1a-84c5-f5c9ce417e94",
+        "amount": 453.0,
+        "quantity": 26.0,
+        "average": 17.423076923076923
+    },
+    {
+        "type": "buy",
+        "id": "f0047cee-feb2-4f7a-9726-582f65eff142",
+        "amount": 1358.0,
+        "quantity": 42.0,
+        "average": 32.333333333333336
+    },
+    {
+        "type": "sell",
+        "id": "6124d85f-31d8-41b9-a540-082de40bc4ca",
+        "amount": 410.0,
+        "quantity": 1.0,
+        "average": 410.0
+    },
+    {
+        "type": "sell",
+        "id": "c0ed3075-53ca-4459-b354-e3a32649252e",
+        "amount": 429.0,
+        "quantity": 35.0,
+        "average": 12.257142857142858
+    },
+    {
+        "type": "buy",
+        "id": "71daafb8-4b08-4bc2-9d39-70ca700573f8",
+        "amount": 861.0,
+        "quantity": 38.0,
+        "average": 22.657894736842106
+    },
+    {
+        "type": "buy",
+        "id": "89424772-8f84-41fa-8d1d-5f26cf91fcb9",
+        "amount": 432.0,
+        "quantity": 28.0,
+        "average": 15.428571428571429
+    },
+    {
+        "type": "sell",
+        "id": "91c56ed4-2606-439b-a34a-35cade42f2c1",
+        "amount": 1296.0,
+        "quantity": 47.0,
+        "average": 27.574468085106382
+    },
+    {
+        "type": "buy",
+        "id": "86e7540a-72eb-49f7-89bc-d79b804a4e1e",
+        "amount": 871.0,
+        "quantity": 45.0,
+        "average": 19.355555555555554
+    },
+    {
+        "type": "buy",
+        "id": "dda2cb92-83f2-4149-966c-add3fee50464",
+        "amount": 822.0,
+        "quantity": 30.0,
+        "average": 27.4
+    },
+    {
+        "type": "sell",
+        "id": "5c9a7f1e-6cd8-46f1-bff2-aa927f52e527",
+        "amount": 824.0,
+        "quantity": 41.0,
+        "average": 20.097560975609756
+    },
+    {
+        "type": "sell",
+        "id": "7952b33c-47a5-4bac-bd5b-6fc3535c2a49",
+        "amount": 878.0,
+        "quantity": 33.0,
+        "average": 26.606060606060606
+    },
+    {
+        "type": "buy",
+        "id": "6cf30513-acdb-4343-830b-dbbb02875115",
+        "amount": 892.0,
+        "quantity": 20.0,
+        "average": 44.6
+    },
+    {
+        "type": "sell",
+        "id": "95b228f7-ee79-42c1-9663-05ad0dde2459",
+        "amount": 400.0,
+        "quantity": 10.0,
+        "average": 40.0
+    },
+    {
+        "type": "buy",
+        "id": "d87828fb-1a14-463a-95a5-13f703c7bbbb",
+        "amount": 1246.0,
+        "quantity": 26.0,
+        "average": 47.92307692307692
+    },
+    {
+        "type": "sell",
+        "id": "d11dcb7f-ba12-4617-a358-7d78f70e038c",
+        "amount": 868.0,
+        "quantity": 12.0,
+        "average": 72.33333333333333
+    },
+    {
+        "type": "buy",
+        "id": "91b1c8cf-f7e1-44f6-85dc-4e63a2b50c1f",
+        "amount": 887.0,
+        "quantity": 17.0,
+        "average": 52.1764705882353
+    },
+    {
+        "type": "sell",
+        "id": "edec6a5e-5161-4afe-8555-0f668e4c649e",
+        "amount": 1812.0,
+        "quantity": 39.0,
+        "average": 46.46153846153846
+    },
+    {
+        "type": "sell",
+        "id": "cd8dc70a-89b0-408c-a54c-b4e86106c40c",
+        "amount": 455.0,
+        "quantity": 21.0,
+        "average": 21.666666666666668
+    },
+    {
+        "type": "sell",
+        "id": "2d677716-16ab-4a18-83bc-38da6dd96b4c",
+        "amount": 458.0,
+        "quantity": 8.0,
+        "average": 57.25
+    },
+    {
+        "type": "buy",
+        "id": "998b9145-8594-4dad-8f1f-fc4a158fc9eb",
+        "amount": 1824.0,
+        "quantity": 38.0,
+        "average": 48.0
+    },
+    {
+        "type": "buy",
+        "id": "9452ae84-7a24-44c1-bd25-363ab4856cb5",
+        "amount": 430.0,
+        "quantity": 17.0,
+        "average": 25.294117647058822
+    },
+    {
+        "type": "buy",
+        "id": "13dde91d-e58d-4aa2-9327-0856ec26cf8d",
+        "amount": 422.0,
+        "quantity": 4.0,
+        "average": 105.5
+    },
+    {
+        "type": "buy",
+        "id": "fefc63e2-02d0-4121-a6a2-1ac3e2b9ed43",
+        "amount": 422.0,
+        "quantity": 3.0,
+        "average": 140.66666666666666
+    },
+    {
+        "type": "buy",
+        "id": "c984bb27-1d5e-451f-ba74-cb36c12fa37b",
+        "amount": 422.0,
+        "quantity": 1.0,
+        "average": 422.0
+    },
+    {
+        "type": "sell",
+        "id": "09376bd0-e51e-4d3c-9fda-e2048c506304",
+        "amount": 410.0,
+        "quantity": 12.0,
+        "average": 34.166666666666664
+    },
+    {
+        "type": "buy",
+        "id": "113cd30b-60b1-4697-bb11-57da5dfd028d",
+        "amount": 816.0,
+        "quantity": 30.0,
+        "average": 27.2
+    },
+    {
+        "type": "buy",
+        "id": "78b2442d-f6dc-42e1-b22e-07b5f76e43b6",
+        "amount": 406.0,
+        "quantity": 5.0,
+        "average": 81.2
+    },
+    {
+        "type": "buy",
+        "id": "e88737f6-53a8-4de1-addc-f9f88cc3af9e",
+        "amount": 406.0,
+        "quantity": 16.0,
+        "average": 25.375
+    },
+    {
+        "type": "sell",
+        "id": "55fabe6d-bdc5-4486-85fb-c8fd9ac3f537",
+        "amount": 1624.0,
+        "quantity": 48.0,
+        "average": 33.833333333333336
+    },
+    {
+        "type": "buy",
+        "id": "dba5ed02-5932-4c97-bbad-5f7cbb91a099",
+        "amount": 422.0,
+        "quantity": 5.0,
+        "average": 84.4
+    },
+    {
+        "type": "buy",
+        "id": "af774f7e-7134-43fb-bd81-5a989215f3b1",
+        "amount": 422.0,
+        "quantity": 8.0,
+        "average": 52.75
+    },
+    {
+        "type": "sell",
+        "id": "1261786f-ea6f-4246-ad94-80bfe110e1e9",
+        "amount": 2532.0,
+        "quantity": 45.0,
+        "average": 56.266666666666666
+    },
+    {
+        "type": "buy",
+        "id": "8ea05a31-308f-4fff-9565-27871b63ab9c",
+        "amount": 845.0,
+        "quantity": 43.0,
+        "average": 19.651162790697676
+    },
+    {
+        "type": "buy",
+        "id": "4594d9fe-947f-4d61-8e85-71939bca7b25",
+        "amount": 423.0,
+        "quantity": 1.0,
+        "average": 423.0
+    },
+    {
+        "type": "buy",
+        "id": "84a3c9ca-0974-418a-be5f-74bbb9bb806c",
+        "amount": 1219.0,
+        "quantity": 46.0,
+        "average": 26.5
+    },
+    {
+        "type": "sell",
+        "id": "77902fb1-47f5-4849-92dd-8c4bbe89030b",
+        "amount": 814.0,
+        "quantity": 43.0,
+        "average": 18.930232558139537
+    },
+    {
+        "type": "sell",
+        "id": "de585d60-14e0-4a94-bda4-4d2f3bba8dbb",
+        "amount": 1269.0,
+        "quantity": 30.0,
+        "average": 42.3
+    },
+    {
+        "type": "sell",
+        "id": "7f74f7f4-9a06-463d-b492-868c92d2165d",
+        "amount": 426.0,
+        "quantity": 11.0,
+        "average": 38.72727272727273
+    },
+    {
+        "type": "buy",
+        "id": "40bd9ff4-b9f8-41b7-b451-15011488e9b3",
+        "amount": 1279.0,
+        "quantity": 29.0,
+        "average": 44.10344827586207
+    },
+    {
+        "type": "sell",
+        "id": "75972c64-1af4-4733-9723-5d45d8fc30a0",
+        "amount": 1290.0,
+        "quantity": 27.0,
+        "average": 47.77777777777778
+    },
+    {
+        "type": "buy",
+        "id": "4e455232-f0d6-4b81-b28c-e41c4c14c653",
+        "amount": 863.0,
+        "quantity": 25.0,
+        "average": 34.52
+    },
+    {
+        "type": "buy",
+        "id": "0d4d40dd-5174-4b0d-8872-fc71f284513f",
+        "amount": 433.0,
+        "quantity": 4.0,
+        "average": 108.25
+    },
+    {
+        "type": "sell",
+        "id": "c6a7e40e-f03d-476c-bb65-915045e7794d",
+        "amount": 1299.0,
+        "quantity": 42.0,
+        "average": 30.928571428571427
+    },
+    {
+        "type": "sell",
+        "id": "9972ce21-0a08-4bc2-8d86-cd556ea985aa",
+        "amount": 441.0,
+        "quantity": 23.0,
+        "average": 19.17391304347826
+    },
+    {
+        "type": "buy",
+        "id": "f4f0f575-3174-4c9c-a2ca-4a5dc192f228",
+        "amount": 1315.0,
+        "quantity": 50.0,
+        "average": 26.3
+    },
+    {
+        "type": "sell",
+        "id": "32dbdab0-9ca0-4eb1-9cc0-d35abecdd6f7",
+        "amount": 882.0,
+        "quantity": 21.0,
+        "average": 42.0
+    },
+    {
+        "type": "sell",
+        "id": "14fbcb31-e60a-4434-840e-b3d8d8dd6ad9",
+        "amount": 453.0,
+        "quantity": 16.0,
+        "average": 28.3125
+    },
+    {
+        "type": "buy",
+        "id": "02ade4a2-78c9-46af-9654-fd0a37397fc8",
+        "amount": 909.0,
+        "quantity": 17.0,
+        "average": 53.470588235294116
+    },
+    {
+        "type": "buy",
+        "id": "f72723b9-3730-49a3-8ccc-d0867d83ea55",
+        "amount": 456.0,
+        "quantity": 32.0,
+        "average": 14.25
+    },
+    {
+        "type": "sell",
+        "id": "568828bd-e60f-409e-9f01-e0ada02d26a3",
+        "amount": 1368.0,
+        "quantity": 34.0,
+        "average": 40.23529411764706
+    },
+    {
+        "type": "buy",
+        "id": "7cfd37db-1d18-4b31-877d-bced40c332cd",
+        "amount": 914.0,
+        "quantity": 17.0,
+        "average": 53.76470588235294
+    },
+    {
+        "type": "sell",
+        "id": "c2b9605b-1bc9-4d40-a755-57d39451d6b7",
+        "amount": 1374.0,
+        "quantity": 29.0,
+        "average": 47.37931034482759
+    },
+    {
+        "type": "sell",
+        "id": "aae4ef79-2e50-4516-8692-5c999a96ef6d",
+        "amount": 459.0,
+        "quantity": 17.0,
+        "average": 27.0
+    },
+    {
+        "type": "sell",
+        "id": "3e8af8f4-4884-4723-ab20-1dc57a868144",
+        "amount": 460.0,
+        "quantity": 12.0,
+        "average": 38.333333333333336
+    },
+    {
+        "type": "buy",
+        "id": "d190c15e-f5f5-4740-bbfc-cdf658eba30a",
+        "amount": 1838.0,
+        "quantity": 43.0,
+        "average": 42.74418604651163
+    },
+    {
+        "type": "sell",
+        "id": "8fcca911-3f2a-426c-a81a-d9e167ea7650",
+        "amount": 922.0,
+        "quantity": 37.0,
+        "average": 24.91891891891892
+    },
+    {
+        "type": "buy",
+        "id": "8124fde5-fbea-4b27-b915-1cadfde6669d",
+        "amount": 922.0,
+        "quantity": 37.0,
+        "average": 24.91891891891892
+    },
+    {
+        "type": "buy",
+        "id": "3f136cf4-3051-4304-84df-45fe148ae97d",
+        "amount": 853.0,
+        "quantity": 43.0,
+        "average": 19.837209302325583
+    },
+    {
+        "type": "sell",
+        "id": "278ab6ac-1e51-469a-9e38-87a6c6cc01bc",
+        "amount": 824.0,
+        "quantity": 37.0,
+        "average": 22.27027027027027
+    },
+    {
+        "type": "buy",
+        "id": "231eee71-dd17-4c41-ace6-ef45faf03203",
+        "amount": 460.0,
+        "quantity": 1.0,
+        "average": 460.0
+    },
+    {
+        "type": "buy",
+        "id": "79a9212b-218e-4756-b573-2accdaccfe1e",
+        "amount": 460.0,
+        "quantity": 25.0,
+        "average": 18.4
+    },
+    {
+        "type": "buy",
+        "id": "3b35e85e-b05f-434c-8f96-5bb2363aabe4",
+        "amount": 433.0,
+        "quantity": 15.0,
+        "average": 28.866666666666667
+    },
+    {
+        "type": "sell",
+        "id": "e9fa3af3-0544-4870-9a5f-711b331c48f2",
+        "amount": 866.0,
+        "quantity": 16.0,
+        "average": 54.125
+    },
+    {
+        "type": "sell",
+        "id": "fd2f18b1-186e-4d03-97fe-dcbb8eca094d",
+        "amount": 1380.0,
+        "quantity": 29.0,
+        "average": 47.58620689655172
+    },
+    {
+        "type": "sell",
+        "id": "0bd625a3-1d2a-4658-a5ae-9f67f0d9009e",
+        "amount": 922.0,
+        "quantity": 18.0,
+        "average": 51.22222222222222
+    },
+    {
+        "type": "sell",
+        "id": "7a8cecc4-89e4-42b4-8f74-9129fad2d29c",
+        "amount": 463.0,
+        "quantity": 7.0,
+        "average": 66.14285714285714
+    },
+    {
+        "type": "sell",
+        "id": "0ccefd00-89db-4ca8-b161-34f08a50cc3c",
+        "amount": 928.0,
+        "quantity": 20.0,
+        "average": 46.4
+    },
+    {
+        "type": "buy",
+        "id": "ab27fe87-28c8-46b2-94a5-aea031dad76c",
+        "amount": 2314.0,
+        "quantity": 43.0,
+        "average": 53.81395348837209
+    },
+    {
+        "type": "sell",
+        "id": "ffe89580-32ad-4bb7-83af-a971c46952c0",
+        "amount": 438.0,
+        "quantity": 43.0,
+        "average": 10.186046511627907
+    },
+    {
+        "type": "buy",
+        "id": "91d938b5-ed3a-4044-98eb-3e198f996dfc",
+        "amount": 401.0,
+        "quantity": 4.0,
+        "average": 100.25
+    },
+    {
+        "type": "buy",
+        "id": "04d01fce-7668-4e1b-8241-d80b802edb7a",
+        "amount": 401.0,
+        "quantity": 29.0,
+        "average": 13.827586206896552
+    },
+    {
+        "type": "buy",
+        "id": "d5f1ddee-ebfa-4134-907d-5f14aad148d0",
+        "amount": 1272.0,
+        "quantity": 48.0,
+        "average": 26.5
+    },
+    {
+        "type": "sell",
+        "id": "ea34a34c-6a9e-4093-a9f3-903f67ef38da",
+        "amount": 1604.0,
+        "quantity": 43.0,
+        "average": 37.30232558139535
+    },
+    {
+        "type": "sell",
+        "id": "399dfd6a-5cc5-47c0-89a0-b3cc4e95d729",
+        "amount": 932.0,
+        "quantity": 33.0,
+        "average": 28.242424242424242
+    },
+    {
+        "type": "buy",
+        "id": "6990ae0b-c4fd-41a9-9a02-1ea382403544",
+        "amount": 933.0,
+        "quantity": 35.0,
+        "average": 26.65714285714286
+    },
+    {
+        "type": "buy",
+        "id": "74ed0fa6-b498-43da-aabf-4ec5faf9244e",
+        "amount": 434.0,
+        "quantity": 14.0,
+        "average": 31.0
+    },
+    {
+        "type": "sell",
+        "id": "484a385f-ec38-4cb3-a6df-1922ea2973c1",
+        "amount": 868.0,
+        "quantity": 15.0,
+        "average": 57.86666666666667
+    },
+    {
+        "type": "buy",
+        "id": "510f4229-a414-42a9-bfda-d4307278c595",
+        "amount": 434.0,
+        "quantity": 1.0,
+        "average": 434.0
+    },
+    {
+        "type": "sell",
+        "id": "66a03417-7535-43ca-bfc6-bcef090a25d3",
+        "amount": 419.0,
+        "quantity": 2.0,
+        "average": 209.5
+    },
+    {
+        "type": "sell",
+        "id": "b51e7c3e-30f5-42e4-ab9a-698ed91208d9",
+        "amount": 437.0,
+        "quantity": 22.0,
+        "average": 19.863636363636363
+    },
+    {
+        "type": "buy",
+        "id": "8d904ad8-b95e-435c-8ae0-0fbd707259e9",
+        "amount": 877.0,
+        "quantity": 25.0,
+        "average": 35.08
+    },
+    {
+        "type": "buy",
+        "id": "3e288436-896f-4e57-a2f3-ff8ee10c35e6",
+        "amount": 440.0,
+        "quantity": 12.0,
+        "average": 36.666666666666664
+    },
+    {
+        "type": "buy",
+        "id": "2f8a166f-912f-467b-b54f-b5ea11453a20",
+        "amount": 1234.0,
+        "quantity": 17.0,
+        "average": 72.58823529411765
+    },
+    {
+        "type": "sell",
+        "id": "e66192d1-7faa-4cdd-89bd-c4cb61727dc1",
+        "amount": 828.0,
+        "quantity": 31.0,
+        "average": 26.70967741935484
+    },
+    {
+        "type": "buy",
+        "id": "61f7d796-e1b2-4782-adb0-6c6dc08f1b41",
+        "amount": 440.0,
+        "quantity": 1.0,
+        "average": 440.0
+    },
+    {
+        "type": "buy",
+        "id": "ee7e2a53-f488-4dc5-866b-557bacc65ef7",
+        "amount": 842.0,
+        "quantity": 41.0,
+        "average": 20.536585365853657
+    },
+    {
+        "type": "buy",
+        "id": "3eafdf05-65c1-4134-8a05-25d14e4f2481",
+        "amount": 428.0,
+        "quantity": 1.0,
+        "average": 428.0
+    },
+    {
+        "type": "sell",
+        "id": "d29ee641-5095-4316-8471-a66707d93a97",
+        "amount": 1284.0,
+        "quantity": 26.0,
+        "average": 49.38461538461539
+    },
+    {
+        "type": "buy",
+        "id": "d0d8f13e-7021-4c26-afe1-7fd1532160b9",
+        "amount": 868.0,
+        "quantity": 16.0,
+        "average": 54.25
+    },
+    {
+        "type": "buy",
+        "id": "5ca0f5c8-9c80-4a78-b888-943d4a98e84e",
+        "amount": 827.0,
+        "quantity": 20.0,
+        "average": 41.35
+    },
+    {
+        "type": "sell",
+        "id": "99b01acc-1254-4ecb-98f3-01c5a982a9ca",
+        "amount": 830.0,
+        "quantity": 38.0,
+        "average": 21.842105263157894
+    },
+    {
+        "type": "sell",
+        "id": "fa9b4151-b19a-4d33-9c17-d7e07219efbb",
+        "amount": 438.0,
+        "quantity": 10.0,
+        "average": 43.8
+    },
+    {
+        "type": "sell",
+        "id": "fa01aab0-c0da-4098-aba5-f359a22347f0",
+        "amount": 2200.0,
+        "quantity": 33.0,
+        "average": 66.66666666666667
+    },
+    {
+        "type": "buy",
+        "id": "37be20fb-aaca-443a-8e39-3fa35ee4fa88",
+        "amount": 1319.0,
+        "quantity": 35.0,
+        "average": 37.68571428571428
+    },
+    {
+        "type": "sell",
+        "id": "0d0401ff-10e5-48b2-8f37-78cb7206440f",
+        "amount": 439.0,
+        "quantity": 3.0,
+        "average": 146.33333333333334
+    },
+    {
+        "type": "sell",
+        "id": "80e2fe3d-2446-4329-bd38-bd84509ef694",
+        "amount": 882.0,
+        "quantity": 27.0,
+        "average": 32.666666666666664
+    },
+    {
+        "type": "buy",
+        "id": "bbc01fe9-f3ed-4ed9-b7b0-83280ed39f11",
+        "amount": 1334.0,
+        "quantity": 24.0,
+        "average": 55.583333333333336
+    },
+    {
+        "type": "sell",
+        "id": "871df10a-fd26-433c-8ef7-495d4066120c",
+        "amount": 908.0,
+        "quantity": 27.0,
+        "average": 33.629629629629626
+    },
+    {
+        "type": "buy",
+        "id": "680cc932-4504-4522-bad1-328b0b7cb922",
+        "amount": 911.0,
+        "quantity": 50.0,
+        "average": 18.22
+    },
+    {
+        "type": "sell",
+        "id": "92e6e05a-16a6-4368-b247-1e06941a9c75",
+        "amount": 914.0,
+        "quantity": 38.0,
+        "average": 24.05263157894737
+    },
+    {
+        "type": "sell",
+        "id": "f2980a4b-282f-4f2b-8b7d-93f06b325e22",
+        "amount": 465.0,
+        "quantity": 3.0,
+        "average": 155.0
+    },
+    {
+        "type": "sell",
+        "id": "71d231a0-b409-4804-8169-4624efa2236f",
+        "amount": 934.0,
+        "quantity": 30.0,
+        "average": 31.133333333333333
+    },
+    {
+        "type": "buy",
+        "id": "7c80720f-cd35-484f-afc0-144991ad8e30",
+        "amount": 1856.0,
+        "quantity": 39.0,
+        "average": 47.58974358974359
+    },
+    {
+        "type": "buy",
+        "id": "ae8a169e-4721-4e2d-bb26-cf74dbebd552",
+        "amount": 403.0,
+        "quantity": 14.0,
+        "average": 28.785714285714285
+    },
+    {
+        "type": "sell",
+        "id": "807e189a-fe0f-4416-acdd-7b1f55439efa",
+        "amount": 806.0,
+        "quantity": 38.0,
+        "average": 21.210526315789473
+    },
+    {
+        "type": "buy",
+        "id": "9264b949-92b4-4c94-b68d-b3cb0a00e435",
+        "amount": 803.0,
+        "quantity": 35.0,
+        "average": 22.942857142857143
+    },
+    {
+        "type": "sell",
+        "id": "e43237f4-d95a-4265-a868-6915c3b242e4",
+        "amount": 800.0,
+        "quantity": 27.0,
+        "average": 29.62962962962963
+    },
+    {
+        "type": "buy",
+        "id": "35a5dfa6-fbee-483b-b38f-4ccecc92903f",
+        "amount": 405.0,
+        "quantity": 4.0,
+        "average": 101.25
+    },
+    {
+        "type": "buy",
+        "id": "9fb91c2d-9dd2-49c9-8e2a-64d851ac895a",
+        "amount": 1220.0,
+        "quantity": 48.0,
+        "average": 25.416666666666668
+    },
+    {
+        "type": "sell",
+        "id": "6333fa4a-477c-4e62-9f19-b8a0f8e06afa",
+        "amount": 1215.0,
+        "quantity": 23.0,
+        "average": 52.82608695652174
+    },
+    {
+        "type": "buy",
+        "id": "4b6ec000-40bd-4efa-81e0-5fae24720a99",
+        "amount": 451.0,
+        "quantity": 21.0,
+        "average": 21.476190476190474
+    },
+    {
+        "type": "sell",
+        "id": "972ec275-b40a-4724-b58a-8508f750170d",
+        "amount": 437.0,
+        "quantity": 2.0,
+        "average": 218.5
+    },
+    {
+        "type": "sell",
+        "id": "6bbdc43d-bff9-4f6e-8e0e-67f9e51718c5",
+        "amount": 902.0,
+        "quantity": 47.0,
+        "average": 19.19148936170213
+    },
+    {
+        "type": "buy",
+        "id": "8acc7444-1591-44db-9335-3295bbd3b0a3",
+        "amount": 1350.0,
+        "quantity": 33.0,
+        "average": 40.90909090909091
+    },
+    {
+        "type": "sell",
+        "id": "9cc23d30-a453-4fbe-a41a-4201b940c351",
+        "amount": 450.0,
+        "quantity": 11.0,
+        "average": 40.90909090909091
+    },
+    {
+        "type": "buy",
+        "id": "1e9ddbe4-4183-4501-a12d-b8ce081921cd",
+        "amount": 906.0,
+        "quantity": 17.0,
+        "average": 53.294117647058826
+    },
+    {
+        "type": "sell",
+        "id": "b854be59-8270-4ce5-8a5a-46f22a7ecc5f",
+        "amount": 448.0,
+        "quantity": 12.0,
+        "average": 37.333333333333336
+    },
+    {
+        "type": "buy",
+        "id": "1bfa8440-24ee-4cfb-80b2-baae0e300d13",
+        "amount": 904.0,
+        "quantity": 34.0,
+        "average": 26.58823529411765
+    },
+    {
+        "type": "sell",
+        "id": "16c1a006-51c8-4bda-b130-bddfd130ac94",
+        "amount": 426.0,
+        "quantity": 31.0,
+        "average": 13.741935483870968
+    },
+    {
+        "type": "sell",
+        "id": "9212171f-71ab-4577-81c4-c2b7f16102ff",
+        "amount": 1368.0,
+        "quantity": 35.0,
+        "average": 39.08571428571429
+    },
+    {
+        "type": "sell",
+        "id": "5d9b120c-a8f8-4b96-a2de-00fa44a2c653",
+        "amount": 456.0,
+        "quantity": 14.0,
+        "average": 32.57142857142857
+    },
+    {
+        "type": "buy",
+        "id": "eddb3bd6-a36c-402e-a428-a6162a415868",
+        "amount": 1374.0,
+        "quantity": 43.0,
+        "average": 31.953488372093023
+    },
+    {
+        "type": "buy",
+        "id": "47393cfb-b0c7-4028-beef-a8a76ffacd71",
+        "amount": 462.0,
+        "quantity": 8.0,
+        "average": 57.75
+    },
+    {
+        "type": "buy",
+        "id": "d4d7d748-31bb-4d1b-b2da-c7609c3ff749",
+        "amount": 462.0,
+        "quantity": 3.0,
+        "average": 154.0
+    },
+    {
+        "type": "buy",
+        "id": "1c69c658-3650-4480-972b-6a149d01722c",
+        "amount": 428.0,
+        "quantity": 21.0,
+        "average": 20.38095238095238
+    },
+    {
+        "type": "sell",
+        "id": "4be367cc-0326-4556-bd81-d23b0c458c0d",
+        "amount": 856.0,
+        "quantity": 26.0,
+        "average": 32.92307692307692
+    },
+    {
+        "type": "sell",
+        "id": "d9f7bec0-e4d7-4472-8935-7d0081714cbb",
+        "amount": 2310.0,
+        "quantity": 39.0,
+        "average": 59.23076923076923
+    },
+    {
+        "type": "sell",
+        "id": "6bf8ee4f-e1f5-423b-8f95-44f03eb89f3b",
+        "amount": 464.0,
+        "quantity": 31.0,
+        "average": 14.96774193548387
+    },
+    {
+        "type": "buy",
+        "id": "8eef8979-a9f4-4e32-8b2d-bfe14a1dec06",
+        "amount": 1393.0,
+        "quantity": 38.0,
+        "average": 36.6578947368421
+    },
+    {
+        "type": "sell",
+        "id": "eb5db7cc-47fc-4d9e-bf72-16b63bc33206",
+        "amount": 1401.0,
+        "quantity": 37.0,
+        "average": 37.86486486486486
+    },
+    {
+        "type": "buy",
+        "id": "4b158908-40ca-413e-9908-221760c31834",
+        "amount": 935.0,
+        "quantity": 27.0,
+        "average": 34.629629629629626
+    },
+    {
+        "type": "sell",
+        "id": "1ac32fb1-af8c-4975-9ee5-ac5fbcb79432",
+        "amount": 936.0,
+        "quantity": 36.0,
+        "average": 26.0
+    },
+    {
+        "type": "sell",
+        "id": "e0417968-7496-4a40-94d5-4e796c1b765a",
+        "amount": 468.0,
+        "quantity": 15.0,
+        "average": 31.2
+    },
+    {
+        "type": "buy",
+        "id": "43c69044-8973-4456-b358-2a2aa7b3dbb9",
+        "amount": 1382.0,
+        "quantity": 44.0,
+        "average": 31.40909090909091
+    },
+    {
+        "type": "sell",
+        "id": "4784a06c-3125-4a3f-b56a-e8ec03425d54",
+        "amount": 892.0,
+        "quantity": 48.0,
+        "average": 18.583333333333332
+    },
+    {
+        "type": "buy",
+        "id": "f8c92f25-290c-4e84-9f0a-7665693821ab",
+        "amount": 915.0,
+        "quantity": 47.0,
+        "average": 19.46808510638298
+    },
+    {
+        "type": "sell",
+        "id": "31edf1cc-82f5-4f34-8942-314e709c1ba8",
+        "amount": 938.0,
+        "quantity": 41.0,
+        "average": 22.878048780487806
+    },
+    {
+        "type": "buy",
+        "id": "3eda397e-d03c-4024-bcea-abf1bbb4bfdf",
+        "amount": 938.0,
+        "quantity": 41.0,
+        "average": 22.878048780487806
+    },
+    {
+        "type": "sell",
+        "id": "49087cb9-089d-4574-af5a-1c27c0812a71",
+        "amount": 408.0,
+        "quantity": 19.0,
+        "average": 21.473684210526315
+    },
+    {
+        "type": "buy",
+        "id": "96acbc8e-49fd-4739-a2c4-857d5faae40c",
+        "amount": 819.0,
+        "quantity": 35.0,
+        "average": 23.4
+    },
+    {
+        "type": "sell",
+        "id": "1559ba42-f6d3-4327-b32d-7463ccbb4707",
+        "amount": 822.0,
+        "quantity": 46.0,
+        "average": 17.869565217391305
+    },
+    {
+        "type": "sell",
+        "id": "9c9f880d-f299-4d69-9274-1f56595d1815",
+        "amount": 938.0,
+        "quantity": 41.0,
+        "average": 22.878048780487806
+    },
+    {
+        "type": "buy",
+        "id": "3bc203c1-ad13-4ccd-9b03-5b1259153d56",
+        "amount": 939.0,
+        "quantity": 36.0,
+        "average": 26.083333333333332
+    },
+    {
+        "type": "buy",
+        "id": "524320a6-2a4c-49f4-ae31-2029ee11cf38",
+        "amount": 470.0,
+        "quantity": 25.0,
+        "average": 18.8
+    },
+    {
+        "type": "buy",
+        "id": "2d875290-6af4-4652-8a3b-da72b0c2c39e",
+        "amount": 458.0,
+        "quantity": 2.0,
+        "average": 229.0
+    },
+    {
+        "type": "buy",
+        "id": "7548461b-a7de-4ccc-af0e-d9165c1200b1",
+        "amount": 834.0,
+        "quantity": 33.0,
+        "average": 25.272727272727273
+    },
+    {
+        "type": "buy",
+        "id": "c84b952c-94b9-420c-888f-baa8594c6a78",
+        "amount": 851.0,
+        "quantity": 14.0,
+        "average": 60.785714285714285
+    },
+    {
+        "type": "sell",
+        "id": "074caf1e-4b84-4fa6-874a-9564700f605b",
+        "amount": 1269.0,
+        "quantity": 44.0,
+        "average": 28.84090909090909
+    },
+    {
+        "type": "buy",
+        "id": "da134a6a-b08f-4d7d-8d8f-e88ce3f1b885",
+        "amount": 838.0,
+        "quantity": 33.0,
+        "average": 25.393939393939394
+    },
+    {
+        "type": "sell",
+        "id": "aeaf3382-d0a6-4cdf-9bf8-a09d469d8a39",
+        "amount": 830.0,
+        "quantity": 9.0,
+        "average": 92.22222222222223
+    },
+    {
+        "type": "buy",
+        "id": "aa9c14f5-bad4-490e-a58d-fc22c7f7dda6",
+        "amount": 844.0,
+        "quantity": 25.0,
+        "average": 33.76
+    },
+    {
+        "type": "sell",
+        "id": "cd642f64-8791-4485-9490-d021bdd2f482",
+        "amount": 858.0,
+        "quantity": 42.0,
+        "average": 20.428571428571427
+    },
+    {
+        "type": "buy",
+        "id": "f72ca610-2980-4add-89ed-aec3cb89b141",
+        "amount": 441.0,
+        "quantity": 8.0,
+        "average": 55.125
+    },
+    {
+        "type": "sell",
+        "id": "58c7bbc7-e81e-452c-bea0-8b8376adb748",
+        "amount": 423.0,
+        "quantity": 3.0,
+        "average": 141.0
+    },
+    {
+        "type": "sell",
+        "id": "bdc6f817-2a1a-4b64-b84c-344267ede191",
+        "amount": 414.0,
+        "quantity": 26.0,
+        "average": 15.923076923076923
+    },
+    {
+        "type": "sell",
+        "id": "1440a07d-d2f4-4fd6-823d-40e25aa11a1b",
+        "amount": 435.0,
+        "quantity": 2.0,
+        "average": 217.5
+    },
+    {
+        "type": "buy",
+        "id": "0c280909-ae85-496d-8983-40ea4bad98ce",
+        "amount": 1694.0,
+        "quantity": 38.0,
+        "average": 44.578947368421055
+    },
+    {
+        "type": "sell",
+        "id": "c8fe5a0d-ac97-40a7-bf93-9aa819866d1b",
+        "amount": 844.0,
+        "quantity": 14.0,
+        "average": 60.285714285714285
+    },
+    {
+        "type": "buy",
+        "id": "e0e7187b-4b5c-43a8-a596-025cfa0412b4",
+        "amount": 1258.0,
+        "quantity": 37.0,
+        "average": 34.0
+    },
+    {
+        "type": "sell",
+        "id": "4a197843-0d75-4728-9fd7-3ca435e595d8",
+        "amount": 814.0,
+        "quantity": 23.0,
+        "average": 35.391304347826086
+    },
+    {
+        "type": "sell",
+        "id": "abb35610-c9bc-4789-94d7-59f653cf61f3",
+        "amount": 882.0,
+        "quantity": 13.0,
+        "average": 67.84615384615384
+    },
+    {
+        "type": "sell",
+        "id": "7f73dfe3-cb1d-43ba-aea8-9b88771b876a",
+        "amount": 916.0,
+        "quantity": 5.0,
+        "average": 183.2
+    },
+    {
+        "type": "sell",
+        "id": "12cec568-86aa-4db9-a3da-33eefc24700a",
+        "amount": 469.0,
+        "quantity": 16.0,
+        "average": 29.3125
+    },
+    {
+        "type": "sell",
+        "id": "02addf6d-b193-4147-9d94-59c707ba3c3a",
+        "amount": 1410.0,
+        "quantity": 37.0,
+        "average": 38.108108108108105
+    },
+    {
+        "type": "buy",
+        "id": "d563ebb2-2190-4bd1-b9df-ece77f445647",
+        "amount": 2308.0,
+        "quantity": 47.0,
+        "average": 49.1063829787234
+    },
+    {
+        "type": "buy",
+        "id": "caeeb3dc-e0ff-4b10-9d5a-0cfa5cbe474c",
+        "amount": 470.0,
+        "quantity": 18.0,
+        "average": 26.11111111111111
+    },
+    {
+        "type": "sell",
+        "id": "f318eca1-bf95-4eac-a0eb-51f7c056a649",
+        "amount": 429.0,
+        "quantity": 2.0,
+        "average": 214.5
+    },
+    {
+        "type": "sell",
+        "id": "c2e89003-f7bc-4aae-8168-023091af3786",
+        "amount": 447.0,
+        "quantity": 10.0,
+        "average": 44.7
+    },
+    {
+        "type": "buy",
+        "id": "36666ba7-b10b-433f-872b-680ae8718e39",
+        "amount": 907.0,
+        "quantity": 13.0,
+        "average": 69.76923076923077
+    },
+    {
+        "type": "buy",
+        "id": "ce1bf654-e410-469a-92a0-503fdc09bdfb",
+        "amount": 460.0,
+        "quantity": 30.0,
+        "average": 15.333333333333334
+    },
+    {
+        "type": "buy",
+        "id": "adbebb0a-a0e1-4063-b345-569ffbec738d",
+        "amount": 423.0,
+        "quantity": 47.0,
+        "average": 9.0
+    },
+    {
+        "type": "sell",
+        "id": "1b6c9229-229d-42be-87eb-8a8052a57676",
+        "amount": 846.0,
+        "quantity": 50.0,
+        "average": 16.92
+    },
+    {
+        "type": "buy",
+        "id": "254bb6de-f97a-4cea-8354-5cc38c4377bc",
+        "amount": 827.0,
+        "quantity": 4.0,
+        "average": 206.75
+    },
+    {
+        "type": "buy",
+        "id": "8cce77d6-d2fc-42be-97b5-a38e74902417",
+        "amount": 1240.0,
+        "quantity": 40.0,
+        "average": 31.0
+    },
+    {
+        "type": "buy",
+        "id": "68b921a3-2fc8-48da-b804-a8747fe94ae6",
+        "amount": 830.0,
+        "quantity": 36.0,
+        "average": 23.055555555555557
+    },
+    {
+        "type": "sell",
+        "id": "d4c08374-fc47-4a32-9d29-9eff779bc5c3",
+        "amount": 1616.0,
+        "quantity": 35.0,
+        "average": 46.17142857142857
+    },
+    {
+        "type": "sell",
+        "id": "d1ecef60-21d1-4c48-a1ad-c83879bdbd26",
+        "amount": 427.0,
+        "quantity": 16.0,
+        "average": 26.6875
+    },
+    {
+        "type": "buy",
+        "id": "56e84317-b9e4-4164-b23b-5e779ff10d2e",
+        "amount": 875.0,
+        "quantity": 47.0,
+        "average": 18.617021276595743
+    },
+    {
+        "type": "buy",
+        "id": "17f5b2c9-4cd4-4ccc-8e30-9202371af474",
+        "amount": 405.0,
+        "quantity": 23.0,
+        "average": 17.608695652173914
+    },
+    {
+        "type": "sell",
+        "id": "7dd799de-e133-4f39-b202-e3234271be1e",
+        "amount": 810.0,
+        "quantity": 45.0,
+        "average": 18.0
+    },
+    {
+        "type": "buy",
+        "id": "fc7ab9a0-4f28-45b4-9998-2d552eeb15cd",
+        "amount": 448.0,
+        "quantity": 2.0,
+        "average": 224.0
+    },
+    {
+        "type": "buy",
+        "id": "40e40d42-4a8d-4327-acd7-0e5b73b85cca",
+        "amount": 1624.0,
+        "quantity": 48.0,
+        "average": 33.833333333333336
+    },
+    {
+        "type": "buy",
+        "id": "ec2dfec6-5702-4f46-b112-92dfc40eb6da",
+        "amount": 410.0,
+        "quantity": 6.0,
+        "average": 68.33333333333333
+    },
+    {
+        "type": "sell",
+        "id": "f905bfaf-7e89-44a1-a767-72eaf57a63e3",
+        "amount": 1230.0,
+        "quantity": 23.0,
+        "average": 53.47826086956522
+    },
+    {
+        "type": "sell",
+        "id": "6c276c68-95be-4fb8-a029-5b5ef84451e8",
+        "amount": 1344.0,
+        "quantity": 34.0,
+        "average": 39.529411764705884
+    },
+    {
+        "type": "sell",
+        "id": "ec05e464-4758-4344-8263-d4e6b855d9d6",
+        "amount": 1380.0,
+        "quantity": 50.0,
+        "average": 27.6
+    },
+    {
+        "type": "sell",
+        "id": "d14cfaba-4ab2-4983-b2c0-5cf5ee129e86",
+        "amount": 468.0,
+        "quantity": 1.0,
+        "average": 468.0
+    },
+    {
+        "type": "sell",
+        "id": "e6e24e00-06d7-4546-83b2-362cc065f0c9",
+        "amount": 1410.0,
+        "quantity": 38.0,
+        "average": 37.10526315789474
+    },
+    {
+        "type": "buy",
+        "id": "4fad59bf-e34f-4076-b135-00da64a2f81a",
+        "amount": 2316.0,
+        "quantity": 41.0,
+        "average": 56.48780487804878
+    },
+    {
+        "type": "buy",
+        "id": "774c9fb3-ee27-4c3c-bb30-98fb1e988dd3",
+        "amount": 470.0,
+        "quantity": 30.0,
+        "average": 15.666666666666666
+    },
+    {
+        "type": "buy",
+        "id": "c78a3d21-9729-4a40-bcce-2f6ea74e5caf",
+        "amount": 408.0,
+        "quantity": 8.0,
+        "average": 51.0
+    },
+    {
+        "type": "sell",
+        "id": "3609eb40-7b26-4aac-81bc-a45a64afe70f",
+        "amount": 816.0,
+        "quantity": 14.0,
+        "average": 58.285714285714285
+    },
+    {
+        "type": "sell",
+        "id": "1536885e-7d78-474a-abd8-66986c038759",
+        "amount": 432.0,
+        "quantity": 24.0,
+        "average": 18.0
+    },
+    {
+        "type": "buy",
+        "id": "f222469a-250f-4306-84f7-2b7bd7286c2a",
+        "amount": 876.0,
+        "quantity": 41.0,
+        "average": 21.365853658536587
+    },
+    {
+        "type": "sell",
+        "id": "bcb369a3-e760-4288-90f3-475c0ed2b3a6",
+        "amount": 888.0,
+        "quantity": 30.0,
+        "average": 29.6
+    },
+    {
+        "type": "buy",
+        "id": "8a9eba4b-b559-4a13-9479-23e4d9392cf7",
+        "amount": 904.0,
+        "quantity": 29.0,
+        "average": 31.17241379310345
+    },
+    {
+        "type": "sell",
+        "id": "48fcc6aa-b924-4967-9200-bbcecdd5106b",
+        "amount": 444.0,
+        "quantity": 26.0,
+        "average": 17.076923076923077
+    },
+    {
+        "type": "buy",
+        "id": "7016d9f3-8322-434d-8746-a59f5dcd6c87",
+        "amount": 904.0,
+        "quantity": 28.0,
+        "average": 32.285714285714285
+    },
+    {
+        "type": "sell",
+        "id": "ddb8899a-cb55-4416-9aa2-e1864629e121",
+        "amount": 453.0,
+        "quantity": 12.0,
+        "average": 37.75
+    },
+    {
+        "type": "sell",
+        "id": "a9aeefce-2583-47aa-960a-ec6f736e584a",
+        "amount": 1380.0,
+        "quantity": 23.0,
+        "average": 60.0
+    },
+    {
+        "type": "sell",
+        "id": "1bb7fca3-5605-4cb6-ba44-4c94bd55fed2",
+        "amount": 460.0,
+        "quantity": 12.0,
+        "average": 38.333333333333336
+    },
+    {
+        "type": "buy",
+        "id": "9f93a38c-f8de-4bf2-a277-297234782c60",
+        "amount": 1784.0,
+        "quantity": 35.0,
+        "average": 50.97142857142857
+    },
+    {
+        "type": "buy",
+        "id": "f57e7373-4960-40f0-8d95-528a28d37437",
+        "amount": 411.0,
+        "quantity": 15.0,
+        "average": 27.4
+    },
+    {
+        "type": "sell",
+        "id": "7fc35d23-96b5-40b3-a0fe-1445578e9c12",
+        "amount": 1233.0,
+        "quantity": 23.0,
+        "average": 53.608695652173914
+    },
+    {
+        "type": "sell",
+        "id": "1a3b0b49-ae0d-4a1f-a589-f333301f75cf",
+        "amount": 436.0,
+        "quantity": 18.0,
+        "average": 24.22222222222222
+    },
+    {
+        "type": "buy",
+        "id": "7f4b98f3-196f-456c-8c9f-113bfda8161c",
+        "amount": 1250.0,
+        "quantity": 44.0,
+        "average": 28.40909090909091
+    },
+    {
+        "type": "sell",
+        "id": "f3046960-469a-4a0f-a308-3d6a02e8371c",
+        "amount": 806.0,
+        "quantity": 46.0,
+        "average": 17.52173913043478
+    },
+    {
+        "type": "buy",
+        "id": "847e97d0-e010-4fc6-b7d4-fad7b2111279",
+        "amount": 807.0,
+        "quantity": 35.0,
+        "average": 23.057142857142857
+    },
+    {
+        "type": "sell",
+        "id": "01d39960-41b4-411d-98a7-238ebc41409e",
+        "amount": 808.0,
+        "quantity": 25.0,
+        "average": 32.32
+    },
+    {
+        "type": "sell",
+        "id": "3def46e5-0c7a-4e79-a476-c8acc9ee90c0",
+        "amount": 468.0,
+        "quantity": 8.0,
+        "average": 58.5
+    },
+    {
+        "type": "sell",
+        "id": "4a560d83-2be4-4ac2-bfd8-d1aa75100da0",
+        "amount": 1410.0,
+        "quantity": 50.0,
+        "average": 28.2
+    },
+    {
+        "type": "buy",
+        "id": "e7515b8f-b2cb-44bc-9db1-50a276ed4937",
+        "amount": 1409.0,
+        "quantity": 35.0,
+        "average": 40.25714285714286
+    },
+    {
+        "type": "buy",
+        "id": "d7b44bd0-f4ad-48ca-9441-066db26295bf",
+        "amount": 815.0,
+        "quantity": 14.0,
+        "average": 58.214285714285715
+    },
+    {
+        "type": "buy",
+        "id": "1e77ecf2-a569-4e8b-9ed0-6c4a1413e1f7",
+        "amount": 819.0,
+        "quantity": 15.0,
+        "average": 54.6
+    },
+    {
+        "type": "buy",
+        "id": "1508c9e3-d287-464b-a753-ec2bd1c0e15e",
+        "amount": 411.0,
+        "quantity": 27.0,
+        "average": 15.222222222222221
+    },
+    {
+        "type": "sell",
+        "id": "0687e15a-b48c-4c10-871a-a6f941f968cd",
+        "amount": 1644.0,
+        "quantity": 39.0,
+        "average": 42.15384615384615
+    },
+    {
+        "type": "buy",
+        "id": "1eacbfb8-0d5c-4b6f-993b-eef2566117b8",
+        "amount": 839.0,
+        "quantity": 17.0,
+        "average": 49.35294117647059
+    },
+    {
+        "type": "sell",
+        "id": "15df84e6-ed00-4938-a950-e66cfb3b8e08",
+        "amount": 856.0,
+        "quantity": 32.0,
+        "average": 26.75
+    },
+    {
+        "type": "sell",
+        "id": "21a55e7b-d4dd-476b-81ee-6451a82ac18a",
+        "amount": 462.0,
+        "quantity": 8.0,
+        "average": 57.75
+    },
+    {
+        "type": "buy",
+        "id": "1f1a9b52-9a7e-4212-af78-ea44bd2cba8e",
+        "amount": 925.0,
+        "quantity": 37.0,
+        "average": 25.0
+    },
+    {
+        "type": "sell",
+        "id": "9ba668fb-57e2-47ca-8c05-4e470401e579",
+        "amount": 427.0,
+        "quantity": 12.0,
+        "average": 35.583333333333336
+    },
+    {
+        "type": "sell",
+        "id": "1eab7a0a-73c3-4606-b223-52a858ba5ab2",
+        "amount": 423.0,
+        "quantity": 11.0,
+        "average": 38.45454545454545
+    },
+    {
+        "type": "sell",
+        "id": "960ae13f-343e-4d69-be96-b70eb17eb0aa",
+        "amount": 408.0,
+        "quantity": 3.0,
+        "average": 136.0
+    },
+    {
+        "type": "sell",
+        "id": "7ce9b58b-a358-4928-9402-a97a93a688ae",
+        "amount": 441.0,
+        "quantity": 14.0,
+        "average": 31.5
+    },
+    {
+        "type": "sell",
+        "id": "e74b9430-3b46-456c-a2bd-2d7f1960aeb6",
+        "amount": 405.0,
+        "quantity": 2.0,
+        "average": 202.5
+    },
+    {
+        "type": "buy",
+        "id": "f1b91a34-1a22-41db-9d00-df69e9e73ca3",
+        "amount": 2091.0,
+        "quantity": 32.0,
+        "average": 65.34375
+    },
+    {
+        "type": "sell",
+        "id": "44803c6b-6fb5-4323-841e-63c80b433381",
+        "amount": 828.0,
+        "quantity": 27.0,
+        "average": 30.666666666666668
+    },
+    {
+        "type": "sell",
+        "id": "79c0934f-5164-4845-bffa-3f88ab5cf599",
+        "amount": 452.0,
+        "quantity": 3.0,
+        "average": 150.66666666666666
+    },
+    {
+        "type": "buy",
+        "id": "6f2f1e4e-adc0-47ac-b7f8-33cf9162b155",
+        "amount": 915.0,
+        "quantity": 4.0,
+        "average": 228.75
+    },
+    {
+        "type": "buy",
+        "id": "a3e22968-2320-4b42-aafc-2c65ca003e38",
+        "amount": 410.0,
+        "quantity": 23.0,
+        "average": 17.82608695652174
+    },
+    {
+        "type": "sell",
+        "id": "74689918-bcc0-4375-9705-f5991757c706",
+        "amount": 820.0,
+        "quantity": 32.0,
+        "average": 25.625
+    },
+    {
+        "type": "buy",
+        "id": "0d3d5e64-eb30-4096-b18a-d5c9fc696591",
+        "amount": 1252.0,
+        "quantity": 42.0,
+        "average": 29.80952380952381
+    },
+    {
+        "type": "buy",
+        "id": "a1777e6b-c8a3-4bf6-811c-e9ae83642412",
+        "amount": 428.0,
+        "quantity": 10.0,
+        "average": 42.8
+    },
+    {
+        "type": "buy",
+        "id": "55fcf290-6219-4c2a-b4fc-72203416858a",
+        "amount": 1283.0,
+        "quantity": 34.0,
+        "average": 37.73529411764706
+    },
+    {
+        "type": "sell",
+        "id": "8e81c5bc-dea2-4ea0-9f7c-b394268713fd",
+        "amount": 402.0,
+        "quantity": 6.0,
+        "average": 67.0
+    },
+    {
+        "type": "buy",
+        "id": "89955158-b472-4fa8-9441-fd4d2fb4fb5b",
+        "amount": 426.0,
+        "quantity": 1.0,
+        "average": 426.0
+    },
+    {
+        "type": "sell",
+        "id": "bdce5f7c-e5e6-4884-b76a-bc9fd7fb5605",
+        "amount": 422.0,
+        "quantity": 26.0,
+        "average": 16.23076923076923
+    },
+    {
+        "type": "sell",
+        "id": "5cd9532b-bfd7-44c0-9a57-1f8122c6a30c",
+        "amount": 852.0,
+        "quantity": 15.0,
+        "average": 56.8
+    },
+    {
+        "type": "buy",
+        "id": "cd55e642-1d91-47be-a82b-a376b2b6475e",
+        "amount": 1276.0,
+        "quantity": 46.0,
+        "average": 27.73913043478261
+    },
+    {
+        "type": "buy",
+        "id": "9c689b08-fd4e-4617-9ede-f473ecc7ac4e",
+        "amount": 428.0,
+        "quantity": 9.0,
+        "average": 47.55555555555556
+    },
+    {
+        "type": "sell",
+        "id": "fdf58767-7edd-4cfa-95a5-ef9ff59561f5",
+        "amount": 2568.0,
+        "quantity": 42.0,
+        "average": 61.142857142857146
+    },
+    {
+        "type": "sell",
+        "id": "ec597b3a-643d-4068-b3c0-9834bc324248",
+        "amount": 447.0,
+        "quantity": 41.0,
+        "average": 10.902439024390244
+    },
+    {
+        "type": "buy",
+        "id": "e2a3eb18-1374-457b-97ef-8fa6863ab9c9",
+        "amount": 875.0,
+        "quantity": 44.0,
+        "average": 19.886363636363637
+    },
+    {
+        "type": "sell",
+        "id": "c0e27b5c-3ed3-4442-8e7b-6c0cfc858ab7",
+        "amount": 428.0,
+        "quantity": 1.0,
+        "average": 428.0
+    },
+    {
+        "type": "buy",
+        "id": "53dcd428-3898-4329-85bb-11eab56e2834",
+        "amount": 888.0,
+        "quantity": 10.0,
+        "average": 88.8
+    },
+    {
+        "type": "buy",
+        "id": "a7c32ca7-d75c-4172-b735-266bc9cf7ece",
+        "amount": 432.0,
+        "quantity": 33.0,
+        "average": 13.090909090909092
+    },
+    {
+        "type": "sell",
+        "id": "bdee3ce1-f068-470a-864f-a53f2d31d31d",
+        "amount": 864.0,
+        "quantity": 43.0,
+        "average": 20.093023255813954
+    },
+    {
+        "type": "buy",
+        "id": "9cb9d4d0-fb91-463b-9d91-112ec208884c",
+        "amount": 892.0,
+        "quantity": 18.0,
+        "average": 49.55555555555556
+    },
+    {
+        "type": "sell",
+        "id": "d8a60ad8-9b3c-4748-ae7a-0ef351672c90",
+        "amount": 1380.0,
+        "quantity": 36.0,
+        "average": 38.333333333333336
+    },
+    {
+        "type": "buy",
+        "id": "0cff595b-3d72-4a44-96a4-312af8d118b4",
+        "amount": 922.0,
+        "quantity": 40.0,
+        "average": 23.05
+    },
+    {
+        "type": "sell",
+        "id": "7c345926-9ef2-494e-b5d9-77f4c50952db",
+        "amount": 924.0,
+        "quantity": 46.0,
+        "average": 20.08695652173913
+    },
+    {
+        "type": "sell",
+        "id": "5186dff2-7f4b-49af-bbb5-dc3474abc3a4",
+        "amount": 462.0,
+        "quantity": 6.0,
+        "average": 77.0
+    },
+    {
+        "type": "buy",
+        "id": "e61e3558-a28e-4295-99c7-b3ef65b1e022",
+        "amount": 1338.0,
+        "quantity": 37.0,
+        "average": 36.16216216216216
+    },
+    {
+        "type": "sell",
+        "id": "37e64ffb-08d3-482b-9463-f5d003cd3d03",
+        "amount": 828.0,
+        "quantity": 29.0,
+        "average": 28.551724137931036
+    },
+    {
+        "type": "sell",
+        "id": "75f182aa-97d7-4edd-8f7d-10cafa3c47cc",
+        "amount": 1389.0,
+        "quantity": 35.0,
+        "average": 39.68571428571428
+    },
+    {
+        "type": "sell",
+        "id": "9fa9cced-04c9-4718-b12e-49f6529ec85b",
+        "amount": 463.0,
+        "quantity": 39.0,
+        "average": 11.871794871794872
+    },
+    {
+        "type": "buy",
+        "id": "fa7081d7-23ae-42af-905b-8f2b32d94410",
+        "amount": 926.0,
+        "quantity": 44.0,
+        "average": 21.045454545454547
+    },
+    {
+        "type": "buy",
+        "id": "c8b7921f-0982-44b2-8352-80ce6a85349d",
+        "amount": 848.0,
+        "quantity": 38.0,
+        "average": 22.31578947368421
+    },
+    {
+        "type": "sell",
+        "id": "966a81bc-cbbe-4947-b06e-be0e95f01f68",
+        "amount": 868.0,
+        "quantity": 24.0,
+        "average": 36.166666666666664
+    },
+    {
+        "type": "buy",
+        "id": "e9361ce6-f072-4906-a830-f67535f0536b",
+        "amount": 464.0,
+        "quantity": 12.0,
+        "average": 38.666666666666664
+    },
+    {
+        "type": "buy",
+        "id": "6630dec6-e56b-4528-ac3e-f2d654e32417",
+        "amount": 846.0,
+        "quantity": 38.0,
+        "average": 22.263157894736842
+    },
+    {
+        "type": "sell",
+        "id": "ff5a25a2-ce8c-4446-a686-725bef9e175f",
+        "amount": 824.0,
+        "quantity": 43.0,
+        "average": 19.162790697674417
+    },
+    {
+        "type": "buy",
+        "id": "ecc884d1-bee5-418c-9b8b-d7b0f905ca61",
+        "amount": 832.0,
+        "quantity": 18.0,
+        "average": 46.22222222222222
+    },
+    {
+        "type": "sell",
+        "id": "0492a754-b72f-441d-b5b6-9844f1db614e",
+        "amount": 840.0,
+        "quantity": 34.0,
+        "average": 24.705882352941178
+    },
+    {
+        "type": "sell",
+        "id": "88babc38-11c5-4169-8b7b-8d9376275436",
+        "amount": 458.0,
+        "quantity": 9.0,
+        "average": 50.888888888888886
+    },
+    {
+        "type": "sell",
+        "id": "e5559aaa-e9c7-4fb2-b937-07d7c68a4982",
+        "amount": 425.0,
+        "quantity": 15.0,
+        "average": 28.333333333333332
+    },
+    {
+        "type": "buy",
+        "id": "adf99841-8e5d-429c-9ba8-670ac12aab5f",
+        "amount": 1313.0,
+        "quantity": 38.0,
+        "average": 34.55263157894737
+    },
+    {
+        "type": "buy",
+        "id": "a63ad5a7-64c9-468d-bc2b-2885166ae65d",
+        "amount": 850.0,
+        "quantity": 47.0,
+        "average": 18.085106382978722
+    },
+    {
+        "type": "sell",
+        "id": "fc9005c1-d17e-401c-af15-0eb1b0a4a569",
+        "amount": 1290.0,
+        "quantity": 41.0,
+        "average": 31.463414634146343
+    },
+    {
+        "type": "buy",
+        "id": "b5fe39b3-e3d1-4f38-a716-0ede8d08244a",
+        "amount": 845.0,
+        "quantity": 16.0,
+        "average": 52.8125
+    },
+    {
+        "type": "sell",
+        "id": "7901b600-45a5-4a0a-99d9-d67161de5562",
+        "amount": 830.0,
+        "quantity": 18.0,
+        "average": 46.111111111111114
+    },
+    {
+        "type": "buy",
+        "id": "cb938486-2776-4089-8974-aa6eaebc6fa6",
+        "amount": 831.0,
+        "quantity": 20.0,
+        "average": 41.55
+    },
+    {
+        "type": "buy",
+        "id": "c3305193-e27c-4235-9882-671424ff3f52",
+        "amount": 416.0,
+        "quantity": 7.0,
+        "average": 59.42857142857143
+    },
+    {
+        "type": "sell",
+        "id": "0c00f269-c103-4023-82ae-87cd833be083",
+        "amount": 1248.0,
+        "quantity": 41.0,
+        "average": 30.4390243902439
+    },
+    {
+        "type": "buy",
+        "id": "46001043-a8db-4597-b016-322796e559e6",
+        "amount": 835.0,
+        "quantity": 47.0,
+        "average": 17.76595744680851
+    },
+    {
+        "type": "sell",
+        "id": "0f887750-50ab-43ac-ab17-ee2a67b0951a",
+        "amount": 838.0,
+        "quantity": 36.0,
+        "average": 23.27777777777778
+    },
+    {
+        "type": "buy",
+        "id": "39978a89-dbf7-4faa-abc3-752970feeb30",
+        "amount": 1227.0,
+        "quantity": 41.0,
+        "average": 29.926829268292682
+    },
+    {
+        "type": "buy",
+        "id": "bac0593d-4008-4fba-8557-9337b9089830",
+        "amount": 406.0,
+        "quantity": 18.0,
+        "average": 22.555555555555557
+    },
+    {
+        "type": "sell",
+        "id": "97894365-740b-4e06-b7fb-867cc0f34fbd",
+        "amount": 1218.0,
+        "quantity": 46.0,
+        "average": 26.47826086956522
+    },
+    {
+        "type": "buy",
+        "id": "6c6635b0-7d95-48a1-ba9e-7c98d3e78c3f",
+        "amount": 424.0,
+        "quantity": 4.0,
+        "average": 106.0
+    },
+    {
+        "type": "sell",
+        "id": "6d4d30b1-0242-4501-921d-3417cb788484",
+        "amount": 848.0,
+        "quantity": 12.0,
+        "average": 70.66666666666667
+    },
+    {
+        "type": "sell",
+        "id": "64c991ae-ae2e-4b89-84d8-c4df61255208",
+        "amount": 429.0,
+        "quantity": 3.0,
+        "average": 143.0
+    },
+    {
+        "type": "buy",
+        "id": "7d053e20-29e7-4f8f-9c6a-380ecbd07eec",
+        "amount": 860.0,
+        "quantity": 42.0,
+        "average": 20.476190476190474
+    },
+    {
+        "type": "sell",
+        "id": "b25e075e-a528-45c6-ab9b-7d17482f1a7d",
+        "amount": 862.0,
+        "quantity": 42.0,
+        "average": 20.523809523809526
+    },
+    {
+        "type": "sell",
+        "id": "4247504e-2c57-4891-9e84-9faddd0af5de",
+        "amount": 441.0,
+        "quantity": 7.0,
+        "average": 63.0
+    },
+    {
+        "type": "sell",
+        "id": "21571f84-8004-4bdb-80c1-d30d84f05154",
+        "amount": 445.0,
+        "quantity": 13.0,
+        "average": 34.23076923076923
+    },
+    {
+        "type": "sell",
+        "id": "98dbab14-9dd2-4ef3-b3fb-bd0910791c2d",
+        "amount": 451.0,
+        "quantity": 8.0,
+        "average": 56.375
+    },
+    {
+        "type": "buy",
+        "id": "67a8bd52-15e9-486a-9de0-5c5be4f9e92a",
+        "amount": 2223.0,
+        "quantity": 39.0,
+        "average": 57.0
+    },
+    {
+        "type": "buy",
+        "id": "e1d1ac8f-1ddb-4a47-82b8-36691a2e9ad6",
+        "amount": 839.0,
+        "quantity": 17.0,
+        "average": 49.35294117647059
+    },
+    {
+        "type": "buy",
+        "id": "10ab489e-2bad-49af-8804-5ea28d4c2ae0",
+        "amount": 415.0,
+        "quantity": 34.0,
+        "average": 12.205882352941176
+    },
+    {
+        "type": "sell",
+        "id": "e4b97713-0dcc-4dd1-90c1-ba42c060707f",
+        "amount": 1245.0,
+        "quantity": 44.0,
+        "average": 28.295454545454547
+    },
+    {
+        "type": "buy",
+        "id": "e6fb69bb-a805-4da5-a583-066f11edd11d",
+        "amount": 830.0,
+        "quantity": 5.0,
+        "average": 166.0
+    },
+    {
+        "type": "sell",
+        "id": "05e54ed8-41fd-4a2b-8e56-b20ad13f34fa",
+        "amount": 830.0,
+        "quantity": 19.0,
+        "average": 43.68421052631579
+    },
+    {
+        "type": "buy",
+        "id": "4c3ec90e-a588-45ed-9bc7-9dd85af8b50c",
+        "amount": 1633.0,
+        "quantity": 41.0,
+        "average": 39.829268292682926
+    },
+    {
+        "type": "sell",
+        "id": "169f75f8-c04f-4511-a1af-087457c5c79a",
+        "amount": 804.0,
+        "quantity": 14.0,
+        "average": 57.42857142857143
+    },
+    {
+        "type": "sell",
+        "id": "485a56c3-5d25-452e-afd0-6e0813d2090f",
+        "amount": 451.0,
+        "quantity": 29.0,
+        "average": 15.551724137931034
+    },
+    {
+        "type": "buy",
+        "id": "91fc5b84-201b-498e-91b6-2f97c4fc14ed",
+        "amount": 889.0,
+        "quantity": 32.0,
+        "average": 27.78125
+    },
+    {
+        "type": "buy",
+        "id": "18d4e284-903a-4c32-8929-7f876a57d1ae",
+        "amount": 438.0,
+        "quantity": 1.0,
+        "average": 438.0
+    },
+    {
+        "type": "sell",
+        "id": "0fd29de9-b5e4-42fa-8370-73156c50fb28",
+        "amount": 1314.0,
+        "quantity": 11.0,
+        "average": 119.45454545454545
+    },
+    {
+        "type": "sell",
+        "id": "5264a4a5-13c7-4e3e-b731-144a988b9c84",
+        "amount": 453.0,
+        "quantity": 23.0,
+        "average": 19.695652173913043
+    },
+    {
+        "type": "buy",
+        "id": "ee874b90-6828-42e6-97ee-2bb2c21b6dc9",
+        "amount": 1346.0,
+        "quantity": 40.0,
+        "average": 33.65
+    },
+    {
+        "type": "sell",
+        "id": "0dc30dc7-1893-46d2-b0ed-4ed6056051a7",
+        "amount": 1365.0,
+        "quantity": 42.0,
+        "average": 32.5
+    },
+    {
+        "type": "buy",
+        "id": "b2e57773-cad8-468d-b9f7-bd26c407e96e",
+        "amount": 911.0,
+        "quantity": 48.0,
+        "average": 18.979166666666668
+    },
+    {
+        "type": "sell",
+        "id": "89cb2378-7437-4f74-9fd2-67f43bebf488",
+        "amount": 912.0,
+        "quantity": 27.0,
+        "average": 33.77777777777778
+    },
+    {
+        "type": "buy",
+        "id": "ee279777-74a3-42e3-b4ce-414fb833d963",
+        "amount": 917.0,
+        "quantity": 14.0,
+        "average": 65.5
+    },
+    {
+        "type": "sell",
+        "id": "2e24aa4c-00f3-4b57-bd06-134b90ee00c9",
+        "amount": 922.0,
+        "quantity": 14.0,
+        "average": 65.85714285714286
+    },
+    {
+        "type": "buy",
+        "id": "f6a157dc-d764-4258-be8e-358909089ce2",
+        "amount": 925.0,
+        "quantity": 32.0,
+        "average": 28.90625
+    },
+    {
+        "type": "sell",
+        "id": "6c4e560a-dc86-4320-8178-63e939e24cbc",
+        "amount": 1392.0,
+        "quantity": 48.0,
+        "average": 29.0
+    },
+    {
+        "type": "buy",
+        "id": "a60c14c4-33cb-48af-afdb-321338b14f82",
+        "amount": 928.0,
+        "quantity": 17.0,
+        "average": 54.588235294117645
+    },
+    {
+        "type": "sell",
+        "id": "329b35c8-9ffd-45c1-86d6-040e22438efa",
+        "amount": 419.0,
+        "quantity": 23.0,
+        "average": 18.217391304347824
+    },
+    {
+        "type": "sell",
+        "id": "6a5605ef-3e7d-4c48-b490-7159e4d70e10",
+        "amount": 439.0,
+        "quantity": 26.0,
+        "average": 16.884615384615383
+    },
+    {
+        "type": "buy",
+        "id": "8653af1a-a614-4ffb-94fa-3ad305a43fc3",
+        "amount": 903.0,
+        "quantity": 37.0,
+        "average": 24.405405405405407
+    },
+    {
+        "type": "buy",
+        "id": "92830d59-8429-49d6-8fa1-4f458b631278",
+        "amount": 460.0,
+        "quantity": 27.0,
+        "average": 17.037037037037038
+    },
+    {
+        "type": "sell",
+        "id": "0086e3cf-3211-4ad6-a531-0c5228e9b891",
+        "amount": 920.0,
+        "quantity": 49.0,
+        "average": 18.775510204081634
+    },
+    {
+        "type": "buy",
+        "id": "11a184f4-8b59-46c8-bdc6-c1d4b192905f",
+        "amount": 924.0,
+        "quantity": 33.0,
+        "average": 28.0
+    },
+    {
+        "type": "sell",
+        "id": "b7cb7bd3-743c-4f5d-bc6c-857a29d04e0c",
+        "amount": 403.0,
+        "quantity": 4.0,
+        "average": 100.75
+    },
+    {
+        "type": "sell",
+        "id": "72b3456d-72b1-443c-a5b2-44ed29e161be",
+        "amount": 1856.0,
+        "quantity": 49.0,
+        "average": 37.87755102040816
+    },
+    {
+        "type": "buy",
+        "id": "ae0d4dcf-1fcd-41ba-8f31-1c165e31ec09",
+        "amount": 928.0,
+        "quantity": 50.0,
+        "average": 18.56
+    },
+    {
+        "type": "sell",
+        "id": "983ef0eb-5941-4528-86a4-40174dd95b07",
+        "amount": 430.0,
+        "quantity": 14.0,
+        "average": 30.714285714285715
+    },
+    {
+        "type": "buy",
+        "id": "e547f24c-0b7d-4a3a-bee3-24b8c99076d3",
+        "amount": 464.0,
+        "quantity": 11.0,
+        "average": 42.18181818181818
+    },
+    {
+        "type": "sell",
+        "id": "dfc59660-ce09-41e5-84fe-ad0d3daf90ed",
+        "amount": 1392.0,
+        "quantity": 46.0,
+        "average": 30.26086956521739
+    },
+    {
+        "type": "buy",
+        "id": "71b63f14-1af0-4f7c-9092-060193aa0a5b",
+        "amount": 928.0,
+        "quantity": 19.0,
+        "average": 48.8421052631579
+    },
+    {
+        "type": "sell",
+        "id": "c46382c6-f5e9-4932-b575-49ea96104f8d",
+        "amount": 928.0,
+        "quantity": 19.0,
+        "average": 48.8421052631579
+    },
+    {
+        "type": "buy",
+        "id": "833d03e3-fa4a-4f35-940d-ed2b1ac97c11",
+        "amount": 929.0,
+        "quantity": 28.0,
+        "average": 33.17857142857143
+    },
+    {
+        "type": "buy",
+        "id": "91a9950a-681e-470b-af7d-dabf2209ff74",
+        "amount": 465.0,
+        "quantity": 2.0,
+        "average": 232.5
+    },
+    {
+        "type": "buy",
+        "id": "3dfd4d96-2d28-4d45-a3a8-901e91b23973",
+        "amount": 1278.0,
+        "quantity": 43.0,
+        "average": 29.72093023255814
+    },
+    {
+        "type": "sell",
+        "id": "47d1d680-7027-4fdc-870d-86c2c123f269",
+        "amount": 890.0,
+        "quantity": 26.0,
+        "average": 34.23076923076923
+    },
+    {
+        "type": "buy",
+        "id": "f55bfb66-0d24-44be-8f22-78bd73508bcc",
+        "amount": 864.0,
+        "quantity": 22.0,
+        "average": 39.27272727272727
+    },
+    {
+        "type": "sell",
+        "id": "a04d1e9b-917d-4e8b-bf25-3059ea7bbb7e",
+        "amount": 838.0,
+        "quantity": 23.0,
+        "average": 36.43478260869565
+    },
+    {
+        "type": "buy",
+        "id": "e2a16c6d-71ab-477f-8ca8-50bc922ccb2a",
+        "amount": 455.0,
+        "quantity": 6.0,
+        "average": 75.83333333333333
+    },
+    {
+        "type": "sell",
+        "id": "8e3e473e-406e-491e-ba7b-8203cc94ccd8",
+        "amount": 910.0,
+        "quantity": 7.0,
+        "average": 130.0
+    },
+    {
+        "type": "sell",
+        "id": "c732faa0-c918-47eb-b578-cbc47bb45d96",
+        "amount": 1395.0,
+        "quantity": 33.0,
+        "average": 42.27272727272727
+    },
+    {
+        "type": "sell",
+        "id": "5ea8f9b6-c55b-4baa-b46d-f543d4c903e7",
+        "amount": 465.0,
+        "quantity": 6.0,
+        "average": 77.5
+    },
+    {
+        "type": "buy",
+        "id": "928118fc-7969-4ea1-b0d9-787b1fa3d699",
+        "amount": 466.0,
+        "quantity": 4.0,
+        "average": 116.5
+    },
+    {
+        "type": "sell",
+        "id": "4946980d-c5d9-4d07-8d47-2fd499465437",
+        "amount": 932.0,
+        "quantity": 10.0,
+        "average": 93.2
+    },
+    {
+        "type": "sell",
+        "id": "6fbe5a2c-57a6-41b9-af29-1e42e404039a",
+        "amount": 467.0,
+        "quantity": 23.0,
+        "average": 20.304347826086957
+    },
+    {
+        "type": "buy",
+        "id": "e5abc687-83c5-42bc-bbca-a721a96f967f",
+        "amount": 933.0,
+        "quantity": 29.0,
+        "average": 32.172413793103445
+    },
+    {
+        "type": "buy",
+        "id": "9afed1ec-afde-4809-9bdc-7ae4e2e3f232",
+        "amount": 1785.0,
+        "quantity": 14.0,
+        "average": 127.5
+    },
+    {
+        "type": "sell",
+        "id": "e8f72311-de89-4c72-9f8f-36a9c089499a",
+        "amount": 800.0,
+        "quantity": 41.0,
+        "average": 19.51219512195122
+    },
+    {
+        "type": "sell",
+        "id": "103c156f-d3f9-4e53-90b6-4695ff3bcaaf",
+        "amount": 468.0,
+        "quantity": 3.0,
+        "average": 156.0
+    },
+    {
+        "type": "sell",
+        "id": "94563c77-a190-4ae8-8699-acdf75fc589f",
+        "amount": 469.0,
+        "quantity": 20.0,
+        "average": 23.45
+    },
+    {
+        "type": "sell",
+        "id": "55d43979-13db-4a49-bfc1-06d3bf31dbf1",
+        "amount": 942.0,
+        "quantity": 40.0,
+        "average": 23.55
+    },
+    {
+        "type": "buy",
+        "id": "7bc74395-28fc-44c8-9d39-6d32593853d1",
+        "amount": 1879.0,
+        "quantity": 42.0,
+        "average": 44.73809523809524
+    },
+    {
+        "type": "sell",
+        "id": "aa9cb811-904d-45a8-b78d-d4dda3b021fb",
+        "amount": 942.0,
+        "quantity": 32.0,
+        "average": 29.4375
+    },
+    {
+        "type": "buy",
+        "id": "c4e1d65b-a91f-475b-90cd-409c98f4f0bc",
+        "amount": 942.0,
+        "quantity": 31.0,
+        "average": 30.387096774193548
+    },
+    {
+        "type": "sell",
+        "id": "19564aa2-782d-448f-8eef-6730614472df",
+        "amount": 460.0,
+        "quantity": 11.0,
+        "average": 41.81818181818182
+    },
+    {
+        "type": "sell",
+        "id": "b9b4dacd-29f7-4ed0-9c1b-8813845d8baa",
+        "amount": 440.0,
+        "quantity": 27.0,
+        "average": 16.296296296296298
+    },
+    {
+        "type": "buy",
+        "id": "06299559-9b95-4e5c-80e1-31a3cf0bf9ad",
+        "amount": 1328.0,
+        "quantity": 46.0,
+        "average": 28.869565217391305
+    },
+    {
+        "type": "sell",
+        "id": "9cc263f1-63e6-44c9-9179-b4aa33fd74f9",
+        "amount": 856.0,
+        "quantity": 32.0,
+        "average": 26.75
+    },
+    {
+        "type": "buy",
+        "id": "26fdb1aa-87c3-49cd-a1e3-6fb383affed3",
+        "amount": 853.0,
+        "quantity": 45.0,
+        "average": 18.955555555555556
+    },
+    {
+        "type": "sell",
+        "id": "36006a22-4cfb-45c9-8fd4-cdcc158f6f72",
+        "amount": 850.0,
+        "quantity": 28.0,
+        "average": 30.357142857142858
+    },
+    {
+        "type": "buy",
+        "id": "3c823285-8295-4f34-93cc-889665999695",
+        "amount": 471.0,
+        "quantity": 9.0,
+        "average": 52.333333333333336
+    },
+    {
+        "type": "buy",
+        "id": "458f399b-44d6-4c49-ad60-3a2ab08c6ec5",
+        "amount": 1242.0,
+        "quantity": 48.0,
+        "average": 25.875
+    },
+    {
+        "type": "buy",
+        "id": "b274f6c5-2a85-43f2-a645-4d48d99aef54",
+        "amount": 417.0,
+        "quantity": 35.0,
+        "average": 11.914285714285715
+    },
+    {
+        "type": "sell",
+        "id": "a3173bd7-a2ac-4912-b593-37b7f562a689",
+        "amount": 1251.0,
+        "quantity": 46.0,
+        "average": 27.195652173913043
+    },
+    {
+        "type": "buy",
+        "id": "433f17f2-c6b7-457f-98c5-ceff6ab879cf",
+        "amount": 420.0,
+        "quantity": 10.0,
+        "average": 42.0
+    },
+    {
+        "type": "buy",
+        "id": "7f9d74bd-8d07-4f37-8079-62e77625356c",
+        "amount": 1256.0,
+        "quantity": 14.0,
+        "average": 89.71428571428571
+    },
+    {
+        "type": "buy",
+        "id": "c5b439ce-0dd3-4ad3-9f19-d40a234f76e0",
+        "amount": 420.0,
+        "quantity": 14.0,
+        "average": 30.0
+    },
+    {
+        "type": "sell",
+        "id": "e2103b66-f69e-44e7-86a4-e220c6a56d88",
+        "amount": 1680.0,
+        "quantity": 45.0,
+        "average": 37.333333333333336
+    },
+    {
+        "type": "buy",
+        "id": "8e5d95ee-908d-4d58-bc08-a645fe74a44a",
+        "amount": 822.0,
+        "quantity": 33.0,
+        "average": 24.90909090909091
+    },
+    {
+        "type": "sell",
+        "id": "475e9cb2-8eb0-4e40-a0e6-b105015c1a31",
+        "amount": 804.0,
+        "quantity": 41.0,
+        "average": 19.609756097560975
+    },
+    {
+        "type": "buy",
+        "id": "6f12a502-394c-4291-b0c1-a01fc5810a06",
+        "amount": 804.0,
+        "quantity": 46.0,
+        "average": 17.47826086956522
+    },
+    {
+        "type": "sell",
+        "id": "e0c0a637-adc4-479b-88c4-21d72db0fc2b",
+        "amount": 804.0,
+        "quantity": 29.0,
+        "average": 27.724137931034484
+    },
+    {
+        "type": "buy",
+        "id": "45a95192-7b4e-41cb-ac34-edb22449e0a0",
+        "amount": 433.0,
+        "quantity": 32.0,
+        "average": 13.53125
+    },
+    {
+        "type": "buy",
+        "id": "e96752ad-2a01-4dad-a178-17381acbbb92",
+        "amount": 835.0,
+        "quantity": 21.0,
+        "average": 39.76190476190476
+    },
+    {
+        "type": "sell",
+        "id": "f254b512-1d42-48b8-b752-e54cd233e760",
+        "amount": 1299.0,
+        "quantity": 50.0,
+        "average": 25.98
+    },
+    {
+        "type": "sell",
+        "id": "1735894d-9a29-4689-813a-6d6484b44893",
+        "amount": 428.0,
+        "quantity": 8.0,
+        "average": 53.5
+    },
+    {
+        "type": "buy",
+        "id": "ae0497d2-8999-4ac8-88f2-9ede0a1d1035",
+        "amount": 460.0,
+        "quantity": 5.0,
+        "average": 92.0
+    },
+    {
+        "type": "buy",
+        "id": "48af053f-f3e6-4ec9-a4bf-482505a508bd",
+        "amount": 1273.0,
+        "quantity": 18.0,
+        "average": 70.72222222222223
+    },
+    {
+        "type": "sell",
+        "id": "2fab2d74-90db-4f47-9136-f7b31f871812",
+        "amount": 824.0,
+        "quantity": 10.0,
+        "average": 82.4
+    },
+    {
+        "type": "buy",
+        "id": "cd225264-ace0-454b-9c26-fd85aa8951a1",
+        "amount": 830.0,
+        "quantity": 13.0,
+        "average": 63.84615384615385
+    },
+    {
+        "type": "sell",
+        "id": "ea50f24f-79b5-4872-a64c-ff8e08694c05",
+        "amount": 836.0,
+        "quantity": 19.0,
+        "average": 44.0
+    },
+    {
+        "type": "sell",
+        "id": "cd4f61b2-57e1-4f60-b2c3-ca4ac38fe9f8",
+        "amount": 440.0,
+        "quantity": 22.0,
+        "average": 20.0
+    },
+    {
+        "type": "buy",
+        "id": "beac1383-8176-4dfb-ad61-8304c281fb59",
+        "amount": 900.0,
+        "quantity": 33.0,
+        "average": 27.272727272727273
+    },
+    {
+        "type": "sell",
+        "id": "ae6fdb2a-a5a7-4c2c-9c80-deb677beb1a3",
+        "amount": 1380.0,
+        "quantity": 20.0,
+        "average": 69.0
+    },
+    {
+        "type": "buy",
+        "id": "3b184b38-774d-4fe6-9e78-7b99cfe5ee02",
+        "amount": 920.0,
+        "quantity": 15.0,
+        "average": 61.333333333333336
+    },
+    {
+        "type": "buy",
+        "id": "741988a0-ba12-4f85-80ca-3a9d54807eb2",
+        "amount": 438.0,
+        "quantity": 14.0,
+        "average": 31.285714285714285
+    },
+    {
+        "type": "sell",
+        "id": "15f53369-1485-41cf-b58f-42b7d1f3e2a1",
+        "amount": 876.0,
+        "quantity": 35.0,
+        "average": 25.02857142857143
+    },
+    {
+        "type": "sell",
+        "id": "39a05d93-c903-4492-84a9-70274d8cdf82",
+        "amount": 920.0,
+        "quantity": 46.0,
+        "average": 20.0
+    },
+    {
+        "type": "sell",
+        "id": "515743c8-281a-43fa-aba9-e17517ebb620",
+        "amount": 463.0,
+        "quantity": 12.0,
+        "average": 38.583333333333336
+    },
+    {
+        "type": "buy",
+        "id": "d1b9ed6c-c02d-4438-bfdd-e7c9c620c638",
+        "amount": 1386.0,
+        "quantity": 48.0,
+        "average": 28.875
+    },
+    {
+        "type": "buy",
+        "id": "6c49dd08-ac27-444d-bc16-173411d281c3",
+        "amount": 463.0,
+        "quantity": 4.0,
+        "average": 115.75
+    },
+    {
+        "type": "sell",
+        "id": "492522da-9af9-46e1-8a03-e59108ea858c",
+        "amount": 1389.0,
+        "quantity": 12.0,
+        "average": 115.75
+    },
+    {
+        "type": "buy",
+        "id": "9440e0ad-a3bf-423c-8a9b-6f49dfddf395",
+        "amount": 929.0,
+        "quantity": 9.0,
+        "average": 103.22222222222223
+    },
+    {
+        "type": "buy",
+        "id": "dda2a59d-0aac-4ff7-a1a9-f6debc4b73ad",
+        "amount": 456.0,
+        "quantity": 28.0,
+        "average": 16.285714285714285
+    },
+    {
+        "type": "sell",
+        "id": "8c836385-5228-460e-94df-b0101b0a44f3",
+        "amount": 912.0,
+        "quantity": 42.0,
+        "average": 21.714285714285715
+    },
+    {
+        "type": "buy",
+        "id": "04a4fb15-d5f7-4f6c-9a2d-bbc14df19ba8",
+        "amount": 922.0,
+        "quantity": 35.0,
+        "average": 26.34285714285714
+    },
+    {
+        "type": "buy",
+        "id": "edeae552-c885-4e19-a5e5-0c601a59457e",
+        "amount": 842.0,
+        "quantity": 29.0,
+        "average": 29.03448275862069
+    },
+    {
+        "type": "sell",
+        "id": "bfb52cc3-10c4-4457-9823-80c3d485bf9e",
+        "amount": 808.0,
+        "quantity": 10.0,
+        "average": 80.8
+    },
+    {
+        "type": "sell",
+        "id": "2fa837fb-8a83-408e-a044-0c6b3930fbac",
+        "amount": 413.0,
+        "quantity": 6.0,
+        "average": 68.83333333333333
+    },
+    {
+        "type": "sell",
+        "id": "28c14069-ac27-47b4-83d6-3961db66e0aa",
+        "amount": 432.0,
+        "quantity": 4.0,
+        "average": 108.0
+    },
+    {
+        "type": "buy",
+        "id": "1b8ff047-0acb-4c13-b10a-8c56cf681f44",
+        "amount": 459.0,
+        "quantity": 27.0,
+        "average": 17.0
+    },
+    {
+        "type": "buy",
+        "id": "3f05d936-dab2-403e-8602-9c094672a057",
+        "amount": 2101.0,
+        "quantity": 43.0,
+        "average": 48.86046511627907
+    },
+    {
+        "type": "sell",
+        "id": "06e44321-39c4-4699-a214-931dc6b808d9",
+        "amount": 868.0,
+        "quantity": 23.0,
+        "average": 37.73913043478261
+    },
+    {
+        "type": "sell",
+        "id": "0f3b1f21-3bdf-4999-8dcd-66c400a99ee0",
+        "amount": 918.0,
+        "quantity": 36.0,
+        "average": 25.5
+    },
+    {
+        "type": "buy",
+        "id": "f7f8a18e-57b7-4c2c-b1e6-b72dc3705b41",
+        "amount": 922.0,
+        "quantity": 46.0,
+        "average": 20.043478260869566
+    },
+    {
+        "type": "sell",
+        "id": "c5101811-2245-468c-b81f-4ff72cbf8c9b",
+        "amount": 926.0,
+        "quantity": 40.0,
+        "average": 23.15
+    },
+    {
+        "type": "sell",
+        "id": "ade4b640-e8c2-494b-8e53-56d5c04196b2",
+        "amount": 1398.0,
+        "quantity": 45.0,
+        "average": 31.066666666666666
+    },
+    {
+        "type": "buy",
+        "id": "7ebd7b60-5d8a-4135-970b-664fd60b7d36",
+        "amount": 1400.0,
+        "quantity": 36.0,
+        "average": 38.888888888888886
+    },
+    {
+        "type": "buy",
+        "id": "ba575cde-86df-4b8a-93a8-8fc6faaf30f9",
+        "amount": 859.0,
+        "quantity": 40.0,
+        "average": 21.475
+    },
+    {
+        "type": "sell",
+        "id": "4f3b56c8-1712-4495-8be8-f534ec0aa485",
+        "amount": 850.0,
+        "quantity": 46.0,
+        "average": 18.47826086956522
+    },
+    {
+        "type": "buy",
+        "id": "655518a9-65d7-469a-830a-6090495882e7",
+        "amount": 471.0,
+        "quantity": 1.0,
+        "average": 471.0
+    },
+    {
+        "type": "buy",
+        "id": "fb566716-e79f-4008-821e-a474137675ed",
+        "amount": 404.0,
+        "quantity": 4.0,
+        "average": 101.0
+    },
+    {
+        "type": "buy",
+        "id": "44b19d9e-35ed-4f0c-b295-d6766e9b1ebe",
+        "amount": 829.0,
+        "quantity": 17.0,
+        "average": 48.76470588235294
+    },
+    {
+        "type": "sell",
+        "id": "a87a75dc-3e88-45b8-81d1-fe6ec09e42a5",
+        "amount": 1212.0,
+        "quantity": 35.0,
+        "average": 34.628571428571426
+    },
+    {
+        "type": "sell",
+        "id": "e9c86f3f-3eeb-4e68-a70c-c2553a5f6a2a",
+        "amount": 2355.0,
+        "quantity": 41.0,
+        "average": 57.4390243902439
+    },
+    {
+        "type": "buy",
+        "id": "ad04725b-ef8f-477e-af12-97a5b8e32127",
+        "amount": 942.0,
+        "quantity": 47.0,
+        "average": 20.04255319148936
+    },
+    {
+        "type": "buy",
+        "id": "74fc10c9-c6b9-4cb7-9d7b-a0857e235498",
+        "amount": 838.0,
+        "quantity": 29.0,
+        "average": 28.896551724137932
+    },
+    {
+        "type": "sell",
+        "id": "7b478de3-7b0e-4b40-b447-9f2791bd515d",
+        "amount": 868.0,
+        "quantity": 35.0,
+        "average": 24.8
+    },
+    {
+        "type": "sell",
+        "id": "94a7ebe3-c7f8-4499-b143-29a340d81797",
+        "amount": 424.0,
+        "quantity": 13.0,
+        "average": 32.61538461538461
+    },
+    {
+        "type": "sell",
+        "id": "19b7fb31-c045-4565-b0ba-3946507fcf64",
+        "amount": 942.0,
+        "quantity": 36.0,
+        "average": 26.166666666666668
+    },
+    {
+        "type": "buy",
+        "id": "a6adb9a4-d094-4509-93d1-98f9a4100085",
+        "amount": 943.0,
+        "quantity": 12.0,
+        "average": 78.58333333333333
+    },
+    {
+        "type": "buy",
+        "id": "a51a7046-7824-481b-ab28-57cb98dfda8a",
+        "amount": 854.0,
+        "quantity": 25.0,
+        "average": 34.16
+    },
+    {
+        "type": "buy",
+        "id": "538a48e9-cc17-4772-9faa-61109e563efe",
+        "amount": 864.0,
+        "quantity": 41.0,
+        "average": 21.073170731707318
+    },
+    {
+        "type": "sell",
+        "id": "f9879390-f341-4ac4-a102-052428b500cd",
+        "amount": 1290.0,
+        "quantity": 34.0,
+        "average": 37.94117647058823
+    },
+    {
+        "type": "sell",
+        "id": "0c58ef41-d5e0-4615-b27c-d152a7584d11",
+        "amount": 944.0,
+        "quantity": 41.0,
+        "average": 23.024390243902438
+    },
+    {
+        "type": "buy",
+        "id": "4af7ee14-847f-4297-a057-b570c92dd87e",
+        "amount": 944.0,
+        "quantity": 42.0,
+        "average": 22.476190476190474
+    },
+    {
+        "type": "buy",
+        "id": "183fe969-af46-4a60-8e45-ac0602e47f15",
+        "amount": 472.0,
+        "quantity": 9.0,
+        "average": 52.44444444444444
+    },
+    {
+        "type": "buy",
+        "id": "42540f30-8076-4735-a237-750955099757",
+        "amount": 408.0,
+        "quantity": 16.0,
+        "average": 25.5
+    },
+    {
+        "type": "sell",
+        "id": "1679d188-fd4b-4c63-84ca-0b3984f1b937",
+        "amount": 816.0,
+        "quantity": 38.0,
+        "average": 21.473684210526315
+    },
+    {
+        "type": "sell",
+        "id": "373b204e-40e9-408e-9771-f1af01267667",
+        "amount": 466.0,
+        "quantity": 10.0,
+        "average": 46.6
+    },
+    {
+        "type": "buy",
+        "id": "b1f84aee-4808-4504-a75b-adb88e1b381b",
+        "amount": 938.0,
+        "quantity": 13.0,
+        "average": 72.15384615384616
+    },
+    {
+        "type": "sell",
+        "id": "f33d9af4-0462-446b-8ddb-3d6185d84ff6",
+        "amount": 465.0,
+        "quantity": 18.0,
+        "average": 25.833333333333332
+    },
+    {
+        "type": "buy",
+        "id": "0e729db6-0d28-4bc0-9816-a319fa202611",
+        "amount": 869.0,
+        "quantity": 50.0,
+        "average": 17.38
+    },
+    {
+        "type": "sell",
+        "id": "57f9afcb-431e-433e-a5fa-66bdf7514200",
+        "amount": 808.0,
+        "quantity": 38.0,
+        "average": 21.263157894736842
+    },
+    {
+        "type": "sell",
+        "id": "4719d40f-95ca-4dde-894e-277c7c7addc9",
+        "amount": 404.0,
+        "quantity": 15.0,
+        "average": 26.933333333333334
+    },
+    {
+        "type": "buy",
+        "id": "f685978f-a363-4422-a73b-63deee97bc71",
+        "amount": 838.0,
+        "quantity": 26.0,
+        "average": 32.23076923076923
+    },
+    {
+        "type": "sell",
+        "id": "9a1e554f-0ccb-49f2-b634-44704f58c9a1",
+        "amount": 868.0,
+        "quantity": 41.0,
+        "average": 21.170731707317074
+    },
+    {
+        "type": "sell",
+        "id": "91dfd3a3-adb9-4579-b15b-5951aab81aa3",
+        "amount": 414.0,
+        "quantity": 16.0,
+        "average": 25.875
+    },
+    {
+        "type": "sell",
+        "id": "baf7e6ff-b223-474f-8056-c44c3cc7d150",
+        "amount": 1888.0,
+        "quantity": 46.0,
+        "average": 41.04347826086956
+    },
+    {
+        "type": "buy",
+        "id": "ab89f136-2573-4d88-a0f4-71532d736f98",
+        "amount": 945.0,
+        "quantity": 34.0,
+        "average": 27.794117647058822
+    },
+    {
+        "type": "buy",
+        "id": "7fc447a4-9ca3-4876-a750-0db91ae774aa",
+        "amount": 1249.0,
+        "quantity": 47.0,
+        "average": 26.574468085106382
+    },
+    {
+        "type": "buy",
+        "id": "4060f500-8da2-44e5-bfcb-4e93ea4183d7",
+        "amount": 1643.0,
+        "quantity": 46.0,
+        "average": 35.71739130434783
+    },
+    {
+        "type": "sell",
+        "id": "e7129006-9f5e-43be-877d-a7f00e56ccc8",
+        "amount": 1203.0,
+        "quantity": 17.0,
+        "average": 70.76470588235294
+    },
+    {
+        "type": "sell",
+        "id": "a258d6ca-59e9-4919-8ac1-1cce76d3cac5",
+        "amount": 455.0,
+        "quantity": 4.0,
+        "average": 113.75
+    },
+    {
+        "type": "buy",
+        "id": "0d53020d-cc01-46f2-a1c4-6983b5f68b43",
+        "amount": 906.0,
+        "quantity": 38.0,
+        "average": 23.842105263157894
+    },
+    {
+        "type": "buy",
+        "id": "65463cc4-56bb-4d78-adaf-f49c6ea77272",
+        "amount": 824.0,
+        "quantity": 11.0,
+        "average": 74.9090909090909
+    },
+    {
+        "type": "sell",
+        "id": "f536580b-3c4b-4449-bb82-d9b9fe598802",
+        "amount": 846.0,
+        "quantity": 36.0,
+        "average": 23.5
+    },
+    {
+        "type": "sell",
+        "id": "004b6f74-e367-4416-b916-afab44ac4803",
+        "amount": 902.0,
+        "quantity": 38.0,
+        "average": 23.736842105263158
+    },
+    {
+        "type": "buy",
+        "id": "edb158a1-3fe1-45ba-a71c-42f088bbc0ea",
+        "amount": 919.0,
+        "quantity": 34.0,
+        "average": 27.029411764705884
+    },
+    {
+        "type": "buy",
+        "id": "e858f445-7971-4f25-ab6f-738ed31ff283",
+        "amount": 443.0,
+        "quantity": 2.0,
+        "average": 221.5
+    },
+    {
+        "type": "sell",
+        "id": "2eda9c1b-ffea-4fd5-ac87-c812ea539346",
+        "amount": 886.0,
+        "quantity": 27.0,
+        "average": 32.81481481481482
+    },
+    {
+        "type": "sell",
+        "id": "9dcacc5b-9f22-48bd-835c-fc9f8152d158",
+        "amount": 936.0,
+        "quantity": 35.0,
+        "average": 26.742857142857144
+    },
+    {
+        "type": "buy",
+        "id": "9c000bf6-7ce3-4533-a011-9d219dbeca2e",
+        "amount": 941.0,
+        "quantity": 21.0,
+        "average": 44.80952380952381
+    },
+    {
+        "type": "sell",
+        "id": "8f2685a2-8038-4500-a50d-28e00efe1ad0",
+        "amount": 438.0,
+        "quantity": 19.0,
+        "average": 23.05263157894737
+    },
+    {
+        "type": "sell",
+        "id": "52764294-f3e3-47ca-809f-6fff679c85f1",
+        "amount": 1419.0,
+        "quantity": 31.0,
+        "average": 45.774193548387096
+    },
+    {
+        "type": "buy",
+        "id": "cb9922cf-38ca-429d-80c5-e4011300c629",
+        "amount": 946.0,
+        "quantity": 16.0,
+        "average": 59.125
+    },
+    {
+        "type": "buy",
+        "id": "1503e84f-bedc-4d4f-9a00-19259e56400b",
+        "amount": 410.0,
+        "quantity": 1.0,
+        "average": 410.0
+    },
+    {
+        "type": "sell",
+        "id": "5308954c-d942-473b-97d1-695ce2c46981",
+        "amount": 820.0,
+        "quantity": 7.0,
+        "average": 117.14285714285714
+    },
+    {
+        "type": "sell",
+        "id": "455e9ec0-6a81-4325-b4bf-57f02cedc8c6",
+        "amount": 406.0,
+        "quantity": 35.0,
+        "average": 11.6
+    },
+    {
+        "type": "sell",
+        "id": "c0ed7d5d-042c-4eca-923c-19aa4445d122",
+        "amount": 423.0,
+        "quantity": 5.0,
+        "average": 84.6
+    },
+    {
+        "type": "sell",
+        "id": "32db6e6f-2131-4e75-9774-8ac3ce804165",
+        "amount": 946.0,
+        "quantity": 30.0,
+        "average": 31.533333333333335
+    },
+    {
+        "type": "buy",
+        "id": "8faf665c-23f0-495c-865c-e02c2b071f49",
+        "amount": 947.0,
+        "quantity": 26.0,
+        "average": 36.42307692307692
+    },
+    {
+        "type": "buy",
+        "id": "1c3e6a4e-d5e2-4311-ad87-41f1d098a9a6",
+        "amount": 1272.0,
+        "quantity": 41.0,
+        "average": 31.024390243902438
+    },
+    {
+        "type": "sell",
+        "id": "4160ddc7-236b-43f6-a868-e312ef5db72d",
+        "amount": 886.0,
+        "quantity": 15.0,
+        "average": 59.06666666666667
+    },
+    {
+        "type": "sell",
+        "id": "6ab3450d-f799-4cdc-b6a1-5947aeef0a07",
+        "amount": 948.0,
+        "quantity": 11.0,
+        "average": 86.18181818181819
+    },
+    {
+        "type": "buy",
+        "id": "a84ba4ef-54ee-4349-87aa-acefa24af2dc",
+        "amount": 949.0,
+        "quantity": 13.0,
+        "average": 73.0
+    },
+    {
+        "type": "buy",
+        "id": "180f8a2f-e552-421a-8c4c-b58d978c3004",
+        "amount": 413.0,
+        "quantity": 10.0,
+        "average": 41.3
+    },
+    {
+        "type": "sell",
+        "id": "7f46c2e2-b4ab-47de-9531-68ce1d753347",
+        "amount": 826.0,
+        "quantity": 18.0,
+        "average": 45.888888888888886
+    },
+    {
+        "type": "buy",
+        "id": "a255a8bf-b02e-433a-bdb4-7a424705be9b",
+        "amount": 1325.0,
+        "quantity": 46.0,
+        "average": 28.804347826086957
+    },
+    {
+        "type": "buy",
+        "id": "202ee8e8-3a61-4266-b9b8-89c6527fe376",
+        "amount": 469.0,
+        "quantity": 7.0,
+        "average": 67.0
+    },
+    {
+        "type": "buy",
+        "id": "5d6e623d-88f1-4431-a3af-182dea5ac025",
+        "amount": 447.0,
+        "quantity": 4.0,
+        "average": 111.75
+    },
+    {
+        "type": "sell",
+        "id": "b39e5325-b7d8-461c-b62d-6aeab5f475f2",
+        "amount": 894.0,
+        "quantity": 5.0,
+        "average": 178.8
+    },
+    {
+        "type": "buy",
+        "id": "87e2d18d-aa10-4811-ba5f-bbdd60773aa4",
+        "amount": 1721.0,
+        "quantity": 31.0,
+        "average": 55.516129032258064
+    },
+    {
+        "type": "sell",
+        "id": "a411e6d5-dcc1-41ae-9896-79fce85b9e63",
+        "amount": 852.0,
+        "quantity": 13.0,
+        "average": 65.53846153846153
+    },
+    {
+        "type": "sell",
+        "id": "aff76ef5-2042-4f2b-bcd4-f1cc8c87eae5",
+        "amount": 451.0,
+        "quantity": 5.0,
+        "average": 90.2
+    },
+    {
+        "type": "sell",
+        "id": "dde4b280-c872-4218-b246-a0b7abea9554",
+        "amount": 412.0,
+        "quantity": 2.0,
+        "average": 206.0
+    },
+    {
+        "type": "buy",
+        "id": "c7e5d3f2-c698-460d-b71f-397c30f69c08",
+        "amount": 1712.0,
+        "quantity": 38.0,
+        "average": 45.05263157894737
+    },
+    {
+        "type": "sell",
+        "id": "de6500ae-adae-44e1-a371-951b3a231acb",
+        "amount": 846.0,
+        "quantity": 31.0,
+        "average": 27.29032258064516
+    },
+    {
+        "type": "sell",
+        "id": "b06f8b9b-480a-4fdb-ae33-c87ef97c3904",
+        "amount": 454.0,
+        "quantity": 18.0,
+        "average": 25.22222222222222
+    },
+    {
+        "type": "sell",
+        "id": "7adaaf8c-d79b-46ce-93ef-4c344db1b310",
+        "amount": 459.0,
+        "quantity": 19.0,
+        "average": 24.157894736842106
+    },
+    {
+        "type": "buy",
+        "id": "b423d085-6101-4f27-8e5f-8970f9b02f2c",
+        "amount": 467.0,
+        "quantity": 11.0,
+        "average": 42.45454545454545
+    },
+    {
+        "type": "buy",
+        "id": "06527941-58da-445e-8ec2-1674b278de0b",
+        "amount": 1368.0,
+        "quantity": 47.0,
+        "average": 29.106382978723403
+    },
+    {
+        "type": "sell",
+        "id": "5fdbbab4-17d2-489f-b9bd-72acfe55bf30",
+        "amount": 910.0,
+        "quantity": 28.0,
+        "average": 32.5
+    },
+    {
+        "type": "sell",
+        "id": "688cd757-f8ee-42ec-a56d-1b946ce685d0",
+        "amount": 466.0,
+        "quantity": 26.0,
+        "average": 17.923076923076923
+    },
+    {
+        "type": "buy",
+        "id": "ff5488c7-76d4-4a1a-b53d-b8e3c8cf5a17",
+        "amount": 933.0,
+        "quantity": 43.0,
+        "average": 21.697674418604652
+    },
+    {
+        "type": "sell",
+        "id": "a5789b8b-42ad-441c-a85c-4cecfc5e5e68",
+        "amount": 1401.0,
+        "quantity": 46.0,
+        "average": 30.456521739130434
+    },
+    {
+        "type": "sell",
+        "id": "d8d65105-5d56-4805-9140-0aad3001011a",
+        "amount": 468.0,
+        "quantity": 3.0,
+        "average": 156.0
+    },
+    {
+        "type": "sell",
+        "id": "a0255d9d-bbbe-4210-98c7-c510ac2d6d09",
+        "amount": 1407.0,
+        "quantity": 33.0,
+        "average": 42.63636363636363
+    },
+    {
+        "type": "buy",
+        "id": "b36e8ad2-cdff-4596-b26b-847e17a1df6f",
+        "amount": 1879.0,
+        "quantity": 29.0,
+        "average": 64.79310344827586
+    },
+    {
+        "type": "buy",
+        "id": "8c414d67-8615-41d6-9583-750fb54be7b7",
+        "amount": 864.0,
+        "quantity": 43.0,
+        "average": 20.093023255813954
+    },
+    {
+        "type": "sell",
+        "id": "6cf5c4fd-34c4-42d4-908c-5935d58c75a1",
+        "amount": 818.0,
+        "quantity": 29.0,
+        "average": 28.20689655172414
+    },
+    {
+        "type": "buy",
+        "id": "61488837-7e75-4970-8688-112e85f9e9fe",
+        "amount": 813.0,
+        "quantity": 22.0,
+        "average": 36.95454545454545
+    },
+    {
+        "type": "sell",
+        "id": "59461b43-16ef-4293-90a8-7dca185c7f17",
+        "amount": 808.0,
+        "quantity": 45.0,
+        "average": 17.955555555555556
+    },
+    {
+        "type": "buy",
+        "id": "2b1da9f7-24db-4417-9c4f-04d0ad64bde5",
+        "amount": 833.0,
+        "quantity": 40.0,
+        "average": 20.825
+    },
+    {
+        "type": "sell",
+        "id": "a2a3453c-d6f8-4fe3-ac53-e901867dfe46",
+        "amount": 429.0,
+        "quantity": 13.0,
+        "average": 33.0
+    },
+    {
+        "type": "sell",
+        "id": "ed0a6e0a-d8b4-4d3a-9cef-f62f34bb0718",
+        "amount": 432.0,
+        "quantity": 43.0,
+        "average": 10.046511627906977
+    },
+    {
+        "type": "sell",
+        "id": "3df7d3ae-164c-4231-97dc-3a2e18ef40fa",
+        "amount": 465.0,
+        "quantity": 2.0,
+        "average": 232.5
+    },
+    {
+        "type": "sell",
+        "id": "8e9d826c-73a3-48ed-808d-87ae1aea0b36",
+        "amount": 469.0,
+        "quantity": 2.0,
+        "average": 234.5
+    },
+    {
+        "type": "sell",
+        "id": "a86be7f4-6d35-4ab4-a869-a88020006b4c",
+        "amount": 1425.0,
+        "quantity": 27.0,
+        "average": 52.77777777777778
+    },
+    {
+        "type": "sell",
+        "id": "cb885fea-2bfa-4fcd-abcd-f11c85b195fa",
+        "amount": 475.0,
+        "quantity": 6.0,
+        "average": 79.16666666666667
+    },
+    {
+        "type": "buy",
+        "id": "3ce0639f-7d5c-4336-b469-5b838d8e0061",
+        "amount": 2359.0,
+        "quantity": 38.0,
+        "average": 62.078947368421055
+    },
+    {
+        "type": "buy",
+        "id": "3b1dba30-57e1-4d63-9108-f032dfc540bd",
+        "amount": 443.0,
+        "quantity": 34.0,
+        "average": 13.029411764705882
+    },
+    {
+        "type": "buy",
+        "id": "7e7afdf3-b767-414c-bb46-398f8560cb59",
+        "amount": 875.0,
+        "quantity": 50.0,
+        "average": 17.5
+    },
+    {
+        "type": "sell",
+        "id": "73648f43-ca92-4cf7-be9f-94c4d4731193",
+        "amount": 1329.0,
+        "quantity": 46.0,
+        "average": 28.891304347826086
+    },
+    {
+        "type": "buy",
+        "id": "be3387a9-ed2a-4646-a1b7-8078233e4986",
+        "amount": 475.0,
+        "quantity": 3.0,
+        "average": 158.33333333333334
+    },
+    {
+        "type": "sell",
+        "id": "54128e80-7434-4238-af49-485a5d1f716c",
+        "amount": 473.0,
+        "quantity": 7.0,
+        "average": 67.57142857142857
+    },
+    {
+        "type": "buy",
+        "id": "ab4313fb-0025-4b13-ad45-480e94ae3df9",
+        "amount": 948.0,
+        "quantity": 8.0,
+        "average": 118.5
+    }
+]

@@ -11,7 +11,7 @@ PRICE_RANGE = (400, 500)  # Random prices between 100 and 500
 QUANTITY_RANGE = (1, 50)  # Random quantities between 1 and 50
 
 # Number of orders to bombard
-TOTAL_ORDERS = 8000
+TOTAL_ORDERS = 600
 DELAY = 0.05  # Delay between requests in seconds (optional)
 
 # List of companies

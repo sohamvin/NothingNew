@@ -181,25 +181,37 @@ class MatchingEngine:
                 ):
                     best_order = counter_book[best_price][0]
                     matched_quantity = min(order.quantity, best_order.quantity)
+                    matched_price = min(order.price, best_order.price)
+
 
                     print(f"Matched: {order.order_type} {order.order_id} with {best_order.order_id} for {matched_quantity}")
 
                     
+                    data = {
+                            "quantity" : matched_quantity,
+                            "price" : matched_price
+                        }
 
-                    # Update quantities and handle completed orders
+                    json_data = json.dumps(data, indent=4) 
+
+
+                    self.add_to_array(best_order.order_id, json_data)
+                    self.add_to_array(order.order_id, json_data)
+
                     best_order.quantity -= matched_quantity
                     if best_order.quantity == 0:
                         counter_book[best_price].pop(0)
                         if not counter_book[best_price]:
                             del counter_book[best_price]
                         
-                        self.redis_client.lpush()
+                        self.redis_client.lpush("COMPLETE", json.dumps(best_order.__dict__))  # Assuming best_order is an object
 
                         
 
                     # Handle incoming orders quantity update
                     order.quantity -= matched_quantity
                     if order.quantity == 0:
+                        self.redis_client.lpush("COMPLETE", json.dumps(order.__dict__))
                         return
 
                 else:

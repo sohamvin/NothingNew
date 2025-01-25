@@ -40,7 +40,6 @@
 #     companies_list = [
 #         "Google", "Facebook", "Instagram", "Spotify", "Dropbox", 
 #         "Reddit", "Netflix", "Pinterest", "Quora", "YouTube"
-#     ]
     
 #     workers = start_workers(companies_list)
 

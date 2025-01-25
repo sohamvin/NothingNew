@@ -11,6 +11,7 @@ class PostProcessor:
     def __init__(self):
         self.redis_client = redis.StrictRedis(host='localhost', port=6379, db=0)
         self.writehandle = JsonFileHandler('orders.json')
+        self.del_order_handler = JsonFileHandler('delete_orders.json')
 
     def get_array(self, key):
         # Fetch the JSON string from Redis
@@ -35,6 +36,28 @@ class PostProcessor:
         while True:
             # Fetch the most recent order from the "COMPLETE" queue in Redis
             order = self.redis_client.rpop("COMPLETE")
+            delete_ord = self.redis_client.rpop("DELETE")
+
+            if delete_ord:
+            #                 data = {
+            #     "allowed" : False,
+            #     "done" : "Not",
+            #     "message" : bad_msg,
+            #     "id" : id,
+            #     "timestamp" : timestamp
+            # }
+                delete_ord = delete_ord.decode('utf-8')
+                
+                # Convert JSON string back to a dictionary
+                order_dict = json.loads(delete_ord)
+
+                print(f"{order_dict} delete Order was Executed")
+
+                self.del_order_handler.append(order_dict)
+
+
+            else:
+                print("No Delete orders in the queue, waiting...")
             
             if order:
                 print("POST PROCESS", order)

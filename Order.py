@@ -7,3 +7,7 @@ class Order:
         self.quantity = quantity
         self.price = price
         self.company_id = company_id
+
+    def __del__(self):
+        print('Destructor called, Order deleted.')
+

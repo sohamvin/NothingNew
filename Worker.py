@@ -4,7 +4,7 @@ import json
 from Book import OrderBook
 from Matching import MatchingEngine
 from Order import Order
-from TestingOrderBook import AppendBook
+from testingFN.TestingOrderBook import AppendBook
 
 class Worker(threading.Thread):
     def __init__(self, company_id):
@@ -30,6 +30,14 @@ class Worker(threading.Thread):
                 
                 _, data = order_data  # Unpack tuple returned by brpop
                 order_dict = json.loads(data)
+
+                if order_dict["action"] == "delete":
+
+                    print(f"Deletion Order received for {self.company_id}: {order_dict}")
+                    self.order_book = self.matching_engine.delete_order(order_dict["order_id"], order_dict["order_type"], order_dict["price"], order_dict["timestamp"])
+                    AppendBook(self.order_book, order_dict, self.company_id)
+                    continue
+                    
                 
                 print(f"Order received for {self.company_id}: {order_dict}")
                 
@@ -44,11 +52,8 @@ class Worker(threading.Thread):
                 )
                 
                 self.order_book = self.matching_engine.process_order(order)
-                # buy = self.order_book.buy_orders
-                # sell = self.order_book.sell_orders
-
                 #Testing Function
-                # AppendBook(self.order_book, order_dict, self.company_id)
+                AppendBook(self.order_book, order_dict, self.company_id)
                 
             except Exception as e:
                 print(f"Error processing orders for {self.company_id}: {e}")
@@ -68,9 +73,9 @@ def start_workers(companies):
 if __name__ == "__main__":
     companies_list = [
         "Google", "Facebook", "Instagram", "Spotify", "Dropbox", 
-        "Reddit", "Netflix", "Pinterest", "Quora", "YouTube", 
-        "Lyft", "Uber", "LinkedIn", "Slack", "Etsy", 
-        "Mozilla", "NASA", "IBM", "Intel", "Microsoft"
+        # "Reddit", "Netflix", "Pinterest", "Quora", "YouTube", 
+        # "Lyft", "Uber", "LinkedIn", "Slack", "Etsy", 
+        # "Mozilla", "NASA", "IBM", "Intel", "Microsoft"
     ]
 
     

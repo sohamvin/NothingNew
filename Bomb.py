@@ -12,7 +12,7 @@ PRICE_RANGE = (400, 500)  # Random prices between 400 and 500
 QUANTITY_RANGE = (1, 50)  # Random quantities between 1 and 50
 
 # Number of orders to bombard
-TOTAL_ORDERS = 12000
+TOTAL_ORDERS = 6000
 DELAY = 0.05  # Delay between requests in seconds (optional)
 
 # List of companies
@@ -59,6 +59,7 @@ for i in range(TOTAL_ORDERS):
                 "order_procedure": order_to_delete["order_type"],  # Use the same type for deletion
                 "price": order_to_delete["price"],
                 "company_id" : order_to_delete["company_id"],
+                "timestamp" : order_to_delete["time"]
             }
             
             # Send the deletion request to the API

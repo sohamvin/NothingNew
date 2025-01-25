@@ -24,16 +24,8 @@ class MatchingEngine:
 
 
 
-    def delete_order_two(self, id, order_procedure, price, timestamp):
+    def delete_order_two(self, id, order_procedure, price, timestamp = None):
         with self.lock:
-            #             delete_payload = {
-            #     "order_id": order_to_delete["order_id"],
-            #     "order_procedure": order_to_delete["order_type"],  # Use the same type for deletion
-            #     "price": order_to_delete["price"],
-            #     "company_id" : order_to_delete["company_id"],
-            # }
-
-
             bad_msg = "You are not allowed to delete this order now. It will be completed shortly"
             good_msg = "Your Order Was Canceled"
             data = {
@@ -42,37 +34,40 @@ class MatchingEngine:
                 "message" : bad_msg,
                 "id" : id,
                 "timestamp" : timestamp,
-                "shares_you_own" : 0,
-                "amount_returned" : 0
+                "shares_you_can_take_back" : 0,
+                "amount_you_get_back" : 0
             }
             #First Check if order is in the book.
-            #Since deletion order is always placed later, that means that the incoming order must have
+            #Since deletion order is always placed after insertion order(and both go to the same queue), 
+            #that means that the incoming order must have
             #been placed in the book.
             #so if order is not in order book, it must have been completed and therfore 
             #in the completed queue. 
-            #Prevent Order Deletion of order is already in QUEUE for completion. 
-            # othervise return cash and units
+            #Prevent Order Deletion of order if already in QUEUE for completion. 
+            #otherwise return cash and units
 
             order_book = (
                     self.order_book.sell_orders if order_procedure == "sell" else self.order_book.buy_orders
                 )
 
             if price in order_book:
-
-                # book_in_order = False
-                
-                # Create a new list of orders excluding the one to delete
                 new_orders = []
                 order = None
                 for o in order_book[price]:
                     if o.order_id == id:
-                        # book_in_order = True  # Found the order to delete
                         order = o
                     else:
                         new_orders.append(o)  # Keep this order
                 
                 # Update the order book with remaining orders
                 order_book[price] = new_orders
+
+                if order_procedure == "sell":
+                    self.order_book.sell_orders = order_book 
+                else:
+                    self.order_book.buy_orders = order_book
+
+                #So the new order is not in order book now
 
                 if order != None:
                     data["message"] = good_msg
@@ -87,45 +82,57 @@ class MatchingEngine:
                         #Since Order Never completed even a little bit, no
                         #Transfer of shares or anything
                         if order_procedure == "buy":
-                            data["amount_returned"] = order.price
+                            data["amount_you_get_back"] = order.price
                         else:
-                            data["shares_you_own"] = order.quantity
+                            data["shares_you_can_take_back"] = order.quantity
                     else:
-                        order = order.decode('utf-8')
-                        order_dict = json.loads(order)
-                        array = self.get_array(order_dict["order_id"])  # Accessing order_id from the dictionary
-                        self.delete_key(order_dict["order_id"])  # Corrected typo: 'orde_id' to 'order_id'
-                        
-                        if not array:
-                            print(f"No matching entries found for order_id={order_dict['order_id']}.")
-                            time.sleep(0.1)  # Wait briefly if no matching entries are found
-
-                        total = 0
-                        quantity = 0
-
-
-                        for entry in array:
-                            print(entry)
-
-                            entry = json.loads(entry)
-
-                            print(entry)
-
-                            # entry = entry.decode('utf-8')
-                            # print(entry)
-                            total += float(entry["price"])*float(entry['quantity'])  # Ensure correct key access
-                            quantity += float(entry["quantity"])  # Ensure correct key access
-
+                        #This means that order is still in order book and is partially executed
+                        ( money_transaced, quantity_exchanged) = self.read_and_get(order.order_id)
 
                         if order_procedure == "buy":
-                            data["amount_returned"] = price
-                            pass
+                            data["amount_you_get_back"] = order.price*order.quantity 
+                            data["shares_you_can_take_back"] = quantity_exchanged
                         else:
-                            pass
-                        pass
+                        
+                            data["amount_you_get_back"] = money_transaced
+                            data["shares_you_can_take_back"] = order.quantity
 
-                        # order_book[price].append(order)
+                del order
+            
+            #Either if No such price is in order book
+            #Or if there is no order by given name in order book
 
+            json_data = json.dumps(data, indent=4) 
+                 # Assuming best_order is an object
+            self.redis_client.lpush("DELETE", json_data)
+
+
+            return self.order_book
+                    
+
+    def read_and_get(self, id):
+            array = self.get_array(id)  # Accessing order_id from the dictionary
+            self.delete_key(id) 
+
+            money_transaced = 0
+            qunatity_exchanged = 0
+
+
+            for entry in array:
+                print(entry)
+
+                entry = json.loads(entry)
+
+                print(entry)
+
+                                # entry = entry.decode('utf-8')
+                                # print(entry)
+                money_transaced += float(entry["price"])*float(entry['quantity'])  # Ensure correct key access
+                qunatity_exchanged += float(entry["quantity"])  # Ensure correct key access
+
+            return (money_transaced, qunatity_exchanged)
+
+    
             
     def get_array(self, key):
         # Fetch the JSON string from Redis
@@ -288,17 +295,3 @@ class MatchingEngine:
         self.redis_client.set(key, json.dumps(current_array))
         print(f"Added new object to {key}: {json_object} and becomes {current_array}")
 
-    # def push_order_book_to_redis(self):
-    #     while self.running:
-    #         time.sleep(10)  # Wait for 10 seconds
-    #         order_book_status = {
-    #             "name" : self.name,
-    #             "buy_orders": self.order_book.buy_orders,
-    #             "sell_orders": self.order_book.sell_orders,
-    #             "timestamp": time.time()
-    #         }
-    #         self.redis_client.lpush("ORDER_BOOK_STATUS", json.dumps(order_book_status))
-    #         print("Pushed order book status to Redis.")
-
-    # def stop(self):
-    #     self.running = False

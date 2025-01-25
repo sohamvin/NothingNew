@@ -34,7 +34,7 @@ class Worker(threading.Thread):
                 if order_dict["action"] == "delete":
 
                     print(f"Deletion Order received for {self.company_id}: {order_dict}")
-                    self.order_book = self.matching_engine.delete_order(order_dict["order_id"], order_dict["order_type"], order_dict["price"], order_dict["timestamp"])
+                    self.order_book = self.matching_engine.delete_order_two(order_dict["order_id"], order_dict["order_type"], order_dict["price"], timestamp=order_dict["timestamp"])
                     AppendBook(self.order_book, order_dict, self.company_id)
                     continue
                     

@@ -60,6 +60,7 @@
 
 from sortedcontainers import SortedDict
 from Order import Order
+import bisect
 
 class OrderBook:
     def __init__(self):
@@ -70,27 +71,46 @@ class OrderBook:
         #A list which contains objects of class Order
         self.idMap = {} 
 
-    def get_best_price(self, price, incoming_buy =True):
-        to_search = self.sell_orders if incoming_buy else self.buy_orders
+    # def get_best_price(self, price, incoming_buy =True):
+    #     to_search = self.sell_orders if incoming_buy else self.buy_orders
 
-        if price in to_search:
-            return price
+    #     if price in to_search:
+    #         return price
 
-        p = -1
+    #     p = -1
 
-        for k in to_search.keys():
-            if incoming_buy:
-                if k < price:
-                    p = k
-                else:
-                    return p
-            else:
-                if k > price:
-                    p = k
-                else:
-                    return p
+    #     for k in to_search.keys():
+    #         if incoming_buy:
+    #             if k < price:
+    #                 p = k
+    #             else:
+    #                 return p
+    #         else:
+    #             if k > price:
+    #                 p = k
+    #             else:
+    #                 return p
                 
-        return p
+    #     return p
+
+    def get_best_price(self, price, incoming_buy=True):
+        to_search = self.sell_orders if incoming_buy else self.buy_orders
+        prices = list(to_search.keys())
+
+        # Find index where price would fit
+        index = bisect.bisect_left(prices, price)
+
+        # For buy orders, we want the highest price less than or equal to the incoming price
+        if incoming_buy:
+            if index > 0:
+                return prices[index - 1]  # Return the highest price less than or equal
+            return -1  # No suitable price found
+
+        # For sell orders, we want the lowest price greater than or equal to the incoming price
+        else:
+            if index < len(prices):
+                return prices[index]  # Return the lowest price greater than or equal
+            return -1  # No suitable price found
 
 
 

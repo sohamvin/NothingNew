@@ -21,7 +21,7 @@ with open('/home/soham/Documents/OrderBook/orders.json', 'r') as orders_file:
 deleted_order_ids = {order['id'] for order in delete_orders if order['done'] == "Yes"}
 
 # Extract order IDs from orders.json
-undeleted_order_ids = {order['id'] for order in orders}
+undeleted_order_ids = [order['id'] for order in orders]
 
 # Extract order IDs from delete_orders where done is "Not" along with their timestamps
 undeltwo = {order['id']: order['timestamp'] for order in delete_orders if order['done'] == "Not"}
@@ -35,9 +35,14 @@ for order in orders:
     if order['id'] in deleted_order_ids:
         remaining_orders.append(order)
 
+
+
+print(undeleted_order_ids)
+
 # Check for undeleted orders that should not be present
 for order_id, timestamp in undeltwo.items():
     if order_id not in undeleted_order_ids:
+        print(order_id)
         wrong.append({
             "id": order_id,
             "timestamp": timestamp

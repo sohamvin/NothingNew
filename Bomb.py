@@ -2,6 +2,7 @@ import requests
 import random
 import uuid
 import time
+import json  # Import the json module
 
 # Define API endpoint
 API_URL_ADD = "http://127.0.0.1:5000/add_order"
@@ -12,7 +13,7 @@ PRICE_RANGE = (400, 500)  # Random prices between 400 and 500
 QUANTITY_RANGE = (1, 50)  # Random quantities between 1 and 50
 
 # Number of orders to bombard
-TOTAL_ORDERS = 6000
+TOTAL_ORDERS = 1000
 DELAY = 0.05  # Delay between requests in seconds (optional)
 
 # List of companies
@@ -74,3 +75,9 @@ for i in range(TOTAL_ORDERS):
 
     # Optional: Delay to avoid overloading the server
     time.sleep(DELAY)
+
+# Write placed orders to a JSON file at the end of processing
+with open("placed_orders.json", 'w') as json_file:
+    json.dump(placed_orders, json_file, indent=4)
+
+print(f"All placed orders have been written to 'placed_orders.json'.")

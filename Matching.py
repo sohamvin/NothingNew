@@ -62,6 +62,8 @@ class MatchingEngine:
                 # Update the order book with remaining orders
                 order_book[price] = new_orders
 
+
+
                 if order_procedure == "sell":
                     self.order_book.sell_orders = order_book 
                 else:
@@ -123,10 +125,7 @@ class MatchingEngine:
 
                 entry = json.loads(entry)
 
-                print(entry)
-
-                                # entry = entry.decode('utf-8')
-                                # print(entry)
+                print(entry)             # print(entry)
                 money_transaced += float(entry["price"])*float(entry['quantity'])  # Ensure correct key access
                 qunatity_exchanged += float(entry["quantity"])  # Ensure correct key access
 

@@ -1,9 +1,6 @@
 import threading
-import redis
-import json
-from BookTwo import OrderManager
 from MatchingTwo import MatchingEngineTwo
-from OrderTwo import Order
+
 
 class Worker(threading.Thread):
     def __init__(self, company_id):

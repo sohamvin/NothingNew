@@ -4,8 +4,7 @@ import json
 from OrderTwo import Order
 from BookTwo import OrderManager
 import redis
-import time
-from testingFN.TestingOrderBookTwo import AppendBook
+from TestingOrderBookTwo import AppendBook
 
 class MatchingEngineTwo:
     def __init__(self, name : str):

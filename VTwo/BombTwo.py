@@ -14,7 +14,7 @@ PRICE_RANGE = (400, 500)
 QUANTITY_RANGE = (1, 50)
 
 # Number of orders to bombard
-TOTAL_ORDERS = 5000
+TOTAL_ORDERS = 3000
 DELAY = 0.05
 
 # List of companies
@@ -29,6 +29,9 @@ companies = [
 placed_orders = []
 sent_for_deletion = []
 
+
+
+
 # Timezone setup for IST
 ist = timezone(timedelta(hours=5, minutes=30))
 
@@ -36,6 +39,7 @@ ist = timezone(timedelta(hours=5, minutes=30))
 for i in range(TOTAL_ORDERS):
     # Generate a random order
     order = {
+        # "action" : "add",
         "order_id": str(uuid.uuid4()),
         "time": str(datetime.now(ist).isoformat()),  # Current time in ISO format with IST timezone
         "order_type": random.choice(["buy", "sell"]),
@@ -62,6 +66,7 @@ for i in range(TOTAL_ORDERS):
 
             # Prepare deletion request payload
             delete_payload = {
+                # "action" : "delete",
                 "order_id": order_to_delete["order_id"],
                 "order_procedure": order_to_delete["order_type"],
                 "price": order_to_delete["price"],
@@ -89,5 +94,8 @@ for i in range(TOTAL_ORDERS):
 # Write placed orders and completed orders to a JSON file
 with open("placed_orders.json", 'w') as json_file:
     json.dump(placed_orders + sent_for_deletion, json_file, indent=4)
+
+with open("sent_for_deletion.json", 'w') as js_file:
+    json.dump(sent_for_deletion, js_file, indent=4)
 
 print(f"All placed orders have been written to 'placed_orders.json'.")

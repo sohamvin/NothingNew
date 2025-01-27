@@ -3,10 +3,8 @@ from datetime import datetime
 
 def convert_timestamp_to_readable(timestamp):
     # Convert timestamp to a datetime object
-    dt_object = datetime.fromtimestamp(timestamp)
-    # Format it as a string (you can customize the format as needed)
+    dt_object = datetime.fromisoformat(timestamp)  # Using ISO format from orders.json
     return dt_object.strftime('%Y-%m-%d %H:%M:%S')
-
 
 # Load delete_orders.json
 with open('/home/soham/Documents/OrderBooks/OrderBook/delete_orders.json', 'r') as delete_file:
@@ -20,16 +18,30 @@ with open('/home/soham/Documents/OrderBooks/OrderBook/orders.json', 'r') as orde
 with open('/home/soham/Documents/OrderBooks/OrderBook/placed_orders.json', 'r') as placed_file:
     placed = json.load(placed_file)
 
+
+for o in delete_orders:
+    print("\n\n\n\n", o)
+
+# Extract placed order IDs
 ids_of_placed = [order['order_id'] for order in placed]
 
-# Extract order IDs from delete_orders where done is "Yes"
-deleted_order_ids = {order['id'] for order in delete_orders if order['done'] == "Yes"}
+# Extract order IDs from delete_orders where done is True
+deleted_order_ids = {order['order_id'] for order in delete_orders if order['done']}
 
 # Extract order IDs from orders.json
-undeleted_order_ids = [order['id'] for order in orders]
+undeleted_order_ids = [o['order_id'] for o in orders if 'order_id' in o]
 
-# Extract order IDs from delete_orders where done is "Not" along with their timestamps
-undeltwo = {order['id']: order['timestamp'] for order in delete_orders if order['done'] == "Not"}
+# print(undeleted_order_ids)
+
+# Extract order IDs from delete_orders where done is False, along with additional details
+undeltwo = {
+    order['order_id']: {
+        "timestamp": order.get('timestamp', None),  # Timestamp might not exist
+        "shared_you_get": order.get('shared_you_get', 0),
+        "money_you_get": order.get('money_you_get', 0)
+    }
+    for order in delete_orders if not order['done']
+}
 
 # Initialize lists to store remaining orders that should have been deleted and anomalies
 remaining_orders = []
@@ -38,22 +50,21 @@ order_not_in_completed_but_placed = []
 order_not_in_deleted_but_placed = []
 
 # Check for each order in orders.json if it is still present
-for order in orders:
-    if order['id'] in deleted_order_ids:
+for order in undeleted_order_ids:
+    if order in deleted_order_ids:
         remaining_orders.append(order)
 
 # Check for placed orders that were not deleted and are not completed
 for placed_order_id in ids_of_placed:
     if placed_order_id in undeltwo and placed_order_id not in undeleted_order_ids:
-        # If the order was requested for deletion but is not completed and was placed
         order_not_in_deleted_but_placed.append(placed_order_id)
 
 # Check for undeleted orders that should not be present
-for order_id, timestamp in undeltwo.items():
+for order_id, details in undeltwo.items():
     if order_id not in undeleted_order_ids:
         wrong.append({
-            "id": order_id,
-            "timestamp": timestamp
+            "order_id": order_id,
+            "details": details
         })
 
 # Count the number of remaining orders
@@ -71,7 +82,7 @@ if remaining_count > 0:
 if len(wrong) > 0:
     print("Here are the anomalies:")
     for anomaly in wrong:
-        print(anomaly['id'], "\t\t", convert_timestamp_to_readable(anomaly['timestamp']))
+        print(f"Order ID: {anomaly['order_id']}, Timestamp: {convert_timestamp_to_readable(anomaly['details']['timestamp']) if anomaly['details']['timestamp'] else 'N/A'}")
 
 if len(order_not_in_deleted_but_placed) > 0:
     print("Orders that were requested for deletion but were not deleted, were placed, and are not completed:")

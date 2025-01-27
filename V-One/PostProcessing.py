@@ -4,6 +4,37 @@ import time
 import redis
 from FileHandler import JsonFileHandler
 
+def get_order_keys(java=False):
+    if java:
+        return {
+            "qkey" : "quantity",
+            "id" : "orderId",
+            "type" : "orderType",
+            "company" : "companyId",
+            "time" : "time",
+            "price" : "price",
+            "quantity" : "quantity"
+        }
+        
+    else:
+        return {
+            "qkey" : "quantity",
+            "id" : "order_id",
+            "type" : "order_type",
+            "company" : "company_id",
+            "time" : "time",
+            "price" : "price",
+            "quantity" : "quantity"
+        }
+                #     order = Order(
+                #     order_id=order_dict['order_id'],
+                #     time=order_dict['time'],
+                #     order_type=order_dict['order_type'],
+                #     quantity=order_dict['quantity'],
+                #     price=order_dict['price'],
+                #     company_id=order_dict['company_id']
+                # )
+        pass
 
 
 
@@ -33,6 +64,7 @@ class PostProcessor:
             print(f"Key {key} does not exist.")
 
     def postProcess(self):
+        my_keys = get_order_keys(java=False)
         while True:
             # Fetch the most recent order from the "COMPLETE" queue in Redis
             order = self.redis_client.rpop("COMPLETE")
@@ -60,6 +92,7 @@ class PostProcessor:
                 print("No Delete orders in the queue, waiting...")
             
             if order:
+
                 print("POST PROCESS", order)
                 # Decode the order from bytes to string
                 order = order.decode('utf-8')
@@ -70,12 +103,13 @@ class PostProcessor:
 
                 # Instantiate file handlers
                 writer = self.writehandle
-                array = self.get_array(order_dict["order_id"])  # Accessing order_id from the dictionary
+                array = self.get_array(order_dict[my_keys["id"]])  # Accessing order_id from the dictionary
 
-                self.delete_key(order_dict["order_id"])  # Corrected typo: 'orde_id' to 'order_id'
+                self.delete_key(order_dict[my_keys["id"]])  # Corrected typo: 'orde_id' to 'order_id'
                 
                 if not array:
-                    print(f"No matching entries found for order_id={order_dict['order_id']}.")
+                    print(order_dict[my_keys["id"]])
+                    print(f"No matching entries found for order_id={order_dict[my_keys['id']]}.")
                     time.sleep(0.1)  # Wait briefly if no matching entries are found
                     continue
 
@@ -90,19 +124,19 @@ class PostProcessor:
 
                 for entry in array:
                     print(entry)
-
-                    entry = json.loads(entry)
-
+                    if isinstance(entry, str):  # Decode only if entry is a string
+                        entry = json.loads(entry)
                     print(entry)
+
 
                     # entry = entry.decode('utf-8')
                     # print(entry)
-                    total += float(entry["price"])*float(entry['quantity'])  # Ensure correct key access
-                    quantity += float(entry["quantity"])  # Ensure correct key access
+                    total += float(entry[my_keys["price"]])*float(entry[my_keys["quantity"]])  # Ensure correct key access
+                    quantity += float(entry[my_keys['quantity']])  # Ensure correct key access
 
                 json_obj = {
-                    "type": order_dict["order_type"],  # Accessing type from the dictionary
-                    "id": order_dict["order_id"],       # Accessing id from the dictionary
+                    "type": order_dict[my_keys["type"]],  # Accessing type from the dictionary
+                    "id": order_dict[my_keys["id"]],       # Accessing id from the dictionary
                     "amount": total,
                     "quantity": quantity,
                     "average": total / quantity if quantity != 0 else 0

@@ -6,32 +6,46 @@ class OrderBook:
     def __init__(self):
         self.buy_orders = SortedDict(lambda price: -price)  # Descending price for buy
         self.sell_orders = SortedDict()  # Ascending price for sell
-        #Both these dictionaries map:
-        #Order price: float/int : 
-        #A list which contains objects of class Order
-        #Price : [
-        #Order objs
-        #]
         self.idMap = {} 
 
     def get_best_price(self, price, incoming_buy=True):
+        
+
         to_search = self.sell_orders if incoming_buy else self.buy_orders
         prices = list(to_search.keys())
 
+        if price in prices:
+            return price
+        
+
+        if incoming_buy:
+            price = price + price*2/100
+            pass
+        else:
+            price = price - price*2/100
+            pass
+
         # Find index where price would fit
-        index = bisect.bisect_left(prices, price)
+        # index = bisect.bisect_left(prices, price)
 
         # For buy orders, we want the highest price less than or equal to the incoming price
-        if incoming_buy:
-            if index > 0:
-                return prices[index - 1]  # Return the highest price less than or equal
-            return -1  # No suitable price found
+        # if incoming_buy:
+        #     if index > 0:
+        #         return prices[index-1]  # Return the highest price less than or equal
+        #     return -1  # No suitable price found
 
-        # For sell orders, we want the lowest price greater than or equal to the incoming price
-        else:
-            if index < len(prices):
-                return prices[index]  # Return the lowest price greater than or equal
-            return -1  # No suitable price found
+        # if incoming_buy:
+        #     most = -1
+        #     for p in prices:
+
+
+
+        # else:
+        #      least = -1
+        #      for p in prices:
+        #           if p > price:
+        #                least =p
+        #      return least
 
 
 

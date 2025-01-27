@@ -94,7 +94,7 @@ def delete_order():
     Expects JSON data with order details.
     """
     order = request.json
-    required_keys = ['order_id', 'order_procedure', 'price', 'company_id']
+    required_keys = ['order_id', 'order_procedure', 'price', 'company_id', 'time']
 
     if not all(key in order for key in required_keys):
         return jsonify({"error": "Invalid delete request format"}), 400
@@ -109,7 +109,9 @@ def delete_order():
         "order_id": order_id,
         "price": order['price'],
         "timestamp": time.time(),  # Optional: include a timestamp
-        "order_type" : order["order_procedure"]
+        "order_type" : order["order_procedure"],
+        "time" : order['time']
+
     }
 
     # Push delete action to the company's Redis queue

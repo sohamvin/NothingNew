@@ -37,6 +37,11 @@ class MatchingEngine:
                 "shares_you_can_take_back" : 0,
                 "amount_you_get_back" : 0
             }
+
+            x =   self.redis_client.get(id) if self.redis_client.exists(id) else None
+
+            print("\n\n\n\n\n\n\n\n\nINFO PASSED IN THE DLETEION FELLOW: ", id, price, order_procedure, "KEY: ", x ,"\n\n\n\n\n\n\n\n\n")
+
             #First Check if order is in the book.
             #Since deletion order is always placed after insertion order(and both go to the same queue), 
             #that means that the incoming order must have
@@ -55,6 +60,7 @@ class MatchingEngine:
                 order = None
                 for o in order_book[price]:
                     if o.order_id == id:
+                        print( "DELETEION PROCESS\n\n\n\n\n", o.order_id, o.price, o.order_type ,o, "\n\n\n\n\n\n\n\n")
                         order = o
                     else:
                         new_orders.append(o)  # Keep this order
@@ -104,7 +110,10 @@ class MatchingEngine:
             #Either if No such price is in order book
             #Or if there is no order by given name in order book
 
-            json_data = json.dumps(data, indent=4) 
+            json_data = json.dumps(data, indent=4)
+
+            print("\n\n\n\n\n\n\n\n\n\n\n\n\n", "JSON TO DUMP " ,json_data, "\n\n\n\n\n\n")
+
                  # Assuming best_order is an object
             self.redis_client.lpush("DELETE", json_data)
 
@@ -241,6 +250,8 @@ class MatchingEngine:
                     self.add_to_array(order.order_id, json_data)
 
                     best_order.quantity -= matched_quantity
+                    counter_book[best_price][0] =best_order
+
                     if best_order.quantity == 0:
                         # self.order_book.remove_order(best_order.order_id)
                         counter_book[best_price].pop(0)
@@ -249,7 +260,10 @@ class MatchingEngine:
                         
                         self.redis_client.lpush("COMPLETE", json.dumps(best_order.__dict__))  # Assuming best_order is an object
 
-                        
+                    if order.order_type == 'buy':
+                        self.order_book.sell_orders = counter_book
+                    else:
+                        self.order_book.buy_orders = counter_book
 
                     # Handle incoming orders quantity update
                     order.quantity -= matched_quantity

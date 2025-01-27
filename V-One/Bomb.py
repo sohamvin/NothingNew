@@ -13,7 +13,7 @@ PRICE_RANGE = (400, 500)  # Random prices between 400 and 500
 QUANTITY_RANGE = (1, 50)  # Random quantities between 1 and 50
 
 # Number of orders to bombard
-TOTAL_ORDERS = 1000
+TOTAL_ORDERS = 100
 DELAY = 0.05  # Delay between requests in seconds (optional)
 
 # List of companies
@@ -26,6 +26,7 @@ companies = [
 
 # Store placed orders
 placed_orders = []
+sent_for_deletion = []
 
 # Generate and send orders
 for i in range(TOTAL_ORDERS):
@@ -60,8 +61,13 @@ for i in range(TOTAL_ORDERS):
                 "order_procedure": order_to_delete["order_type"],  # Use the same type for deletion
                 "price": order_to_delete["price"],
                 "company_id" : order_to_delete["company_id"],
-                "timestamp" : order_to_delete["time"]
+                # "timestamp" : order_to_delete["time"] # For python mathcing engine
+                "time" : order_to_delete["time"] # For java mathcing Engine
             }
+
+            print("My Delete Playload: ", delete_payload)
+
+
             
             # Send the deletion request to the API
             delete_response = requests.delete(API_URL_DELETE, json=delete_payload)
@@ -69,7 +75,13 @@ for i in range(TOTAL_ORDERS):
             # Print response status for deleting order
             if delete_response.status_code == 200:
                 print(f"Deleted Order: {delete_payload}")
-                placed_orders.remove(order_to_delete)  # Remove from tracked orders after deletion
+                sent_for_deletion.append(order_to_delete)
+                index_to_delete = placed_orders.index(order_to_delete)
+
+# Remove and return the selected order from the list
+                removed_order = placed_orders.pop(index_to_delete)
+
+                # placed_orders.remove(order_to_delete)  # Remove from tracked orders after deletion
             else:
                 print(f"Failed to delete order: {delete_response.json()}")
 
@@ -78,6 +90,6 @@ for i in range(TOTAL_ORDERS):
 
 # Write placed orders to a JSON file at the end of processing
 with open("placed_orders.json", 'w') as json_file:
-    json.dump(placed_orders, json_file, indent=4)
+    json.dump(placed_orders + sent_for_deletion, json_file, indent=4)
 
 print(f"All placed orders have been written to 'placed_orders.json'.")

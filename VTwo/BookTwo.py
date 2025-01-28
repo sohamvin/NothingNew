@@ -26,6 +26,36 @@ class OrderManager:
             self.sell_orders.remove(order)
 
 
+
+    # Function to calculate weighted average price
+    def calculate_weighted_average(self, order_list):
+        total_quantity = 0
+        weighted_sum = 0
+
+        if order_list:
+
+            for order in order_list:
+                total_quantity += order.quantity
+                weighted_sum += order.price * order.quantity
+        
+        else:
+            total_quantity = float('inf')
+            weighted_sum = 20
+
+        # Avoid division by zero
+        if total_quantity == 0:
+            return 0
+
+        return (weighted_sum , total_quantity)
+
+    # Wrapper functions for buy and sell orders
+    def weighted_average_buy(self):
+        return self.calculate_weighted_average(self.buy_orders)
+
+    def weighted_average_sell(self):
+        return self.calculate_weighted_average(self.sell_orders)
+    
+
     def remove_order_by_id(self, order_id: str):
         order = self.orders_by_id.get(order_id)  # Use .get() to avoid KeyError
         if order is None:

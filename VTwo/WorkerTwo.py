@@ -1,6 +1,6 @@
 import threading
 from MatchingTwo import MatchingEngineTwo
-
+import time
 
 class Worker(threading.Thread):
     def __init__(self, company_id):
@@ -9,13 +9,20 @@ class Worker(threading.Thread):
         self.matcher = MatchingEngineTwo(company_id)
 
     def run(self):
-        
+        # Start the continuous push to Redis in a separate thread
+        # continuous_thread = threading.Thread(target=self.doContinuous, daemon=True)
+        # continuous_thread.start()
+
         while True:
             try:
                 self.matcher.read_from_queue()
-                
             except Exception as e:
                 print(f"Error processing orders for {self.company_id}: {e}")
+
+    def doContinuous(self):
+        while True:
+            self.matcher.push_order_book_to_redis()
+            time.sleep(30)  # Sleep for 30 seconds
 
 # Function to start workers for all companies.
 def start_workers(companies):
@@ -29,6 +36,7 @@ def start_workers(companies):
     return threads
 
 # Example usage: Start workers for all companies.
+
 if __name__ == "__main__":
     companies_list = [
         "Google", "Facebook", "Instagram", "Spotify", "Dropbox", 

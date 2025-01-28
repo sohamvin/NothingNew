@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import datetime
 
 def convert_timestamp_to_readable(timestamp):
@@ -6,19 +7,24 @@ def convert_timestamp_to_readable(timestamp):
     dt_object = datetime.fromisoformat(timestamp)  # Using ISO format from orders.json
     return dt_object.strftime('%Y-%m-%d %H:%M:%S')
 
+
+# Get the current working directory
+current_path = os.getcwd()
+
 # Load delete_orders.json
-with open('/home/soham/Documents/OrderBooks/OrderBook/VTwo/delete_orders.json', 'r') as delete_file:
+with open(os.path.join(current_path, 'delete_orders.json'), 'r') as delete_file:
     delete_orders = json.load(delete_file)
 
 # Load orders.json
-with open('/home/soham/Documents/OrderBooks/OrderBook/VTwo/orders.json', 'r') as orders_file:
+with open(os.path.join(current_path, 'orders.json'), 'r') as orders_file:
     orders = json.load(orders_file)
 
 # Load placed_orders.json
-with open('/home/soham/Documents/OrderBooks/OrderBook/VTwo/placed_orders.json', 'r') as placed_file:
+with open(os.path.join(current_path, 'placed_orders.json'), 'r') as placed_file:
     placed = json.load(placed_file)
 
-with open('/home/soham/Documents/OrderBooks/OrderBook/VTwo/sent_for_deletion.json', 'r') as sent_for_deletion_file:
+# Load sent_for_deletion.json
+with open(os.path.join(current_path, 'sent_for_deletion.json'), 'r') as sent_for_deletion_file:
     sent_for_deletion = json.load(sent_for_deletion_file)
 
 # Check if delete_orders is a list of lists and flatten it if necessary

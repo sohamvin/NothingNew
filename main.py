@@ -62,9 +62,20 @@ from flask import Flask, request, jsonify
 import redis
 import json
 import time
-
 app = Flask(__name__)
-redis_client = redis.StrictRedis(host='localhost', port=6379, db=0)
+"""Basic connection example.
+"""
+
+
+redis_client = redis.Redis(
+        host='redis-16758.c264.ap-south-1-1.ec2.redns.redis-cloud.com',
+        port=16758,
+        decode_responses=True,
+        username="default",
+        password="hTg4EOmVoo4h1OAncK2pAk5RNCFP6XD9",
+    )
+
+
 
 @app.route('/add_order', methods=['POST'])
 def add_order():

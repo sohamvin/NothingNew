@@ -14,8 +14,8 @@ PRICE_RANGE = (400, 500)
 QUANTITY_RANGE = (1, 50)
 
 # Number of orders to bombard
-TOTAL_ORDERS = 3000
-DELAY = 0.05
+TOTAL_ORDERS = 100
+DELAY = 0.5
 
 # List of companies
 companies = [

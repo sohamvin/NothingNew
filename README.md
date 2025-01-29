@@ -27,6 +27,15 @@ Before running the system, ensure that you have the following installed:
      docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management
      ```
 
+- **RabbitMQ Dashboard URL:**
+  You can access the RabbitMQ management dashboard at the following URL:
+  [http://localhost:15672](http://localhost:15672)
+
+  - **Username:** `guest`
+  - **Password:** `guest`
+
+With this setup, you can log in to the RabbitMQ management dashboard using the default credentials (`guest`/`guest`).
+
 ## Running the Project
 
 To start the order book matching engine, execute the following commands **in order**:

@@ -102,7 +102,7 @@ class MatchingEngineTwo:
                     "price": self.algorithm(sell_wt=sell_weight, sell_qt=sell_quantity, buy_qt=buy_quantity, buy_wt=buy_weight)
                 }
 
-                if data_to_publish["price"] != 0:
+                if data_to_publish["price"] > 0:
                     try:
                         resp = self.local_redis.xadd(self.name + "_market", data_to_publish)
                         response = self.local_redis.publish(self.name, json.dumps(data_to_publish))

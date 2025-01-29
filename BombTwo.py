@@ -5,17 +5,18 @@ import time
 from datetime import datetime, timedelta, timezone
 import json
 
+PORT = 8935
 # Define API endpoint
-API_URL_ADD = "http://127.0.0.1:5000/add_order"
-API_URL_DELETE = "http://127.0.0.1:5000/delete_order"
+API_URL_ADD = f"http://127.0.0.1:{PORT}/add_order"
+API_URL_DELETE = f"http://127.0.0.1:{PORT}/delete_order"
 
 # Ranges for random order data
 PRICE_RANGE = (400, 500)
 QUANTITY_RANGE = (1, 50)
 
 # Number of orders to bombard
-TOTAL_ORDERS = 1000
-DELAY = 0.005
+TOTAL_ORDERS = 500
+DELAY = 0.05
 
 # List of companies
 companies = [
@@ -91,11 +92,11 @@ for i in range(TOTAL_ORDERS):
     # Optional: Delay to avoid overloading the server
     time.sleep(DELAY)
 
-# Write placed orders and completed orders to a JSON file
-with open("placed_orders.json", 'w') as json_file:
-    json.dump(placed_orders + sent_for_deletion, json_file, indent=4)
+# # Write placed orders and completed orders to a JSON file
+# with open("placed_orders.json", 'w') as json_file:
+#     json.dump(placed_orders + sent_for_deletion, json_file, indent=4)
 
-with open("sent_for_deletion.json", 'w') as js_file:
-    json.dump(sent_for_deletion, js_file, indent=4)
+# with open("sent_for_deletion.json", 'w') as js_file:
+#     json.dump(sent_for_deletion, js_file, indent=4)
 
-print(f"All placed orders have been written to 'placed_orders.json'.")
+# print(f"All placed orders have been written to 'placed_orders.json'.")

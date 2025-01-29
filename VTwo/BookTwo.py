@@ -10,50 +10,50 @@ class OrderManager:
         self.buy_orders = SortedList(key=lambda order: order.price)  # Store buy orders sorted by price
         self.sell_orders = SortedList(key=lambda order: order.price)  # Store sell orders sorted by price
         self.orders_by_id = {}  # For O(1) lookup by ID
+        self.total_sell_volume = 0
+        self.total_buy_volume = 0
+        self.total_buy_amount = 0
+        self.total_sell_amount = 0
 
     def add_order(self, order: Order):
         self.orders_by_id[order.order_id] = order
         if order.order_type == "buy":
+            self.total_buy_volume += order.quantity
+            self.total_buy_amount += order.quantity*order.price
             self.buy_orders.add(order)
         elif order.order_type == "sell":
+            self.total_sell_volume += order.quantity
+            self.total_sell_amount += order.quantity*order.price
             self.sell_orders.add(order)
 
     def remove_order(self, order: Order):
         del self.orders_by_id[order.order_id]
         if order.order_type == "buy":
+            self.total_buy_volume -= order.quantity #Use quantity only in cases like completed execution or
+            #Partial execution
+            self.total_buy_amount -= order.quantity*order.price
             self.buy_orders.remove(order)
         elif order.order_type == "sell":
+            self.total_sell_volume -= order.quantity
+            self.total_sell_amount -= order.quantity*order.price
             self.sell_orders.remove(order)
 
 
 
     # Function to calculate weighted average price
-    def calculate_weighted_average(self, order_list):
-        total_quantity = 0
-        weighted_sum = 0
-
-        if order_list:
-
-            for order in order_list:
-                total_quantity += order.quantity
-                weighted_sum += order.price * order.quantity
-        
+    def calculate_weighted_average(self, buy=True):
+        if buy:
+            return (self.total_buy_amount, self.total_buy_volume)
         else:
-            total_quantity = float('inf')
-            weighted_sum = 20
 
-        # Avoid division by zero
-        if total_quantity == 0:
-            return 0
-
-        return (weighted_sum , total_quantity)
+            return (self.total_sell_amount, self.total_sell_volume)
 
     # Wrapper functions for buy and sell orders
     def weighted_average_buy(self):
-        return self.calculate_weighted_average(self.buy_orders)
+        return self.calculate_weighted_average(buy=True)
 
     def weighted_average_sell(self):
-        return self.calculate_weighted_average(self.sell_orders)
+        return self.calculate_weighted_average(buy=False)
     
 
     def remove_order_by_id(self, order_id: str):
@@ -61,21 +61,13 @@ class OrderManager:
         if order is None:
             print(f"Order with ID {order_id} not found.")
             return
-
-        if order.order_type == "buy":
-            self.buy_orders.remove(order)
-        elif order.order_type == "sell":
-            self.sell_orders.remove(order)
-
-        del self.orders_by_id[order_id]
+        
+        self.remove_order(order=order)
         print(f"Order with ID {order_id} has been removed.")
 
 
     def get_order_by_id(self, order_id: str):
         return self.orders_by_id.get(order_id, None)  # Return None if not found
-
-    
-
 
     def delete_an_order(self, order_id: str)-> dict:
 
@@ -112,6 +104,13 @@ class OrderManager:
                 matched_quantity = min(best_order.quantity, order.quantity)
                 order.quantity -= matched_quantity
                 best_order.quantity -= matched_quantity
+
+
+                #Since order was matched, some units were consumed from either buyers book or sellers book
+                #If incoming order was buy order then that means that it matched with sell order
+                #Hence some volume and shares must be consumed from the sell List
+                #and vice versa
+
                 order.transaction.append(
                     {
                         "quantity": matched_quantity,
@@ -136,9 +135,17 @@ class OrderManager:
                 if best_order.order_type == "buy":
                     best_order.shares_owned += matched_quantity
                     order.shares_owned -= matched_quantity
+
+                    #This means that from the buy orderbook some value is consumed
+                    self.total_buy_volume -= matched_quantity
+                    self.total_buy_amount -= matched_quantity*matched_price
                 else:
                     order.shares_owned += matched_quantity
                     best_order.shares_owned -= matched_quantity
+
+                    #This means that from the sell orderbook some value is consumed
+                    self.total_sell_volume -= matched_quantity
+                    self.total_sell_amount -= matched_quantity*matched_price
                     
 
                 if best_order.quantity == 0:

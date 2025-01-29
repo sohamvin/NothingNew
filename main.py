@@ -63,8 +63,17 @@ import redis
 import json
 import time
 app = Flask(__name__)
+import pika
 """Basic connection example.
 """
+
+connection = pika.BlockingConnection(
+    pika.ConnectionParameters(host='localhost'))
+channel = connection.channel()
+
+channel.exchange_declare(exchange='order_routing', exchange_type='direct')
+
+import sys
 
 
 redis_client = redis.Redis(
@@ -93,8 +102,23 @@ def add_order():
     queue_name = f"orders_queue_{company_id}"  # Construct queue name for the company
     order["action"] = "add"
 
+    channel.queue_declare(queue=queue_name, durable=True)
+
+    # ✅ Bind the queue to the exchange so it can receive messages
+    channel.queue_bind(exchange='order_routing', queue=queue_name, routing_key=queue_name)
+
+    # ✅ Publish message to the exchange with correct routing key
+    message = json.dumps(order)
+    channel.basic_publish(
+        exchange='order_routing',
+        routing_key=queue_name,  # Route it correctly
+        body=message
+    )
+    print(f" [x] Sent {queue_name}:{message}")
+    # connection.close()
+
     # Push order to the company's Redis queue
-    redis_client.lpush(queue_name, json.dumps(order))
+    # redis_client.lpush(queue_name, json.dumps(order))
     return jsonify({"message": f"Order added to queue for company {company_id}"}), 200
 
 

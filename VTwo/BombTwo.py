@@ -14,15 +14,15 @@ PRICE_RANGE = (400, 500)
 QUANTITY_RANGE = (1, 50)
 
 # Number of orders to bombard
-TOTAL_ORDERS = 100
+TOTAL_ORDERS = 5000
 DELAY = 0.5
 
 # List of companies
 companies = [
     "Google", "Facebook", "Instagram", "Spotify", "Dropbox",
-        # "Reddit", "Netflix", "Pinterest", "Quora", "YouTube", 
-    # "Lyft", "Uber", "LinkedIn", "Slack", "Etsy", 
-    # "Mozilla", "NASA", "IBM", "Intel", "Microsoft"
+        "Reddit", "Netflix", "Pinterest", "Quora", "YouTube", 
+    "Lyft", "Uber", "LinkedIn", "Slack", "Etsy", 
+    "Mozilla", "NASA", "IBM", "Intel", "Microsoft"
 ]
 
 # Store placed orders

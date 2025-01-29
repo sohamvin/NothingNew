@@ -6,7 +6,7 @@ class Worker(threading.Thread):
     def __init__(self, company_id):
         super().__init__()
         self.company_id = company_id
-        self.matcher = MatchingEngineTwo(company_id)
+        # self.matcher = MatchingEngineTwo(company_id)
 
     def run(self):
         # Start the continuous push to Redis in a separate thread
@@ -15,15 +15,11 @@ class Worker(threading.Thread):
 
         while True:
             try:
-                self.matcher.read_from_queue()
+                self.matcher = MatchingEngineTwo(self.company_id)
             except Exception as e:
                 print(f"Error processing orders for {self.company_id}: {e}")
 
-    def doContinuous(self):
-        while True:
-            self.matcher.push_order_book_to_redis()
-            time.sleep(30)  # Sleep for 30 seconds
-
+                
 # Function to start workers for all companies.
 def start_workers(companies):
     threads = []
@@ -40,9 +36,9 @@ def start_workers(companies):
 if __name__ == "__main__":
     companies_list = [
         "Google", "Facebook", "Instagram", "Spotify", "Dropbox", 
-        # "Reddit", "Netflix", "Pinterest", "Quora", "YouTube", 
-        # "Lyft", "Uber", "LinkedIn", "Slack", "Etsy", 
-        # "Mozilla", "NASA", "IBM", "Intel", "Microsoft"
+        "Reddit", "Netflix", "Pinterest", "Quora", "YouTube", 
+        "Lyft", "Uber", "LinkedIn", "Slack", "Etsy", 
+        "Mozilla", "NASA", "IBM", "Intel", "Microsoft"
     ]
 
     

@@ -1,18 +1,12 @@
 import threading
 from MatchingTwo import MatchingEngineTwo
-import time
 
 class Worker(threading.Thread):
     def __init__(self, company_id):
         super().__init__()
         self.company_id = company_id
-        # self.matcher = MatchingEngineTwo(company_id)
 
     def run(self):
-        # Start the continuous push to Redis in a separate thread
-        # continuous_thread = threading.Thread(target=self.doContinuous, daemon=True)
-        # continuous_thread.start()
-
         while True:
             try:
                 self.matcher = MatchingEngineTwo(self.company_id)

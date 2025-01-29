@@ -14,17 +14,8 @@ class MatchingEngineTwo:
     def __init__(self, name : str):
         self.order_book = OrderManager()
         self.lock = threading.Lock()
-        self.redis_client = redis.Redis(
-        host='redis-16758.c264.ap-south-1-1.ec2.redns.redis-cloud.com',
-        port=16758,
-        decode_responses=True,
-        username="default",
-        password="hTg4EOmVoo4h1OAncK2pAk5RNCFP6XD9",
-    )
-        self.local_redis = redis.Redis(host="localhost", port=6379)
 
-        # self.running = True
-        # threading.Thread(target=self.push_order_book_to_redis, daemon=True).start()
+        self.local_redis = redis.Redis(host="localhost", port=6379)
         self.name = name
 
         connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
@@ -67,7 +58,7 @@ class MatchingEngineTwo:
         """ Processes incoming orders from RabbitMQ queue. """
         try:
             order_dict = json.loads(body)
-            print(f" [x] Received {order_dict}")
+            print(f" [x] Received {type(order_dict)} for {order_dict['action']}")
 
             company_id = order_dict.get("company_id")
             action = order_dict.get("action")
@@ -80,8 +71,6 @@ class MatchingEngineTwo:
                     routing_key="DELETE",  # Route it correctly
                     body=message
                 )
-                json_data = json.dumps(dictionary, indent=4)
-                self.redis_client.lpush("DELETE", json_data)
             else:
                 order = Order(
                     order_id=order_dict["order_id"],
@@ -103,7 +92,6 @@ class MatchingEngineTwo:
                             routing_key="COMPLETE",  # Route it correctly
                             body=message
                         )
-                        self.redis_client.lpush("COMPLETE", json.dumps(obj.__dict__))
 
                 current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 (sell_weight, sell_quantity) = self.order_book.weighted_average_sell()
@@ -122,8 +110,8 @@ class MatchingEngineTwo:
                     except Exception as e:
                         print(f"Error adding to stream: {e}")
 
-                AppendBook(self.order_book, order_dict, self.name)
-                print("Also Appended")
+                # AppendBook(self.order_book, order_dict, self.name)
+                # print("Also Appended")
 
             # Acknowledge the message
             ch.basic_ack(delivery_tag=method.delivery_tag)

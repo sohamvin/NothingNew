@@ -25,7 +25,4 @@ def AppendBook(book: OrderManager, o_dict, company_id: str):
             json.dump(data, json_file)  # Use json.dump to write data as JSON
             print("WRITEEN TO ", file_path)
 
-        # if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
-        #     with open(file_path, 'a') as json_file:
-        #         json_file.write(",\n")  # Add a com
                 

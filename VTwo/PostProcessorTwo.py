@@ -1,58 +1,86 @@
 import json
-import redis
+import threading
+import pika
 from FileHandler import JsonFileHandler
 import time
 
 class PostProcessor:
     def __init__(self):
-        self.redis_client = redis.Redis(
-        host='redis-16758.c264.ap-south-1-1.ec2.redns.redis-cloud.com',
-        port=16758,
-        decode_responses=True,
-        username="default",
-        password="hTg4EOmVoo4h1OAncK2pAk5RNCFP6XD9",
-    )
 
+        # ✅ File Handlers
         self.writehandle = JsonFileHandler('orders.json')
         self.del_order_handler = JsonFileHandler('delete_orders.json')
-        self.order_batch = []
-        self.delete_order_batch = []
+        self.added_to_orders = False
+        self.added_to_deletes = False
+        # ✅ Start Consumers (non-daemon to prevent premature exit)
+        threading.Thread(target=self.ConsumeCompleteQUEUE, daemon=False).start()
+        threading.Thread(target=self.ConsumeDeleteQUEUE, daemon=False).start()
 
-    def postProcess(self):
+    def ConsumeCompleteQUEUE(self):
+        """ Continuously listen for messages in COMPLETE queue. Reconnect on failure. """
         while True:
             try:
-                # Fetch the most recent order from the "COMPLETE" queue
-                complete_order_tuple = self.redis_client.brpop("COMPLETE", timeout=1)
+                print(f" [*] Waiting for messages in queue COMPLETE...")
+                connection = pika.BlockingConnection(
+                    pika.ConnectionParameters(host='localhost', heartbeat=600)  # ✅ Heartbeat to prevent timeouts
+                )
+                channel = connection.channel()
+                
+                channel.exchange_declare(exchange="complete_delete", exchange_type='direct')
+                channel.queue_declare(queue="COMPLETE", durable=True)
+                channel.queue_bind(exchange='complete_delete', queue="COMPLETE", routing_key="COMPLETE")
 
-                if complete_order_tuple:
-                    _, complete_order = complete_order_tuple
-                    complete_order = complete_order
-                    order_dict = json.loads(complete_order)
-                    print(f"Processed COMPLETE Order: {order_dict}")
-                    self.order_batch.append(order_dict)
-
-                # Check for DELETE orders similarly
-                delete_order_tuple = self.redis_client.brpop("DELETE", timeout=1)
-                if delete_order_tuple:
-                    _, delete_order = delete_order_tuple
-                    delete_order = delete_order
-                    delete_order_dict = json.loads(delete_order)
-                    print(f"Processed DELETE Order: {delete_order_dict}")
-                    self.delete_order_batch.append(delete_order_dict)
-
-                # Write batches to files periodically
-                if len(self.order_batch) >= 10:  # Adjust batch size as needed
-                    self.writehandle.append(self.order_batch)
-                    self.order_batch.clear()
-
-                if len(self.delete_order_batch) >= 10:  # Adjust batch size as needed
-                    self.del_order_handler.append(self.delete_order_batch)
-                    self.delete_order_batch.clear()
-
+                channel.basic_consume(queue="COMPLETE", on_message_callback=self.CallBackComplete, auto_ack=False)
+                channel.start_consuming()
             except Exception as e:
-                print(f"An error occurred: {e}")
+                print(f" [!] RabbitMQ Connection Lost (COMPLETE). Reconnecting in 5s... Error: {e}")
+                time.sleep(5)  # ✅ Prevent infinite fast loop
 
-            time.sleep(0.01)  # Avoid busy waiting
+    def ConsumeDeleteQUEUE(self):
+        """ Continuously listen for messages in DELETE queue. Reconnect on failure. """
+        while True:
+            try:
+                print(f" [*] Waiting for messages in queue DELETE...")
+                connection = pika.BlockingConnection(
+                    pika.ConnectionParameters(host='localhost', heartbeat=600)
+                )
+                channel = connection.channel()
+                
+                channel.exchange_declare(exchange="complete_delete", exchange_type='direct')
+                channel.queue_declare(queue="DELETE", durable=True)
+                channel.queue_bind(exchange='complete_delete', queue="DELETE", routing_key="DELETE")
 
-p = PostProcessor()
-p.postProcess()
+                channel.basic_consume(queue="DELETE", on_message_callback=self.CallBackDelete, auto_ack=False)
+                channel.start_consuming()
+            except Exception as e:
+                print(f" [!] RabbitMQ Connection Lost (DELETE). Reconnecting in 5s... Error: {e}")
+                time.sleep(5)
+
+    def CallBackComplete(self, ch, method, properties, body):
+        """ Process messages from COMPLETE queue. """
+        try:
+            order_dict = json.loads(body)
+            print(f" [x] Received COMPLETE message: {order_dict} of type : \n\n\n\n{type(order_dict)}")
+            self.writehandle.append(order_dict, add=self.added_to_orders)
+            self.added_to_orders = True
+            ch.basic_ack(delivery_tag=method.delivery_tag)
+        except Exception as e:
+            print(f"Error processing COMPLETE message: {e}")
+
+    def CallBackDelete(self, ch, method, properties, body):
+        """ Process messages from DELETE queue. """
+        try:
+            order_dict = json.loads(body)
+            print(f" [x] Received DELETE message: {order_dict}")
+            self.del_order_handler.append(order_dict, add=self.added_to_deletes)
+            self.added_to_deletes = True
+            ch.basic_ack(delivery_tag=method.delivery_tag)
+        except Exception as e:
+            print(f"Error processing DELETE message: {e}")
+
+# ✅ Keep Main Thread Alive
+if __name__ == "__main__":
+    p = PostProcessor()
+    while True:
+        time.sleep(1)  # Prevents main thread from exiting
+

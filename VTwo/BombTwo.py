@@ -14,8 +14,8 @@ PRICE_RANGE = (400, 500)
 QUANTITY_RANGE = (1, 50)
 
 # Number of orders to bombard
-TOTAL_ORDERS = 5000
-DELAY = 0.5
+TOTAL_ORDERS = 1000
+DELAY = 0.005
 
 # List of companies
 companies = [
@@ -66,7 +66,7 @@ for i in range(TOTAL_ORDERS):
 
             # Prepare deletion request payload
             delete_payload = {
-                # "action" : "delete",
+                "action" : "delete",
                 "order_id": order_to_delete["order_id"],
                 "order_procedure": order_to_delete["order_type"],
                 "price": order_to_delete["price"],

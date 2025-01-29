@@ -73,8 +73,6 @@ channel = connection.channel()
 
 channel.exchange_declare(exchange='order_routing', exchange_type='direct')
 
-import sys
-
 
 redis_client = redis.Redis(
         host='redis-16758.c264.ap-south-1-1.ec2.redns.redis-cloud.com',
@@ -134,14 +132,14 @@ def delete_order():
     if not all(key in order for key in required_keys):
         return jsonify({"error": "Invalid delete request format"}), 400
 
-    order_id = order['order_id']
-    company_id = order['company_id'] 
+    company_id = order['company_id']
     queue_name = f"orders_queue_{company_id}"  # Construct queue name for the company
+    order["action"] = "delete"
 
     # Create a deletion message (you can customize this as needed)
     delete_message = {
         "action": "delete",
-        "order_id": order_id,
+        "order_id": order['order_id'],
         "price": order['price'],
         "timestamp": time.time(),  # Optional: include a timestamp
         "order_type" : order["order_procedure"],
@@ -150,7 +148,19 @@ def delete_order():
     }
 
     # Push delete action to the company's Redis queue
-    redis_client.lpush(queue_name, json.dumps(delete_message))
+    channel.queue_declare(queue=queue_name, durable=True)
+
+    # ✅ Bind the queue to the exchange so it can receive messages
+    channel.queue_bind(exchange='order_routing', queue=queue_name, routing_key=queue_name)
+
+    # ✅ Publish message to the exchange with correct routing key
+    message = json.dumps(delete_message)
+    channel.basic_publish(
+        exchange='order_routing',
+        routing_key=queue_name,  # Route it correctly
+        body=message
+    )
+    print(f" [x] Sent {queue_name}:{delete_message}")
     
     return jsonify({"message": f"Order deletion request added to queue for company {company_id}"}), 200
 

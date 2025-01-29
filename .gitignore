@@ -1,4 +1,4 @@
-myvenv
-.vscode
-.qodo
-__pycache__
+myvenv/
+.vscode/
+.qodo/
+__pycache__/

@@ -27,7 +27,6 @@ class OrderManager:
             self.sell_orders.add(order)
 
     def remove_order(self, order: Order):
-        del self.orders_by_id[order.order_id]
         if order.order_type == "buy":
             self.total_buy_volume -= order.quantity #Use quantity only in cases like completed execution or
             #Partial execution
@@ -37,6 +36,8 @@ class OrderManager:
             self.total_sell_volume -= order.quantity
             self.total_sell_amount -= order.quantity*order.price
             self.sell_orders.remove(order)
+            
+        del self.orders_by_id[order.order_id]
 
 
 
@@ -63,7 +64,7 @@ class OrderManager:
             return
         
         self.remove_order(order=order)
-        print(f"Order with ID {order_id} has been removed.")
+        # print(f"Order with ID {order_id} has been removed.")
 
 
     def get_order_by_id(self, order_id: str):
@@ -97,7 +98,7 @@ class OrderManager:
         while True:
             best_order = self.get_best_price(order.price, incoming_buy=(order.order_type == "buy"))
 
-            print(f"\n{order} was matched with {best_order}")
+            # print(f"\n{order} was matched with {best_order}")
             if best_order != -1:
 
                 matched_price = min(best_order.price, order.price)

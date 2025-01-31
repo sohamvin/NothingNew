@@ -3,12 +3,25 @@ import json
 import time
 app = Flask(__name__)
 import pika
+import redis
+import pika.exceptions
+
+redis_client = redis.Redis(host="localhost", port=6379)
 """Basic connection example.
 """
+def connect():
+    while True:
+        try:
+            connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+            channel = connection.channel()
+            print("Connected to RabbitMQ!")
+            return connection, channel
+        except pika.exceptions.AMQPConnectionError as e:
+            print(f"Connection failed: {e}, retrying in 5 seconds...")
+            time.sleep(5)  # Retry after 5 seconds
 
-connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='localhost'))
-channel = connection.channel()
+# Create a persistent connection
+connection, channel = connect()
 
 channel.exchange_declare(exchange='order_routing', exchange_type='direct')
 
@@ -42,7 +55,18 @@ def add_order():
         routing_key=queue_name,  # Route it correctly
         body=message
     )
-    print(f" [x] Sent {queue_name}:{message}")
+    # print(f" [x] Sent {queue_name}:{message}")
+
+    data_to_publish= {
+        "price" : order["price"],
+        "quantity" : order["quantity"],
+        "order_type" : order["order_type"]
+    }
+
+    resp = redis_client.xadd(company_id + "_depth", data_to_publish)
+    response = redis_client.publish(company_id + "_depth_socket", json.dumps(data_to_publish))
+
+    print(f"Went to publish {resp} and {response} regarding market depth")
     # connection.close()
 
     # Push order to the company's Redis queue
@@ -90,7 +114,7 @@ def delete_order():
         routing_key=queue_name,  # Route it correctly
         body=message
     )
-    print(f" [x] Sent {queue_name}:{delete_message}")
+    # print(f" [x] Sent {queue_name}:{delete_message}")
     
     return jsonify({"message": f"Order deletion request added to queue for company {company_id}"}), 200
 

@@ -3,7 +3,6 @@ import random
 import uuid
 import time
 from datetime import datetime, timedelta, timezone
-import json
 
 PORT = 8935
 # Define API endpoint
@@ -15,7 +14,7 @@ PRICE_RANGE = (400, 500)
 QUANTITY_RANGE = (1, 50)
 
 # Number of orders to bombard
-TOTAL_ORDERS = 500
+TOTAL_ORDERS = 1000
 DELAY = 0.05
 
 # List of companies

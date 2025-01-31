@@ -2,3 +2,4 @@ myvenv/
 .vscode/
 .qodo/
 __pycache__/
+/VTwo/__pycache__/

@@ -3,6 +3,7 @@ import random
 import uuid
 import time
 from datetime import datetime, timedelta, timezone
+import json
 
 PORT = 8935
 # Define API endpoint
@@ -91,11 +92,11 @@ for i in range(TOTAL_ORDERS):
     # Optional: Delay to avoid overloading the server
     time.sleep(DELAY)
 
-# # Write placed orders and completed orders to a JSON file
-# with open("placed_orders.json", 'w') as json_file:
-#     json.dump(placed_orders + sent_for_deletion, json_file, indent=4)
+# Write placed orders and completed orders to a JSON file
+with open("placed_orders.json", 'w') as json_file:
+    json.dump(placed_orders + sent_for_deletion, json_file, indent=4)
 
-# with open("sent_for_deletion.json", 'w') as js_file:
-#     json.dump(sent_for_deletion, js_file, indent=4)
+with open("sent_for_deletion.json", 'w') as js_file:
+    json.dump(sent_for_deletion, js_file, indent=4)
 
-# print(f"All placed orders have been written to 'placed_orders.json'.")
+print(f"All placed orders have been written to 'placed_orders.json'.")

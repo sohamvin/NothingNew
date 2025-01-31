@@ -60,7 +60,7 @@ class OrderManager:
     def remove_order_by_id(self, order_id: str):
         order = self.orders_by_id.get(order_id)  # Use .get() to avoid KeyError
         if order is None:
-            print(f"Order with ID {order_id} not found.")
+            # print(f"Order with ID {order_id} not found.")
             return
         
         self.remove_order(order=order)
@@ -252,68 +252,3 @@ class OrderManager:
                     return -1 if price * l > closest_lower.price else closest_lower
             else:
                 return -1 if closest_upper is None else closest_upper
-
-# # Example usage of OrderManager with SortedList
-# order_manager = OrderManager()
-
-
-# # Generate additional orders
-# additional_orders = []
-
-# UPPER_LIMIT = 15
-# # LOWER_LIMIT = 4
-
-# orders_arrival = [
-#     ( "sell", 278.5, 9), ("sell", 287.4, 18), ("sell", 360.1, 7), ("buy", 52.7, 9), ("buy", 359.6, 20),
-#     ("buy", 255.2, 3), ("sell", 245.22, 28), ("sell", 439.22, 4), ("sell", 289.12, 8), ("buy", 239.99, 19), 
-#     ("buy", 324.34, 3), ("buy", 356.45, 18), ("buy", 344.23, 23), ("buy", 677.23, 28), ("sell", 356.23, 1)
-# ]
-
-# orders_with_ids = [(str(i + 1),) + order for i, order in enumerate(orders_arrival)]
-
-
-# when_to_delete = {
-#     3-1: "2",
-#     7-1: "5",
-#     10-1: "2",
-#     12-1: "7"
-    
-# }
-
-
-# deletions = [
-
-# ]
-
-
-# # Randomly generate 20 more orders
-# for i in range(len(orders_with_ids)):  # Starting from 4 to 23 for unique order IDs
-#     order_type = orders_with_ids[i][1]
-#     quantity = orders_with_ids[i][3]  # Random quantity between 1 and 20
-#     price = orders_with_ids[i][2]  # Random price between 250.0 and 400.0
-#     company_id = "AAPL"  # Assuming all orders are for the same stock for simplicity
-
-#     additional_orders.append(Order(orders_with_ids[i][0], datetime.now(), order_type, quantity, price, company_id))
-
-
-# for i, o in enumerate(additional_orders):
-#     order_manager.testing_processor(o)
-#     if i in when_to_delete:
-#         print("\n\n\nBefore deletion: ")
-#         order_manager.print_status_of_books()
-#         responce = order_manager.delete_an_order(when_to_delete[i])
-#         deletions.append(responce)
-#         print("\n\nAfter Deletion: \n\n\n")
-#         order_manager.print_status_of_books()
-
-
-
-# print("\n\n\n\n\n\n\n\n\n\n")
-# for o in complated_orders:
-#     print("\n",o, "\n" ,o.transaction)
-
-
-
-# print("\n\n\n\n\n\n")
-# for dels in deletions:
-#     print(dels)

@@ -15,6 +15,8 @@ rabbitmq_host = os.getenv('RABBITMQ_HOST', 'localhost')
 rabbitmq_port = int(os.getenv('RABBITMQ_PORT', 5672))
 rabbitmq_user = os.getenv('RABBITMQ_USER', 'guest')
 rabbitmq_password = os.getenv('RABBITMQ_PASSWORD', 'guest')
+redis_port = os.getenv('REDIS_PORT', 6379)
+redis_host = os.getenv('REDIS_HOST', 'localhost')
 
 
 # Queue names (Each thread listens to one queue)
@@ -22,8 +24,6 @@ company_names = os.getenv('COMPANY_NAMES', "Google,Facebook,Instagram,Spotify,Dr
 companies = company_names.split(',')
 
 map_of_books = {
-
-
 }
 
 redis_client = None
@@ -35,9 +35,12 @@ for company in companies:
 
 
 def connect_redis():
+        global redis_client
+        global redis_host
+        global redis_port
         while True:
             try:
-                redis_client = redis.Redis(host="localhost", port=6379, socket_connect_timeout=5)
+                redis_client = redis.Redis(host=redis_host, port=redis_port, socket_connect_timeout=5)
                 redis_client.ping()  # Check connection
                 return redis_client
             except redis.ConnectionError:
@@ -126,6 +129,10 @@ def algorithm(sell_wt, buy_wt, sell_qt, buy_qt):
 
 
 async def create_connection():
+    global rabbitmq_host
+    global rabbitmq_port
+    global rabbitmq_user
+    global rabbitmq_password
     """Create a new RabbitMQ connection using aio-pika."""
     connection = await aio_pika.connect_robust(
         f'amqp://{rabbitmq_user}:{rabbitmq_password}@{rabbitmq_host}:{rabbitmq_port}/',

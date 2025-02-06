@@ -57,6 +57,7 @@ async def on_message_received(message: aio_pika.IncomingMessage, channel: aio_pi
     async with message.process():
         message_data = json.loads(message.body)
         action = message_data.get("action")
+        print(f"📥 Received from source: {action}")
 
         # print(f"📥 Received from source: {message_data}")
         exchange = await channel.declare_exchange('complete_delete', aio_pika.ExchangeType.DIRECT)
@@ -84,12 +85,15 @@ async def on_message_received(message: aio_pika.IncomingMessage, channel: aio_pi
             )
 
             array = map_of_books[queue_name].process_incoming_order(order=order)
+            # print(f"Orders Completed: {array}, for {map_of_books[queue_name]}")
             if array:
                 for obj in array:
-                    await exchange.publish( 
-                        aio_pika.Message(body=json.dumps(obj.__dict__).encode('utf-8')),
-                        routing_key="COMPLETE"
-                        )
+                    # print(obj, ": ", obj.order_id)
+                    if("+b" not in obj.order_id):
+                        await exchange.publish( 
+                            aio_pika.Message(body=json.dumps(obj.__dict__).encode('utf-8')),
+                            routing_key="COMPLETE"
+                            )
 
                 update_redis(queue_name)
 

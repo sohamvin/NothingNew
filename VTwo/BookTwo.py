@@ -17,13 +17,15 @@ class OrderManager:
 
     def add_order(self, order: Order):
         self.orders_by_id[order.order_id] = order
-        if order.order_type == "buy":
+        if order.order_type.lower() == "buy":
             self.total_buy_volume += order.quantity
             self.total_buy_amount += order.quantity*order.price
+            order.order_type = "buy"
             self.buy_orders.add(order)
-        elif order.order_type == "sell":
+        elif order.order_type.lower() == "sell":
             self.total_sell_volume += order.quantity
             self.total_sell_amount += order.quantity*order.price
+            order.order_type = "sell"
             self.sell_orders.add(order)
 
     def remove_order(self, order: Order):

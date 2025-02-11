@@ -20,7 +20,7 @@ class Order:
             #
         ]
 
-        self.shares_owned = 0 if self.order_type == "buy" else self.quantity
+        self.shares_owned = 0 if self.order_type.lower() == "buy" else self.quantity
 
         self.amount = 0
         self.avg = -1

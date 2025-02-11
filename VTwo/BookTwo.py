@@ -29,12 +29,12 @@ class OrderManager:
             self.sell_orders.add(order)
 
     def remove_order(self, order: Order):
-        if order.order_type == "buy":
+        if order.order_type.lower() == "buy":
             self.total_buy_volume -= order.quantity #Use quantity only in cases like completed execution or
             #Partial execution
             self.total_buy_amount -= order.quantity*order.price
             self.buy_orders.remove(order)
-        elif order.order_type == "sell":
+        elif order.order_type.lower() == "sell":
             self.total_sell_volume -= order.quantity
             self.total_sell_amount -= order.quantity*order.price
             self.sell_orders.remove(order)
@@ -85,7 +85,8 @@ class OrderManager:
                 "done" : True,
                 "order_id" : order.order_id,
                 "shared_you_get" : order.shares_owned,
-                "money_you_get": (order.initial_quantity*order.price- order.amount) if order.order_type == "buy" else order.amount
+                "money_you_get": (order.initial_quantity*order.price- order.amount) if order.order_type == "buy" else order.amount,
+                "transactions": order.transaction
             }
             self.remove_order_by_id(order_id=order_id)
 
@@ -135,7 +136,7 @@ class OrderManager:
                 order.amount += matched_price*matched_quantity
 
 
-                if best_order.order_type == "buy":
+                if best_order.order_type.lower() == "buy":
                     best_order.shares_owned += matched_quantity
                     order.shares_owned -= matched_quantity
 
@@ -153,13 +154,15 @@ class OrderManager:
 
                 if best_order.quantity == 0:
                     # best_order = self.get_average(best_order)
-                    best_order.avg = best_order.amount/best_order.initial_quantity
+                    if best_order.initial_quantity != 0:
+                        best_order.avg = best_order.amount / best_order.initial_quantity
                     self.remove_order(best_order)
                     array_of_completed_orders.append(best_order)
                     # complated_orders.append(best_order)
                 
                 if order.quantity == 0:
-                    order.avg = order.amount/order.initial_quantity
+                    if order.initial_quantity != 0:
+                        order.avg = order.amount / order.initial_quantity
                     # order = self.get_average(order)
                     array_of_completed_orders.append(order)
                     # complated_orders.append(order)
@@ -193,14 +196,14 @@ class OrderManager:
         # time.sleep(23)
 
 
-    def get_average(self, order: Order)-> Order:
-        for objs in order.transaction:
-            order.amount += objs["quantity"] * objs["price"]
-            order.quantity += objs["quantity"]
+    # def get_average(self, order: Order)-> Order:
+    #     for objs in order.transaction:
+    #         order.amount += objs["quantity"] * objs["price"]
+    #         order.quantity += objs["quantity"]
         
-        order.avg = order.amount/order.quantity
+    #     order.avg = order.amount/order.quantity
 
-        return order
+    #     return order
 
 
     def find_closest_elements(self, lst: SortedList, x: float):

@@ -1,5 +1,5 @@
-myvenv/
 .vscode/
 .qodo/
 __pycache__/
 /VTwo/__pycache__/
+venv/

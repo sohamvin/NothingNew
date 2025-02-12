@@ -3,3 +3,4 @@
 __pycache__/
 /VTwo/__pycache__/
 venv/
+.gitignore

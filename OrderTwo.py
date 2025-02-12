@@ -1,5 +1,16 @@
+from enum import Enum
+
+class OrderType(Enum):
+    BUY = "BUY"
+    SELL = "SELL"
+
+
+
+
+
+
 class Order:
-    def __init__(self, order_id: str, time: str, order_type: str, quantity: int, price: float, company_id: str, user_id: str = None):
+    def __init__(self, order_id: str, time: str, order_type: OrderType, quantity: int, price: float, company_id: str, user_id: str = None):
         
         self.order_id = order_id
         self.time = time
@@ -20,7 +31,7 @@ class Order:
             #
         ]
 
-        self.shares_owned = 0 if self.order_type.lower() == "buy" else self.quantity
+        self.shares_owned = 0 if self.order_type == "BUY" else self.quantity
 
         self.amount = 0
         self.avg = -1
@@ -33,3 +44,5 @@ class Order:
 
     def __repr__(self):
         return f"Order(id:{self.order_id}, price:{self.price}, quantity:{self.quantity}, type:{self.order_type} ,amount:{self.amount}, avg:{self.avg})"
+
+

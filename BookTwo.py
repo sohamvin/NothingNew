@@ -17,24 +17,24 @@ class OrderManager:
 
     def add_order(self, order: Order):
         self.orders_by_id[order.order_id] = order
-        if order.order_type.lower() == "buy":
+        if order.order_type == "BUY":
             self.total_buy_volume += order.quantity
             self.total_buy_amount += order.quantity*order.price
-            order.order_type = "buy"
+            order.order_type = "BUY"
             self.buy_orders.add(order)
-        elif order.order_type.lower() == "sell":
+        elif order.order_type == "SELL":
             self.total_sell_volume += order.quantity
             self.total_sell_amount += order.quantity*order.price
-            order.order_type = "sell"
+            order.order_type = "SELL"
             self.sell_orders.add(order)
 
     def remove_order(self, order: Order):
-        if order.order_type.lower() == "buy":
+        if order.order_type== "BUY":
             self.total_buy_volume -= order.quantity #Use quantity only in cases like completed execution or
             #Partial execution
             self.total_buy_amount -= order.quantity*order.price
             self.buy_orders.remove(order)
-        elif order.order_type.lower() == "sell":
+        elif order.order_type == "SELL":
             self.total_sell_volume -= order.quantity
             self.total_sell_amount -= order.quantity*order.price
             self.sell_orders.remove(order)
@@ -85,7 +85,7 @@ class OrderManager:
                 "done" : True,
                 "order_id" : order.order_id,
                 "shared_you_get" : order.shares_owned,
-                "money_you_get": (order.initial_quantity*order.price- order.amount) if order.order_type == "buy" else order.amount,
+                "money_you_get": (order.initial_quantity*order.price- order.amount) if order.order_type == "BUY" else order.amount,
                 "transactions": order.transaction
             }
             self.remove_order_by_id(order_id=order_id)
@@ -99,10 +99,12 @@ class OrderManager:
         ]
 
         while True:
-            best_order = self.get_best_price(order.price, incoming_buy=(order.order_type == "buy"))
+            best_order = self.get_best_price(order.price, incoming_buy=(order.order_type == "BUY"))
 
             # print(f"\n{order} was matched with {best_order}")
             if best_order != -1:
+
+                # print(f"AND: {self.print_status_of_books()}")
 
                 matched_price = min(best_order.price, order.price)
                 matched_quantity = min(best_order.quantity, order.quantity)
@@ -136,7 +138,7 @@ class OrderManager:
                 order.amount += matched_price*matched_quantity
 
 
-                if best_order.order_type.lower() == "buy":
+                if best_order.order_type == "BUY":
                     best_order.shares_owned += matched_quantity
                     order.shares_owned -= matched_quantity
 
